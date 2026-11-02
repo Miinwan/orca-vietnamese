@@ -134,6 +134,12 @@ const keepTerms = [
 function lostTerm(source, target) {
   return keepTerms.some(pattern => pattern.test(source) && !pattern.test(target))
 }
+// Kept English terms are capitalized at the start of a sentence (see the glossary)
+const capitalTerms = /(^|[.!?]\s+)(terminal|branch|worktree|workspace|checkout|commit|issue|pipeline|fork)\b/g
+function capitalizeTerms(source, text) {
+  return text.replace(capitalTerms, (match, before, word, offset) =>
+    offset === 0 && !/^[A-Z]/.test(source) ? match : before + word[0].toUpperCase() + word.slice(1))
+}
 const entries = {}
 const stats = { total: Object.values(en).filter(v => typeof v === 'string').length, protected: 0, eligible: 0, translated: 0, keptEnglish: 0, keepStale: 0, unchanged: 0, missing: 0, invalid: 0 }
 const missing = []
@@ -149,7 +155,7 @@ for (const [key, original] of Object.entries(en)) {
   const sourceCore = original.slice(leading.length, original.length - trailing.length)
   const candidate = overrides[key] ?? draft[key]
   if (typeof candidate !== 'string' || !candidate.trim()) { stats.missing++; missing.push(key); continue }
-  const translatedCore = (overrides[key] ?? normalize(sourceCore, candidate)).trim()
+  const translatedCore = capitalizeTerms(sourceCore, (overrides[key] ?? normalize(sourceCore, candidate)).trim())
   const text = leading + translatedCore + trailing
   const expected = [...original.matchAll(ph)].map(x => x[0].replace(/\s+/g, '')).sort()
   const actual = [...text.matchAll(ph)].map(x => x[0].replace(/\s+/g, '')).sort()
