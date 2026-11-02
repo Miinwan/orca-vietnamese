@@ -1,7 +1,7 @@
 """Check the review files in tools/review against the built locales/vi.json.
 
 1. Keys written by several review files: the later file by name wins (build-pack loads in name order),
-   overrides.json luôn thắng tất cả.
+   *unified.json loads last, and overrides.json always wins.
 2. Short English strings that have more than one translation in the build.
 """
 import json
@@ -22,12 +22,13 @@ def flatten(obj, prefix="", out=None):
     return out
 
 
-en = flatten(json.loads((root / "sources/en-1.4.230.json").read_text()))
+en = flatten(json.loads((root / "sources/en-1.4.245.json").read_text()))
 vi = flatten(json.loads((root / "locales/vi.json").read_text()))
 overrides = json.loads((root / "tools/overrides.json").read_text())
 
 owners = defaultdict(list)
-for file in sorted((root / "tools/review").glob("*.json")):
+# Same order as build-pack.mjs: by file name, with *unified.json last
+for file in sorted((root / "tools/review").glob("*.json"), key=lambda f: (f.name.endswith("unified.json"), f.name)):
     for key, value in json.loads(file.read_text()).items():
         owners[key].append((file.name, value))
 shared = {k: v for k, v in owners.items() if len(v) > 1}

@@ -2,9 +2,10 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.230.json')))
+const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.245.json')))
 const catalogPath = path.join(root, 'locales/vi.json')
 const raw = fs.readFileSync(catalogPath)
 if (raw.byteLength > 5 * 1024 * 1024) throw new Error('Catalog is larger than 5 MB')
@@ -14,6 +15,11 @@ const manifest = JSON.parse(fs.readFileSync(path.join(root, 'orca-plugin.json'))
 if (manifest.contributes?.languagePacks?.[0]?.locale !== 'vi' ||
     manifest.contributes.languagePacks[0].path !== 'locales/vi.json') {
   throw new Error('Manifest does not point to locales/vi.json')
+}
+const displayName = manifest.contributes.languagePacks[0].displayName
+if (displayName !== undefined &&
+    (typeof displayName !== 'string' || !displayName.trim() || displayName.trim().length > 80)) {
+  throw new Error('displayName must be a string of 1 to 80 characters')
 }
 
 let entries = 0
@@ -35,7 +41,7 @@ function walk(current, source, prefix = '', depth = 0) {
     }
     if (typeof value !== 'string' || !value.trim() || value.length > 8192 ||
         typeof english !== 'string') throw new Error(`Invalid value: ${location}`)
-    if (/^auto\.components\.settings\.plugin/i.test(location)) {
+    if (isProtectedKey(location)) {
       throw new Error(`Protected key: ${location}`)
     }
     const a = [...english.matchAll(placeholder)].map(x => x[0].replace(/\s+/g, '')).sort()
@@ -45,5 +51,6 @@ function walk(current, source, prefix = '', depth = 0) {
   }
 }
 walk(vi, en)
-if (entries > 20000) throw new Error(`More than 20,000 entries: ${entries}`)
-console.log(JSON.stringify({ translated, catalogEntries: entries, maxEntries: 20000 }, null, 2))
+// Orca 1.4.245 allows at most 50,000 entries, nested nodes included
+if (entries > 50000) throw new Error(`More than 50,000 entries: ${entries}`)
+console.log(JSON.stringify({ translated, catalogEntries: entries, maxEntries: 50000, displayName: displayName ?? null }, null, 2))

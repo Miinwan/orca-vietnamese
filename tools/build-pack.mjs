@@ -2,12 +2,14 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const enPath = path.join(root, 'sources', 'en-1.4.230.json')
+const enPath = path.join(root, 'sources', 'en-1.4.245.json')
 const draftPath = process.argv[2] || path.join(root, 'sources', 'vi-draft.json')
 const outPath = path.join(root, 'locales', 'vi.json')
 const overridesPath = path.join(root, 'tools', 'overrides.json')
+const keepPath = path.join(root, 'tools', 'keep-english.json')
 
 function flatten(o, prefix = '', out = {}) {
   for (const [key, value] of Object.entries(o)) {
@@ -28,11 +30,15 @@ function setPath(o, key, value) {
 const en = flatten(JSON.parse(fs.readFileSync(enPath, 'utf8')))
 const draft = flatten(JSON.parse(fs.readFileSync(draftPath, 'utf8')))
 const reviewDir = path.join(root, 'tools', 'review')
+// Load in file name order, later files win; *unified.json always loads last.
+const reviewOrder = (a, b) => (a.endsWith('unified.json') - b.endsWith('unified.json')) || (a < b ? -1 : a > b ? 1 : 0)
 const reviews = fs.existsSync(reviewDir)
-  ? fs.readdirSync(reviewDir).filter(name => name.endsWith('.json')).sort()
+  ? fs.readdirSync(reviewDir).filter(name => name.endsWith('.json')).sort(reviewOrder)
       .reduce((all, name) => Object.assign(all, JSON.parse(fs.readFileSync(path.join(reviewDir, name), 'utf8'))), {})
   : {}
 const overrides = { ...reviews, ...JSON.parse(fs.readFileSync(overridesPath, 'utf8')) }
+// Strings kept in English apply only while the English source still matches.
+const keepEnglish = fs.existsSync(keepPath) ? JSON.parse(fs.readFileSync(keepPath, 'utf8')).keys ?? {} : {}
 
 const exact = new Map(Object.entries({
   Settings: 'Cài đặt', Appearance: 'Giao diện', Language: 'Ngôn ngữ',
@@ -129,12 +135,15 @@ function lostTerm(source, target) {
   return keepTerms.some(pattern => pattern.test(source) && !pattern.test(target))
 }
 const entries = {}
-const stats = { total: Object.values(en).filter(v => typeof v === 'string').length, eligible: 0, translated: 0, unchanged: 0, missing: 0, invalid: 0 }
+const stats = { total: Object.values(en).filter(v => typeof v === 'string').length, protected: 0, eligible: 0, translated: 0, keptEnglish: 0, keepStale: 0, unchanged: 0, missing: 0, invalid: 0 }
 const missing = []
 for (const [key, original] of Object.entries(en)) {
   if (typeof original !== 'string') continue
-  if (/^auto\.components\.settings\.plugin/i.test(key) || original.length > 8192) continue
+  if (isProtectedKey(key) || original.length > 8192) { stats.protected++; continue }
   stats.eligible++
+  const keep = keepEnglish[key]
+  if (keep && keep.en === original) { stats.keptEnglish++; continue }
+  if (keep) stats.keepStale++
   const leading = original.match(/^\s*/u)?.[0] ?? ''
   const trailing = original.match(/\s*$/u)?.[0] ?? ''
   const sourceCore = original.slice(leading.length, original.length - trailing.length)
@@ -161,5 +170,11 @@ const nested = {}
 for (const [key, value] of Object.entries(entries)) setPath(nested, key, value)
 fs.mkdirSync(path.dirname(outPath), { recursive: true })
 fs.writeFileSync(outPath, JSON.stringify(nested, null, 2) + '\n')
-fs.writeFileSync(path.join(root, 'sources', 'missing-1.4.230.txt'), missing.join('\n') + '\n')
-console.log(JSON.stringify({ ...stats, coverage: (stats.translated / stats.total * 100).toFixed(2) + '%' }, null, 2))
+fs.writeFileSync(path.join(root, 'sources', 'missing-1.4.245.txt'), missing.join('\n') + '\n')
+const pct = (a, b) => (a / b * 100).toFixed(2) + '%'
+console.log(JSON.stringify({
+  ...stats,
+  coverage: pct(stats.translated, stats.total),
+  translatedOfEligible: pct(stats.translated, stats.eligible),
+  doneOfEligible: pct(stats.translated + stats.keptEnglish, stats.eligible)
+}, null, 2))
