@@ -1,0 +1,29 @@
+name: Translation issue
+description: A string is wrong, unclear, overflows or is still in English
+title: '[Translation]: '
+labels: ['translation']
+body:
+  - type: input
+    id: orca_version
+    attributes:
+      label: Orca version
+      placeholder: 1.4.245
+    validations:
+      required: true
+  - type: input
+    id: current_text
+    attributes:
+      label: Text shown now
+    validations:
+      required: true
+  - type: input
+    id: suggestion
+    attributes:
+      label: Suggested text
+  - type: textarea
+    id: context
+    attributes:
+      label: Where it appears
+      description: The screen or dialog. A screenshot helps most.
+    validations:
+      required: true
