@@ -1,0 +1,3058 @@
+{
+ "_note": "Strings kept in English on purpose, each with a reason group. build-pack.mjs skips these keys, so Orca shows the source text, and does not count them as missing.",
+ "groups": {
+  "proper-name": "Names of products, services, agents, models, programming languages, alert sounds and templates",
+  "tech-term": "Terms kept in English by docs/glossary.md: PR, MR, issue, CLI, token, terminal, worktree, Stage, Rebase and similar",
+  "url-path-example": "URLs, paths, domains, branch names and sample data",
+  "format-only": "Only placeholders, numbers, units or symbols, nothing to translate",
+  "search-keyword": "Settings search keywords kept so the English word still finds the setting",
+  "code-command": "Commands, environment variables, CSS selectors and key names",
+  "file-type": "File extensions and formats"
+ },
+ "keys": {
+  "accounts.antigravity.keyword.agy": {
+   "group": "search-keyword",
+   "en": "agy"
+  },
+  "accounts.antigravity.keyword.google": {
+   "group": "search-keyword",
+   "en": "google"
+  },
+  "accounts.antigravity.title": {
+   "group": "proper-name",
+   "en": "Antigravity"
+  },
+  "aiVault.antigravity2ToCli": {
+   "group": "tech-term",
+   "en": "2.0 → CLI"
+  },
+  "aiVault.antigravityIdeToCli": {
+   "group": "tech-term",
+   "en": "IDE → CLI"
+  },
+  "auto.App.5096cbbc86": {
+   "group": "proper-name",
+   "en": "Orca"
+  },
+  "auto.components.GitHubItemDialog.136542c9ba": {
+   "group": "format-only",
+   "en": ":L{{value0}}"
+  },
+  "auto.components.GitHubItemDialog.2e4d806c92": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.GitHubItemDialog.3e544d966d": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "auto.components.GitHubItemDialog.d1c0dad471": {
+   "group": "format-only",
+   "en": "-L{{value0}}"
+  },
+  "auto.components.GitHubItemDialog.timeline.issueReference": {
+   "group": "tech-term",
+   "en": "issue #{{number}}"
+  },
+  "auto.components.GitHubItemDialog.timeline.pullRequestReference": {
+   "group": "tech-term",
+   "en": "PR #{{number}}"
+  },
+  "auto.components.GitLabItemDialog.02cbe2de44": {
+   "group": "tech-term",
+   "en": "Pipeline"
+  },
+  "auto.components.LinearIssueMarkdownDescriptionEditor.d9c47069ef": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "auto.components.LinearIssueWorkspace.65239a714b": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.LinearIssueWorkspace.workspaceSection": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.NativeChatResumeOnRestartModal.sshHost": {
+   "group": "proper-name",
+   "en": "SSH"
+  },
+  "auto.components.NativeChatResumeOutcomeRow.statusFor": {
+   "group": "format-only",
+   "en": "{{value0}}: {{value1}}"
+  },
+  "auto.components.NativeChatResumeRunStatusIcon.inFlight": {
+   "group": "format-only",
+   "en": "{{value0}} · {{value1}}"
+  },
+  "auto.components.NewWorkspaceComposerCard.branchNamePlaceholder": {
+   "group": "url-path-example",
+   "en": "feature/my-branch"
+  },
+  "auto.components.PullRequestPage.34b9f7c264": {
+   "group": "format-only",
+   "en": ":L{{value0}}"
+  },
+  "auto.components.TaskPage.11a828abf8": {
+   "group": "proper-name",
+   "en": "GitLab"
+  },
+  "auto.components.TaskPage.137e2a8a01": {
+   "group": "tech-term",
+   "en": "PRs"
+  },
+  "auto.components.TaskPage.8675cd6188": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.TaskPage.9cd11ba218": {
+   "group": "proper-name",
+   "en": "Jira"
+  },
+  "auto.components.TaskPage.a0544fb653": {
+   "group": "tech-term",
+   "en": "MR !{{value0}}"
+  },
+  "auto.components.TaskPage.acef77f7ca": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.components.TaskPage.b1eaa18ace": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "auto.components.TaskPage.cd171f3391": {
+   "group": "format-only",
+   "en": "..."
+  },
+  "auto.components.TaskPage.e224d76876": {
+   "group": "tech-term",
+   "en": "MR"
+  },
+  "auto.components.TaskPage.e9b6955dcd": {
+   "group": "tech-term",
+   "en": "Issue #{{value0}}"
+  },
+  "auto.components.TaskPage.eb10c32872": {
+   "group": "tech-term",
+   "en": "ID"
+  },
+  "auto.components.TaskPage.issueNumber": {
+   "group": "tech-term",
+   "en": "Issue #{{number}}"
+  },
+  "auto.components.TaskPageJiraSavedFilters.42ce360813": {
+   "group": "tech-term",
+   "en": "JQL"
+  },
+  "auto.components.UnexpectedSignoutCard.6e3f1a9c5b": {
+   "group": "proper-name",
+   "en": "Orca Relay"
+  },
+  "auto.components.activity.ActivityPrototypePage.b29191b3e0": {
+   "group": "tech-term",
+   "en": "Worktree"
+  },
+  "auto.components.activity.ActivityPrototypePage.f6396e1f85": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.activity.ActivityThreadContextMenu.agentSection": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.activity.ActivityThreadHoverCard.workspace": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.artifacts.typeHtml": {
+   "group": "tech-term",
+   "en": "HTML"
+  },
+  "auto.components.artifacts.typeMarkdown": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "auto.components.automations.AutomationDetail.2df8970cd5": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.automations.AutomationEditorDialog.57b722cbba": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.automations.AutomationEditorDialog.a2e688226d": {
+   "group": "tech-term",
+   "en": "Worktree"
+  },
+  "auto.components.automations.AutomationEditorDialog.a4ac8fcc62": {
+   "group": "url-path-example",
+   "en": "/goal"
+  },
+  "auto.components.automations.AutomationEditorDialog.b28b140eaf": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.automations.AutomationListFilterMenu.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.automations.AutomationRunHistory.149c0b49c7": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.automations.AutomationRunHistory.a00e38d1a3": {
+   "group": "format-only",
+   "en": "n/a"
+  },
+  "auto.components.automations.ExternalAutomationManagers.5524365227": {
+   "group": "proper-name",
+   "en": "OpenClaw"
+  },
+  "auto.components.automations.automation.list.last.run.statusWithRelative": {
+   "group": "format-only",
+   "en": "{{status}} {{relative}}"
+  },
+  "auto.components.automations.usage.costUnavailable": {
+   "group": "format-only",
+   "en": "n/a"
+  },
+  "auto.components.automations.usage.tokensAndCost_one": {
+   "group": "tech-term",
+   "en": "{{tokens}} token · {{cost}}"
+  },
+  "auto.components.browser-pane.markup.widthOption": {
+   "group": "format-only",
+   "en": "{{value0}} px"
+  },
+  "auto.components.browser.pane.BrowserPane.devToolsTitle": {
+   "group": "proper-name",
+   "en": "DevTools"
+  },
+  "auto.components.browser.pane.GrabConfirmationSheet.7d1480fbf1": {
+   "group": "tech-term",
+   "en": "HTML"
+  },
+  "auto.components.browser.pane.GrabConfirmationSheet.accessibleNameOpenQuote": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.browser.pane.GrabConfirmationSheet.eb98a0971a": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.crash.report.CrashReportDialog.835037edc9": {
+   "group": "proper-name",
+   "en": "Orca"
+  },
+  "auto.components.editor.CheckRunDetailsPanel.2dd5ddabc4": {
+   "group": "tech-term",
+   "en": "workflow #"
+  },
+  "auto.components.editor.CheckRunJobs.5a8e1d4f23": {
+   "group": "format-only",
+   "en": " · "
+  },
+  "auto.components.editor.CsvViewer.delimiterTab": {
+   "group": "tech-term",
+   "en": "Tab"
+  },
+  "auto.components.editor.MarkdownTemplatePicker.22cd94426f": {
+   "group": "url-path-example",
+   "en": "untitled.md"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.026653f21f": {
+   "group": "proper-name",
+   "en": "CSS"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.2391f9cda9": {
+   "group": "proper-name",
+   "en": "Python"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.3009f722b9": {
+   "group": "proper-name",
+   "en": "SQL"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.36536ad539": {
+   "group": "proper-name",
+   "en": "Java"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.4227cf50fe": {
+   "group": "proper-name",
+   "en": "Bash"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.4daed43ae3": {
+   "group": "format-only",
+   "en": "C++"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.5af8251002": {
+   "group": "proper-name",
+   "en": "SCSS"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.5ef5605cb7": {
+   "group": "proper-name",
+   "en": "XML"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.706fd85738": {
+   "group": "proper-name",
+   "en": "GraphQL"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.74eab1d9b2": {
+   "group": "tech-term",
+   "en": "YAML"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.78eba32de4": {
+   "group": "tech-term",
+   "en": "JSON"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.88d777bc07": {
+   "group": "proper-name",
+   "en": "TypeScript"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.8c4a3fa02d": {
+   "group": "tech-term",
+   "en": "HTML"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.96182a2f64": {
+   "group": "proper-name",
+   "en": "Ruby"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.983b9576b4": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.a209c57063": {
+   "group": "proper-name",
+   "en": "JavaScript"
+  },
+  "auto.components.editor.RichMarkdownCodeBlock.bcb236e2d8": {
+   "group": "proper-name",
+   "en": "Kotlin"
+  },
+  "auto.components.editor.UntitledFileRenameDialog.2d7d39dc63": {
+   "group": "file-type",
+   "en": ".md"
+  },
+  "auto.components.editor.editorLabels.commit": {
+   "group": "tech-term",
+   "en": "Commit {{ref}}"
+  },
+  "auto.components.editor.editorLabels.commitWithSubject": {
+   "group": "tech-term",
+   "en": "Commit {{ref}}: {{subject}}"
+  },
+  "auto.components.editor.editorLabels.diff": {
+   "group": "tech-term",
+   "en": "{{name}} (diff)"
+  },
+  "auto.components.feature.tips.CliFeatureTipVisual.badb4fc342": {
+   "group": "format-only",
+   "en": ">"
+  },
+  "auto.components.feature.tips.FeatureTipsModal.298301b7a0": {
+   "group": "tech-term",
+   "en": "worktree"
+  },
+  "auto.components.feature.wall.AiCommitPrSettingsCard.29d119fe95": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.04096318ab": {
+   "group": "tech-term",
+   "en": "Terminal 1"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.051c97d15a": {
+   "group": "code-command",
+   "en": ".pp-card[data-card=\"starter\"] .pp-cta"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.6e4616d039": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.73bbb46073": {
+   "group": "url-path-example",
+   "en": "/pricing"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.7da6eed7bf": {
+   "group": "url-path-example",
+   "en": "localhost:3000"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.d8856b604a": {
+   "group": "code-command",
+   "en": "div.pricing-grid > div.card.starter:nth-of-type(1) > a.cta"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.f2034c4930": {
+   "group": "format-only",
+   "en": ">"
+  },
+  "auto.components.feature.wall.BrowserAnimatedVisual.f39be6ca14": {
+   "group": "url-path-example",
+   "en": "/signup"
+  },
+  "auto.components.feature.wall.ConnectIntegrationsList.list_mid": {
+   "group": "format-only",
+   "en": ", "
+  },
+  "auto.components.feature.wall.ReviewNotesAnimatedVisual.09094f25e2": {
+   "group": "proper-name",
+   "en": "Claude Code"
+  },
+  "auto.components.feature.wall.ReviewNotesAnimatedVisual.1eee3a397e": {
+   "group": "url-path-example",
+   "en": "src/server/migrate.ts (diff)"
+  },
+  "auto.components.feature.wall.ReviewNotesAnimatedVisual.5dbd27c4c2": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.feature.wall.ReviewShipAnimatedVisual.a079083a6c": {
+   "group": "tech-term",
+   "en": "Commit"
+  },
+  "auto.components.feature.wall.WorkbenchAnimatedVisual.623881d72e": {
+   "group": "url-path-example",
+   "en": "checkout.spec.ts"
+  },
+  "auto.components.feature.wall.WorkbenchAnimatedVisual.932c4b3a97": {
+   "group": "format-only",
+   "en": ">"
+  },
+  "auto.components.feature.wall.WorkbenchAnimatedVisual.b85eab49dd": {
+   "group": "url-path-example",
+   "en": "src/auth/session.ts"
+  },
+  "auto.components.feature.wall.WorkbenchAnimatedVisual.defe550fe2": {
+   "group": "url-path-example",
+   "en": "login.spec.ts"
+  },
+  "auto.components.feature.wall.agents.orchestration.StatusesPage.2f549fc0ba": {
+   "group": "url-path-example",
+   "en": "src/auth/session.test.ts"
+  },
+  "auto.components.feature.wall.agents.orchestration.UsagePage.6a4b1d3c38": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.feature.wall.review.animated.visual.shared.9deecb021c": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.components.feature.wall.review.animated.visual.shared.e7894927a2": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.github.GitHubMarkdownComposer.f24783f470": {
+   "group": "url-path-example",
+   "en": "https://..."
+  },
+  "auto.components.github.IssueSourceSelector.30b2c9df91": {
+   "group": "tech-term",
+   "en": "Upstream"
+  },
+  "auto.components.github.IssueSourceSelector.51d1608920": {
+   "group": "tech-term",
+   "en": "Origin"
+  },
+  "auto.components.github.github.rate.limit.display.01f7323e58": {
+   "group": "tech-term",
+   "en": "GraphQL API"
+  },
+  "auto.components.github.github.rate.limit.display.1daf0f22a9": {
+   "group": "tech-term",
+   "en": "GraphQL"
+  },
+  "auto.components.github.project.ProjectCell.c5f949e489": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "auto.components.github.project.ProjectCell.d0d0e13a5a": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "auto.components.github.project.ProjectRoadmapBar.cd68ccc17a": {
+   "group": "format-only",
+   "en": "{{value0}} — {{value1}}"
+  },
+  "auto.components.jira.connect.dialog.70fcd360c4": {
+   "group": "url-path-example",
+   "en": "https://example.atlassian.net"
+  },
+  "auto.components.jira.connect.dialog.cbc27fa599": {
+   "group": "url-path-example",
+   "en": "https://jira.example.com"
+  },
+  "auto.components.jira.connect.dialog.e91b9a4073": {
+   "group": "url-path-example",
+   "en": "you@example.com"
+  },
+  "auto.components.linear.api.key.dialog.edec49dfae": {
+   "group": "url-path-example",
+   "en": "lin_api_..."
+  },
+  "auto.components.linear.project.view.surfaces.7b147907dc": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.linear.scope.selector.05baa5ae90": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.mobile.MobileHero.5410d55d79": {
+   "group": "proper-name",
+   "en": "Orca Mobile"
+  },
+  "auto.components.mobile.MobileHero.711e6f4b47": {
+   "group": "proper-name",
+   "en": "iOS"
+  },
+  "auto.components.mobile.MobileHero.ac1eb64952": {
+   "group": "proper-name",
+   "en": "Android"
+  },
+  "auto.components.mobile.slides.HomeSlide.19c212e25e": {
+   "group": "proper-name",
+   "en": "MacBook Pro"
+  },
+  "auto.components.mobile.slides.HomeSlide.25d6e8a491": {
+   "group": "url-path-example",
+   "en": "feat/mobile-page"
+  },
+  "auto.components.mobile.slides.HomeSlide.5d94e8ddcc": {
+   "group": "proper-name",
+   "en": "Orca"
+  },
+  "auto.components.mobile.slides.HomeSlide.d047197480": {
+   "group": "proper-name",
+   "en": "GitHub · Linear"
+  },
+  "auto.components.mobile.slides.HomeSlide.d33d7a9c29": {
+   "group": "url-path-example",
+   "en": "orca  ·  feat/mobile-page"
+  },
+  "auto.components.mobile.slides.TerminalSlide.21b67dfc92": {
+   "group": "proper-name",
+   "en": "Bash"
+  },
+  "auto.components.mobile.slides.TerminalSlide.2defc05141": {
+   "group": "url-path-example",
+   "en": "dev@mac"
+  },
+  "auto.components.mobile.slides.TerminalSlide.4b3666f9a9": {
+   "group": "url-path-example",
+   "en": "src/cache/worktree-cache.test.ts"
+  },
+  "auto.components.mobile.slides.TerminalSlide.53ff909568": {
+   "group": "tech-term",
+   "en": "Tab"
+  },
+  "auto.components.mobile.slides.TerminalSlide.817090af40": {
+   "group": "code-command",
+   "en": "Ctrl+C"
+  },
+  "auto.components.mobile.slides.TerminalSlide.8432787c4e": {
+   "group": "url-path-example",
+   "en": "feat/mobile-page"
+  },
+  "auto.components.mobile.slides.TerminalSlide.d39445686a": {
+   "group": "url-path-example",
+   "en": "src/transport/host-store.test.ts"
+  },
+  "auto.components.mobile.slides.TerminalSlide.da121ba48d": {
+   "group": "url-path-example",
+   "en": "PLAN.md"
+  },
+  "auto.components.mobile.slides.TerminalSlide.e0f98be657": {
+   "group": "url-path-example",
+   "en": "orca/feat-mobile-page"
+  },
+  "auto.components.mobile.slides.TerminalSlide.e4befee569": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.mobile.slides.WorktreeListSlide.b4271864bd": {
+   "group": "proper-name",
+   "en": "MacBook Pro"
+  },
+  "auto.components.new.workspace.SmartWorkspaceNameField.0a180280bd": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.components.new.workspace.SmartWorkspaceNameField.2cfc6be192": {
+   "group": "proper-name",
+   "en": "GitLab"
+  },
+  "auto.components.new.workspace.SmartWorkspaceNameField.2e4c7c95fe": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "auto.components.new.workspace.SmartWorkspaceNameField.7a47af0565": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.new.workspace.SmartWorkspaceNameField.jiraMode": {
+   "group": "proper-name",
+   "en": "Jira"
+  },
+  "auto.components.notification.sound.options.0acd3d384e": {
+   "group": "proper-name",
+   "en": "Clack"
+  },
+  "auto.components.notification.sound.options.2b44847d8d": {
+   "group": "proper-name",
+   "en": "Blop"
+  },
+  "auto.components.notification.sound.options.588c90487d": {
+   "group": "proper-name",
+   "en": "Blip"
+  },
+  "auto.components.notification.sound.options.79919c832d": {
+   "group": "proper-name",
+   "en": "Ding"
+  },
+  "auto.components.notification.sound.options.86af8d938c": {
+   "group": "proper-name",
+   "en": "Bong"
+  },
+  "auto.components.notification.sound.options.e38b0a2e68": {
+   "group": "proper-name",
+   "en": "Beep"
+  },
+  "auto.components.onboarding.IntegrationsStep.217beb0658": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.components.onboarding.IntegrationsStep.27743304b1": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.onboarding.OnboardingFlow.a249f81538": {
+   "group": "proper-name",
+   "en": "Orca"
+  },
+  "auto.components.onboarding.WindowsTerminalStep.gitBash": {
+   "group": "proper-name",
+   "en": "Git Bash"
+  },
+  "auto.components.onboarding.WindowsTerminalStep.powerShell": {
+   "group": "proper-name",
+   "en": "PowerShell"
+  },
+  "auto.components.onboarding.WindowsTerminalStep.wsl": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.pet.pet.models.2528586aa7": {
+   "group": "proper-name",
+   "en": "Claudino"
+  },
+  "auto.components.pet.pet.models.a84d5677ff": {
+   "group": "proper-name",
+   "en": "OpenCode"
+  },
+  "auto.components.repo.NestedRepoScanLimitNotice.milliseconds": {
+   "group": "format-only",
+   "en": "{{count}} ms"
+  },
+  "auto.components.repo.RepoCombobox.3639fd9da2": {
+   "group": "proper-name",
+   "en": "SSH"
+  },
+  "auto.components.repo.repo.icon.07012dc113": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.repo.repo.icon.31826b712e": {
+   "group": "tech-term",
+   "en": "API"
+  },
+  "auto.components.repo.repo.icon.3eba7387ab": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.components.repo.repo.icon.b1b8d99fc4": {
+   "group": "tech-term",
+   "en": "AI"
+  },
+  "auto.components.right.sidebar.AiVaultPanelControls.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.right.sidebar.AiVaultPanelControls.workspaceScope": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.right.sidebar.AiVaultSessionDetails.agentRole": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.right.sidebar.AiVaultSessionDetails.worktree": {
+   "group": "tech-term",
+   "en": "Worktree"
+  },
+  "auto.components.right.sidebar.AiVaultSessionRow.agentRole": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.right.sidebar.BulkActionBar.stageCount": {
+   "group": "tech-term",
+   "en": "Stage ({{count}})"
+  },
+  "auto.components.right.sidebar.PortsPanel.17bea6e391": {
+   "group": "url-path-example",
+   "en": "localhost"
+  },
+  "auto.components.right.sidebar.PortsPanel.57d930fa45": {
+   "group": "tech-term",
+   "en": "PID"
+  },
+  "auto.components.right.sidebar.PortsPanel.c7b4702b7b": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.right.sidebar.SourceControl.8cde1a2fb0": {
+   "group": "tech-term",
+   "en": "Stage"
+  },
+  "auto.components.right.sidebar.SourceControl.94c42b252e": {
+   "group": "tech-term",
+   "en": "MD"
+  },
+  "auto.components.right.sidebar.SourceControl.b8c2e1a904": {
+   "group": "format-only",
+   "en": "{{value0}} → {{value1}}"
+  },
+  "auto.components.right.sidebar.SourceControlAgentActionDialogForm.15c5d85706": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.right.sidebar.SourceControlTextGenerationDialogForm.9c14186dd2": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.right.sidebar.checks.panel.content.2dd5ddabc4": {
+   "group": "tech-term",
+   "en": "workflow #"
+  },
+  "auto.components.right.sidebar.checks.panel.content.operation.cherryPick": {
+   "group": "tech-term",
+   "en": "Cherry-pick"
+  },
+  "auto.components.right.sidebar.checks.panel.content.operation.merge": {
+   "group": "tech-term",
+   "en": "Merge"
+  },
+  "auto.components.right.sidebar.checks.panel.content.operation.rebase": {
+   "group": "tech-term",
+   "en": "Rebase"
+  },
+  "auto.components.right.sidebar.github.pr.stack.confirmation.mergeConfirm_one": {
+   "group": "tech-term",
+   "en": "Merge {{count}} PR"
+  },
+  "auto.components.right.sidebar.pull.policy.notice.rebase": {
+   "group": "tech-term",
+   "en": "Rebase"
+  },
+  "auto.components.right.sidebar.source.control.dropdown.items.2b8e6595fd": {
+   "group": "tech-term",
+   "en": "Commit"
+  },
+  "auto.components.right.sidebar.source.control.dropdown.items.fastForward": {
+   "group": "tech-term",
+   "en": "Fast-forward"
+  },
+  "auto.components.right.sidebar.source.control.dropdown.items.fastForwardCount_one": {
+   "group": "tech-term",
+   "en": "Fast-forward {{count}} commit"
+  },
+  "auto.components.right.sidebar.source.control.primary.action.ed93b4f14f": {
+   "group": "tech-term",
+   "en": "Commit"
+  },
+  "auto.components.rightSidebar.FolderWorkspacePrChecksPanel.worktreeCountLabel_one": {
+   "group": "tech-term",
+   "en": "{{count}} worktree"
+  },
+  "auto.components.settings.AccountsPane.26ef4b55be": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.components.settings.AccountsPane.37b4b4a3f7": {
+   "group": "url-path-example",
+   "en": "auth=…; __Host-console_session=…"
+  },
+  "auto.components.settings.AccountsPane.4ac10b4d08": {
+   "group": "proper-name",
+   "en": "OpenCode Go"
+  },
+  "auto.components.settings.AccountsPane.5d63bbfbec": {
+   "group": "proper-name",
+   "en": "MiniMax"
+  },
+  "auto.components.settings.AccountsPane.8619f9afa9": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.AccountsPane.ae3b21eb6c": {
+   "group": "url-path-example",
+   "en": "opencode.ai/workspace/wrk_…/go"
+  },
+  "auto.components.settings.AccountsPane.ef91cfa06b": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.settings.AdvancedNetworkSettingsSection.3e431564b5": {
+   "group": "url-path-example",
+   "en": "localhost, 127.0.0.1, *.internal"
+  },
+  "auto.components.settings.AdvancedNetworkSettingsSection.476f302aca": {
+   "group": "url-path-example",
+   "en": "http://proxy.example.com:8080"
+  },
+  "auto.components.settings.AdvancedNetworkSettingsSection.nodeDistMirrorPlaceholder": {
+   "group": "url-path-example",
+   "en": "https://mirror.example.com/nodejs/dist"
+  },
+  "auto.components.settings.AgentAwakeSetting.auto": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.settings.AgentRuntimeSetting.wsl": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.AppearancePane.terminalTitle": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.components.settings.AutoRenameBranchFromWorkSetting.1626524572": {
+   "group": "url-path-example",
+   "en": "Nautilus"
+  },
+  "auto.components.settings.AutoRenameBranchFromWorkSetting.c71770c455": {
+   "group": "format-only",
+   "en": "{basePrompt}"
+  },
+  "auto.components.settings.BaseRefPicker.915ad97875": {
+   "group": "tech-term",
+   "en": "upstream"
+  },
+  "auto.components.settings.BaseRefPicker.b468f46726": {
+   "group": "url-path-example",
+   "en": "upstream/main"
+  },
+  "auto.components.settings.BrowserHomePageSetting.37a30c5bfd": {
+   "group": "url-path-example",
+   "en": "https://google.com"
+  },
+  "auto.components.settings.BrowserUseExamples.59722f31b4": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.settings.BrowserUseExamples.b84807f228": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.settings.CliSection.c5c0f2641d": {
+   "group": "tech-term",
+   "en": "Orca CLI"
+  },
+  "auto.components.settings.CommitMessageAiPane.02bab6542c": {
+   "group": "search-keyword",
+   "en": "pr"
+  },
+  "auto.components.settings.CommitMessageAiPane.0b7eafe55f": {
+   "group": "search-keyword",
+   "en": "ai"
+  },
+  "auto.components.settings.CommitMessageAiPane.407d28bde6": {
+   "group": "search-keyword",
+   "en": "cli"
+  },
+  "auto.components.settings.CommitMessageAiPane.a69e1fe91a": {
+   "group": "tech-term",
+   "en": "prompt"
+  },
+  "auto.components.settings.CommitMessageAiPane.b8b6fd55b4": {
+   "group": "format-only",
+   "en": "{prompt}"
+  },
+  "auto.components.settings.CommitMessageAiPane.ca433708cb": {
+   "group": "tech-term",
+   "en": "commit"
+  },
+  "auto.components.settings.DefaultWindowsProjectRuntimeSetting.windows": {
+   "group": "proper-name",
+   "en": "Windows"
+  },
+  "auto.components.settings.DefaultWindowsProjectRuntimeSetting.wsl": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.DeveloperPermissionsPane.b2210b1b4f": {
+   "group": "proper-name",
+   "en": "Bluetooth"
+  },
+  "auto.components.settings.GeneralEditorSettingsSection.a5db1d3975": {
+   "group": "format-only",
+   "en": "ms"
+  },
+  "auto.components.settings.GeneralWorkspaceSettingsSection.7511097c5d": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.settings.GitPane.2cde9044a8": {
+   "group": "search-keyword",
+   "en": "graphql"
+  },
+  "auto.components.settings.GitPane.3072428ac7": {
+   "group": "proper-name",
+   "en": "glab"
+  },
+  "auto.components.settings.GitPane.32dca11189": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.GitPane.895d3f70b8": {
+   "group": "search-keyword",
+   "en": "gh"
+  },
+  "auto.components.settings.GitPane.8a527d48e3": {
+   "group": "search-keyword",
+   "en": "gitlab"
+  },
+  "auto.components.settings.GrokAccountsSection.a1b2c3d4e5": {
+   "group": "proper-name",
+   "en": "Grok (xAI)"
+  },
+  "auto.components.settings.KagiSessionLinkForm.e383683485": {
+   "group": "url-path-example",
+   "en": "https://kagi.com/search?token=..."
+  },
+  "auto.components.settings.LinearAgentSkillPane.title": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.settings.McpConfigSection.9ee215caf6": {
+   "group": "file-type",
+   "en": ".mcp.json"
+  },
+  "auto.components.settings.MobileEmulatorExamples.b525ff2b12": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.settings.MobileEmulatorExamples.d151e25078": {
+   "group": "format-only",
+   "en": "\""
+  },
+  "auto.components.settings.MobileEmulatorSdkStatus.027cbf668a": {
+   "group": "tech-term",
+   "en": "Android SDK"
+  },
+  "auto.components.settings.MobilePairingConnectionOptions.anywhereTitle": {
+   "group": "proper-name",
+   "en": "Orca Relay"
+  },
+  "auto.components.settings.MobilePairingConnectionOptions.localTitle": {
+   "group": "tech-term",
+   "en": "LAN"
+  },
+  "auto.components.settings.OpenAiTranscriptionKeyDialog.c3380e4ca5": {
+   "group": "url-path-example",
+   "en": "sk-..."
+  },
+  "auto.components.settings.OrchestrationPane.heartbeatKeywordHeartbeat": {
+   "group": "search-keyword",
+   "en": "heartbeat"
+  },
+  "auto.components.settings.ProjectWindowsRuntimeSetting.windows": {
+   "group": "proper-name",
+   "en": "Windows"
+  },
+  "auto.components.settings.ProjectWindowsRuntimeSetting.wsl": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.ProviderHostScopeControl.scope_label": {
+   "group": "format-only",
+   "en": "{{value0}}: {{value1}}"
+  },
+  "auto.components.settings.QuickCommandsPane.4ccc63da87": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.settings.ReleaseChannelSection.willSwitch": {
+   "group": "format-only",
+   "en": "{{value0}} → {{value1}}"
+  },
+  "auto.components.settings.RepositoryIconPicker.03ca1a4e9b": {
+   "group": "url-path-example",
+   "en": "example.com"
+  },
+  "auto.components.settings.RepositoryIconPicker.cc1286e263": {
+   "group": "tech-term",
+   "en": "Favicon"
+  },
+  "auto.components.settings.RepositoryPane.cloneDestinationPlaceholder": {
+   "group": "url-path-example",
+   "en": "/destination/on/host"
+  },
+  "auto.components.settings.RepositoryPane.setupExistingFolderPathPlaceholder": {
+   "group": "url-path-example",
+   "en": "/path/to/project/on/host"
+  },
+  "auto.components.settings.RepositorySourceControlAiActionRows.f4310cf63f": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.settings.RuntimeHostAccessForm.accessLinkPlaceholder": {
+   "group": "url-path-example",
+   "en": "orca://pair?code=..."
+  },
+  "auto.components.settings.Settings.3de4bbb841": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.components.settings.Settings.linearTitle": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.settings.SettingsSidebar.e0900f83e7": {
+   "group": "proper-name",
+   "en": "SSH"
+  },
+  "auto.components.settings.ShortcutsPane.cb02e00202": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.components.settings.SourceControlActionRepoOverrideNote.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.settings.SourceControlAiActionRecipeDefaults.673369fe0c": {
+   "group": "search-keyword",
+   "en": "cli"
+  },
+  "auto.components.settings.SourceControlAiActionRecipeDefaults.e5b24893ba": {
+   "group": "tech-term",
+   "en": "commit"
+  },
+  "auto.components.settings.SshTargetForm.11bcb4507a": {
+   "group": "url-path-example",
+   "en": "bastion.example.com"
+  },
+  "auto.components.settings.TasksPane.09ae2d7c51": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.components.settings.TasksPane.6b23a34f6d": {
+   "group": "proper-name",
+   "en": "Jira"
+  },
+  "auto.components.settings.TasksPane.7c5d7fdc20": {
+   "group": "proper-name",
+   "en": "GitLab"
+  },
+  "auto.components.settings.TasksPane.e14063e727": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.components.settings.TerminalFontSizeSetting.9b5252c85a": {
+   "group": "format-only",
+   "en": "px"
+  },
+  "auto.components.settings.TerminalPane.0cbe5ad727": {
+   "group": "proper-name",
+   "en": "fish"
+  },
+  "auto.components.settings.TerminalPane.17ad899ba4": {
+   "group": "proper-name",
+   "en": "bash"
+  },
+  "auto.components.settings.TerminalPane.81694f1584": {
+   "group": "tech-term",
+   "en": "terminal"
+  },
+  "auto.components.settings.TerminalPane.96be03b8eb": {
+   "group": "proper-name",
+   "en": "PowerShell 7+"
+  },
+  "auto.components.settings.TerminalPane.a909136b3f": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.settings.TerminalPane.b637dd57a7": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.TerminalPane.c2ddb189e7": {
+   "group": "code-command",
+   "en": "rcfile"
+  },
+  "auto.components.settings.TerminalPane.c9bc93d343": {
+   "group": "proper-name",
+   "en": "zsh"
+  },
+  "auto.components.settings.TerminalPane.d26174e1dd": {
+   "group": "proper-name",
+   "en": "Windows PowerShell"
+  },
+  "auto.components.settings.TerminalPane.d469840b75": {
+   "group": "proper-name",
+   "en": "nushell"
+  },
+  "auto.components.settings.TerminalPane.eb7fc4d98a": {
+   "group": "proper-name",
+   "en": "PowerShell"
+  },
+  "auto.components.settings.TerminalPane.f58cb71f53": {
+   "group": "url-path-example",
+   "en": "--rcfile\n/path/to/rcfile"
+  },
+  "auto.components.settings.TerminalPane.f61ac77f16": {
+   "group": "proper-name",
+   "en": "Git Bash"
+  },
+  "auto.components.settings.TerminalPane.scrollSpeed.tui": {
+   "group": "tech-term",
+   "en": "TUI"
+  },
+  "auto.components.settings.VoicePane.91980ce124": {
+   "group": "format-only",
+   "en": "{{value0}} MB"
+  },
+  "auto.components.settings.ZcodePlanAccountsSection.site.bigmodel": {
+   "group": "proper-name",
+   "en": "Zhipu · BigModel (open.bigmodel.cn)"
+  },
+  "auto.components.settings.ZcodePlanAccountsSection.site.zai": {
+   "group": "url-path-example",
+   "en": "Z.AI (z.ai)"
+  },
+  "auto.components.settings.accounts.search.0b4d948eb5": {
+   "group": "search-keyword",
+   "en": "wsl"
+  },
+  "auto.components.settings.accounts.search.421c6be25e": {
+   "group": "search-keyword",
+   "en": "id"
+  },
+  "auto.components.settings.accounts.search.488a7e9206": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.accounts.search.8630464352": {
+   "group": "search-keyword",
+   "en": "cli"
+  },
+  "auto.components.settings.accounts.search.8dcbef1856": {
+   "group": "search-keyword",
+   "en": "opencode"
+  },
+  "auto.components.settings.accounts.search.933deaf732": {
+   "group": "search-keyword",
+   "en": "oauth"
+  },
+  "auto.components.settings.accounts.search.b0a4e8c6d9": {
+   "group": "search-keyword",
+   "en": "oauth"
+  },
+  "auto.components.settings.accounts.search.be8b621bdc": {
+   "group": "search-keyword",
+   "en": "workspace"
+  },
+  "auto.components.settings.accounts.search.c1b5f9d7e0": {
+   "group": "search-keyword",
+   "en": "xai"
+  },
+  "auto.components.settings.accounts.search.cursor.kw.cursor": {
+   "group": "search-keyword",
+   "en": "cursor"
+  },
+  "auto.components.settings.accounts.search.d16378a88f": {
+   "group": "search-keyword",
+   "en": "minimax"
+  },
+  "auto.components.settings.accounts.search.d2c6a0e8f1": {
+   "group": "search-keyword",
+   "en": "grok"
+  },
+  "auto.components.settings.accounts.search.e8e1ff3887": {
+   "group": "search-keyword",
+   "en": "gemini"
+  },
+  "auto.components.settings.accounts.search.zcodePlan.kw.glm": {
+   "group": "search-keyword",
+   "en": "glm"
+  },
+  "auto.components.settings.accounts.search.zcodePlan.kw.zai": {
+   "group": "search-keyword",
+   "en": "zai"
+  },
+  "auto.components.settings.accounts.search.zcodePlan.kw.zhipu": {
+   "group": "search-keyword",
+   "en": "zhipu"
+  },
+  "auto.components.settings.advanced.search.4383251647": {
+   "group": "search-keyword",
+   "en": "vpn"
+  },
+  "auto.components.settings.advanced.search.48a1c8f534": {
+   "group": "search-keyword",
+   "en": "http"
+  },
+  "auto.components.settings.advanced.search.4b4ae4345a": {
+   "group": "search-keyword",
+   "en": "http2"
+  },
+  "auto.components.settings.advanced.search.621233008b": {
+   "group": "search-keyword",
+   "en": "http/1.1"
+  },
+  "auto.components.settings.advanced.search.a0f71bd909": {
+   "group": "search-keyword",
+   "en": "http/2"
+  },
+  "auto.components.settings.advanced.search.f8ff125ebe": {
+   "group": "search-keyword",
+   "en": "http1"
+  },
+  "auto.components.settings.agents.search.agent-trust-worktree": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.agents.search.c64059f50d": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.agents.search.d608654c03": {
+   "group": "search-keyword",
+   "en": "wsl"
+  },
+  "auto.components.settings.agents.search.e2b7c0dcd7": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.agents.search.f622b8eb2a": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.agents.search.ff457e1e7b": {
+   "group": "search-keyword",
+   "en": "daemon"
+  },
+  "auto.components.settings.agents.search.yolo": {
+   "group": "search-keyword",
+   "en": "yolo"
+  },
+  "auto.components.settings.appearance.search.08c86bf58e": {
+   "group": "search-keyword",
+   "en": "gitignore"
+  },
+  "auto.components.settings.appearance.search.2804a920ad": {
+   "group": "search-keyword",
+   "en": "gemini"
+  },
+  "auto.components.settings.appearance.search.2ee4810f38": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.appearance.search.2f12e1aa3a": {
+   "group": "search-keyword",
+   "en": "ui"
+  },
+  "auto.components.settings.appearance.search.40e5c3c285": {
+   "group": "search-keyword",
+   "en": "kimi"
+  },
+  "auto.components.settings.appearance.search.46d21eef62": {
+   "group": "search-keyword",
+   "en": "localhost"
+  },
+  "auto.components.settings.appearance.search.4ddbde4999": {
+   "group": "search-keyword",
+   "en": "cpu"
+  },
+  "auto.components.settings.appearance.search.51b0ccd6a2": {
+   "group": "search-keyword",
+   "en": "google"
+  },
+  "auto.components.settings.appearance.search.96b4fb0064": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.appearance.search.97957e374e": {
+   "group": "search-keyword",
+   "en": "openai"
+  },
+  "auto.components.settings.appearance.search.a9d56852eb": {
+   "group": "search-keyword",
+   "en": "opencode"
+  },
+  "auto.components.settings.appearance.search.c5b9f8d1e3": {
+   "group": "search-keyword",
+   "en": "xai"
+  },
+  "auto.components.settings.appearance.search.d16378a88f": {
+   "group": "search-keyword",
+   "en": "minimax"
+  },
+  "auto.components.settings.appearance.search.d6c0a9e2f4": {
+   "group": "search-keyword",
+   "en": "grok"
+  },
+  "auto.components.settings.appearance.search.d77537b580": {
+   "group": "search-keyword",
+   "en": "opencode-go"
+  },
+  "auto.components.settings.appearance.search.dc02c8759d": {
+   "group": "search-keyword",
+   "en": "workspace"
+  },
+  "auto.components.settings.appearance.search.glm": {
+   "group": "search-keyword",
+   "en": "glm"
+  },
+  "auto.components.settings.appearance.search.language.i18n": {
+   "group": "format-only",
+   "en": "i18n"
+  },
+  "auto.components.settings.appearance.search.leftSidebarAppearance.terminal": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.appearance.search.showPinnedWorktreesInGroups.pr": {
+   "group": "search-keyword",
+   "en": "pr"
+  },
+  "auto.components.settings.appearance.search.showPinnedWorktreesInGroups.workspace": {
+   "group": "search-keyword",
+   "en": "workspace"
+  },
+  "auto.components.settings.appearance.search.showPinnedWorktreesInGroups.worktree": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.appearance.search.zai": {
+   "group": "search-keyword",
+   "en": "zai"
+  },
+  "auto.components.settings.artifacts.keywordHtml": {
+   "group": "tech-term",
+   "en": "HTML"
+  },
+  "auto.components.settings.artifacts.keywordMarkdown": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "auto.components.settings.auto.rename.branch.search.40d21f2efc": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.auto.rename.branch.search.ed677944cc": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.bitbucket.credentials.dialog.baseUrlPlaceholder": {
+   "group": "url-path-example",
+   "en": "https://api.bitbucket.org/2.0"
+  },
+  "auto.components.settings.bitbucket.credentials.dialog.emailPlaceholder": {
+   "group": "url-path-example",
+   "en": "you@example.com"
+  },
+  "auto.components.settings.browser.search.3538b3aaeb": {
+   "group": "search-keyword",
+   "en": "token"
+  },
+  "auto.components.settings.browser.search.4fda4fb066": {
+   "group": "search-keyword",
+   "en": "url"
+  },
+  "auto.components.settings.browser.search.68d1db8929": {
+   "group": "search-keyword",
+   "en": "markdown"
+  },
+  "auto.components.settings.browser.search.72c58f7792": {
+   "group": "search-keyword",
+   "en": "webview"
+  },
+  "auto.components.settings.browser.search.82ba1c80ea": {
+   "group": "search-keyword",
+   "en": "localhost"
+  },
+  "auto.components.settings.browser.search.8a489aab8d": {
+   "group": "search-keyword",
+   "en": "google"
+  },
+  "auto.components.settings.browser.search.8f036ea11f": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.browser.search.a8c55c9c91": {
+   "group": "search-keyword",
+   "en": "favicon"
+  },
+  "auto.components.settings.browser.search.ad40e75d13": {
+   "group": "search-keyword",
+   "en": "bing"
+  },
+  "auto.components.settings.browser.search.e1c2a57f07": {
+   "group": "search-keyword",
+   "en": "kagi"
+  },
+  "auto.components.settings.browser.search.linkRoutingBackground.tab": {
+   "group": "search-keyword",
+   "en": "tab"
+  },
+  "auto.components.settings.browser.search.terminalLinkActions.popover": {
+   "group": "search-keyword",
+   "en": "popover"
+  },
+  "auto.components.settings.browser.search.terminalLinkActions.terminal": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.claudeSubagentNavigation.search.mod": {
+   "group": "search-keyword",
+   "en": "mod"
+  },
+  "auto.components.settings.cli.source.control.integration.cards.2a6b359e75": {
+   "group": "proper-name",
+   "en": "glab"
+  },
+  "auto.components.settings.cli.source.control.integration.cards.6b2cfb52b4": {
+   "group": "search-keyword",
+   "en": "gh"
+  },
+  "auto.components.settings.cli.source.control.integration.cards.8d90249d22": {
+   "group": "code-command",
+   "en": "gh auth login"
+  },
+  "auto.components.settings.cli.source.control.integration.cards.a47f71e357": {
+   "group": "tech-term",
+   "en": "CLI."
+  },
+  "auto.components.settings.commit.message.ai.search.127d512e75": {
+   "group": "search-keyword",
+   "en": "commit"
+  },
+  "auto.components.settings.commit.message.ai.search.402f101af8": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.commit.message.ai.search.53e8504fb2": {
+   "group": "search-keyword",
+   "en": "ci"
+  },
+  "auto.components.settings.commit.message.ai.search.57c851a68c": {
+   "group": "search-keyword",
+   "en": "cli"
+  },
+  "auto.components.settings.commit.message.ai.search.b261c88609": {
+   "group": "search-keyword",
+   "en": "pr"
+  },
+  "auto.components.settings.commit.message.ai.search.c33cb1b982": {
+   "group": "search-keyword",
+   "en": "ai"
+  },
+  "auto.components.settings.developer.permissions.search.0c13b249e3": {
+   "group": "search-keyword",
+   "en": "tcc"
+  },
+  "auto.components.settings.developer.permissions.search.11653d3f42": {
+   "group": "search-keyword",
+   "en": "mdns"
+  },
+  "auto.components.settings.developer.permissions.search.1e6e27b202": {
+   "group": "search-keyword",
+   "en": "ffmpeg"
+  },
+  "auto.components.settings.developer.permissions.search.3e0131e45d": {
+   "group": "search-keyword",
+   "en": "icloud"
+  },
+  "auto.components.settings.developer.permissions.search.6db4fca386": {
+   "group": "search-keyword",
+   "en": "macos"
+  },
+  "auto.components.settings.developer.permissions.search.78a10b826f": {
+   "group": "search-keyword",
+   "en": "bonjour"
+  },
+  "auto.components.settings.developer.permissions.search.87620e6416": {
+   "group": "search-keyword",
+   "en": "lan"
+  },
+  "auto.components.settings.developer.permissions.search.a765112513": {
+   "group": "search-keyword",
+   "en": "video"
+  },
+  "auto.components.settings.developer.permissions.search.c4a4a02ea4": {
+   "group": "search-keyword",
+   "en": "usb"
+  },
+  "auto.components.settings.developer.permissions.search.e3fbc48083": {
+   "group": "search-keyword",
+   "en": "bluetooth"
+  },
+  "auto.components.settings.developer.permissions.search.f061f08b7b": {
+   "group": "search-keyword",
+   "en": "sox"
+  },
+  "auto.components.settings.ephemeralVms.search.keywordVm": {
+   "group": "search-keyword",
+   "en": "vm"
+  },
+  "auto.components.settings.experimental.search.9bb3bd5098": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.experimental.search.agentDashboard.kanban": {
+   "group": "search-keyword",
+   "en": "kanban"
+  },
+  "auto.components.settings.experimental.search.agentHibernation.terminal": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.experimental.search.nativeChat.grok": {
+   "group": "search-keyword",
+   "en": "grok"
+  },
+  "auto.components.settings.experimental.search.nativeChat.omp": {
+   "group": "search-keyword",
+   "en": "omp"
+  },
+  "auto.components.settings.experimental.search.nativeChat.openclaude": {
+   "group": "search-keyword",
+   "en": "openclaude"
+  },
+  "auto.components.settings.experimental.search.nativeChat.terminal": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.experimental.search.newWorktreeCardStyle.metadata": {
+   "group": "search-keyword",
+   "en": "metadata"
+  },
+  "auto.components.settings.experimental.search.newWorktreeCardStyle.worktree": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.floating.workspace.search.6410fe83d8": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.floating.workspace.search.884e5e6132": {
+   "group": "search-keyword",
+   "en": "markdown"
+  },
+  "auto.components.settings.general.search.06ea5a69a6": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.general.search.0efc9d96ad": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.general.search.12ecc640a8": {
+   "group": "search-keyword",
+   "en": "mru"
+  },
+  "auto.components.settings.general.search.327e3fa70d": {
+   "group": "search-keyword",
+   "en": "Orca CLI"
+  },
+  "auto.components.settings.general.search.3566fce83f": {
+   "group": "search-keyword",
+   "en": "localhost"
+  },
+  "auto.components.settings.general.search.585beac3f8": {
+   "group": "search-keyword",
+   "en": "ttl"
+  },
+  "auto.components.settings.general.search.68d03d9980": {
+   "group": "search-keyword",
+   "en": "vscode"
+  },
+  "auto.components.settings.general.search.7baf524b04": {
+   "group": "search-keyword",
+   "en": "workspace"
+  },
+  "auto.components.settings.general.search.88d3df9ce9": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.general.search.8f03d44672": {
+   "group": "search-keyword",
+   "en": "http_proxy"
+  },
+  "auto.components.settings.general.search.924a660a78": {
+   "group": "search-keyword",
+   "en": "cli"
+  },
+  "auto.components.settings.general.search.b9096a44cf": {
+   "group": "search-keyword",
+   "en": "https_proxy"
+  },
+  "auto.components.settings.general.search.d05f629d2c": {
+   "group": "search-keyword",
+   "en": "markdown"
+  },
+  "auto.components.settings.general.search.df10666259": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.general.search.ebf8f056b5": {
+   "group": "search-keyword",
+   "en": "zed"
+  },
+  "auto.components.settings.general.search.fe62b3f09f": {
+   "group": "search-keyword",
+   "en": "ctrl"
+  },
+  "auto.components.settings.general.search.nodeDistNodejs": {
+   "group": "search-keyword",
+   "en": "nodejs"
+  },
+  "auto.components.settings.general.search.omp": {
+   "group": "search-keyword",
+   "en": "OMP"
+  },
+  "auto.components.settings.general.search.terminal": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.general.search.wsl": {
+   "group": "search-keyword",
+   "en": "wsl"
+  },
+  "auto.components.settings.git.search.035134fcd9": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.git.search.16f53f7323": {
+   "group": "search-keyword",
+   "en": "gh"
+  },
+  "auto.components.settings.git.search.4808f065b3": {
+   "group": "search-keyword",
+   "en": "gitlab"
+  },
+  "auto.components.settings.git.search.564942ffc5": {
+   "group": "search-keyword",
+   "en": "origin/main"
+  },
+  "auto.components.settings.git.search.65b69d9f80": {
+   "group": "search-keyword",
+   "en": "graphql"
+  },
+  "auto.components.settings.git.search.d088806071": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.git.search.e3e9adde59": {
+   "group": "search-keyword",
+   "en": "main"
+  },
+  "auto.components.settings.git.search.ead733645f": {
+   "group": "proper-name",
+   "en": "glab"
+  },
+  "auto.components.settings.git.search.jira": {
+   "group": "search-keyword",
+   "en": "jira"
+  },
+  "auto.components.settings.git.search.originMaster": {
+   "group": "search-keyword",
+   "en": "origin/master"
+  },
+  "auto.components.settings.git.search.upstream": {
+   "group": "search-keyword",
+   "en": "upstream"
+  },
+  "auto.components.settings.input.search.26c83b06c5": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.input.search.71905435dd": {
+   "group": "format-only",
+   "en": "x11"
+  },
+  "auto.components.settings.input.search.886597d6b3": {
+   "group": "search-keyword",
+   "en": "macos"
+  },
+  "auto.components.settings.integrations.search.03a7b275be": {
+   "group": "search-keyword",
+   "en": "ado"
+  },
+  "auto.components.settings.integrations.search.129fc59aa8": {
+   "group": "search-keyword",
+   "en": "gitea"
+  },
+  "auto.components.settings.integrations.search.41ccade05c": {
+   "group": "search-keyword",
+   "en": "gh"
+  },
+  "auto.components.settings.integrations.search.50d20817f7": {
+   "group": "search-keyword",
+   "en": "bitbucket"
+  },
+  "auto.components.settings.integrations.search.7345b7c3e6": {
+   "group": "search-keyword",
+   "en": "atlassian"
+  },
+  "auto.components.settings.integrations.search.b38b5d27f1": {
+   "group": "search-keyword",
+   "en": "azure devops"
+  },
+  "auto.components.settings.integrations.search.b40cbe5de4": {
+   "group": "proper-name",
+   "en": "glab"
+  },
+  "auto.components.settings.integrations.search.b79c21bd42": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.integrations.search.b939695c69": {
+   "group": "search-keyword",
+   "en": "gitlab"
+  },
+  "auto.components.settings.integrations.search.e1263dd748": {
+   "group": "search-keyword",
+   "en": "jira"
+  },
+  "auto.components.settings.integrations.search.ed63380247": {
+   "group": "search-keyword",
+   "en": "azure repos"
+  },
+  "auto.components.settings.linear.agent.skill.search.title": {
+   "group": "search-keyword",
+   "en": "Linear"
+  },
+  "auto.components.settings.mobile.emulator.search.25d7bfbcd4": {
+   "group": "search-keyword",
+   "en": "udid"
+  },
+  "auto.components.settings.mobile.emulator.search.3211e7acf9": {
+   "group": "search-keyword",
+   "en": "xcrun"
+  },
+  "auto.components.settings.mobile.emulator.search.49727355a3": {
+   "group": "search-keyword",
+   "en": "iphone"
+  },
+  "auto.components.settings.mobile.emulator.search.7650063d17": {
+   "group": "search-keyword",
+   "en": "simctl"
+  },
+  "auto.components.settings.mobile.emulator.search.7c5a8a2bee": {
+   "group": "search-keyword",
+   "en": "xcode"
+  },
+  "auto.components.settings.mobile.emulator.search.bec7231663": {
+   "group": "search-keyword",
+   "en": "ipad"
+  },
+  "auto.components.settings.mobile.pane.search.1802188b5d": {
+   "group": "search-keyword",
+   "en": "wifi"
+  },
+  "auto.components.settings.mobile.pane.search.1f70d63998": {
+   "group": "search-keyword",
+   "en": "ip"
+  },
+  "auto.components.settings.mobile.pane.search.3c1807a81a": {
+   "group": "search-keyword",
+   "en": "qr"
+  },
+  "auto.components.settings.mobile.pane.search.70f505f3c3": {
+   "group": "search-keyword",
+   "en": "lan"
+  },
+  "auto.components.settings.mobile.pane.search.87711f4b8f": {
+   "group": "search-keyword",
+   "en": "vpn"
+  },
+  "auto.components.settings.mobile.pane.search.b34ad5b3a7": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.mobile.settings.search.5d5af8e041": {
+   "group": "search-keyword",
+   "en": "iphone"
+  },
+  "auto.components.settings.mobile.settings.search.6bfa001752": {
+   "group": "search-keyword",
+   "en": "apk"
+  },
+  "auto.components.settings.mobile.settings.search.87816d1c59": {
+   "group": "search-keyword",
+   "en": "qr"
+  },
+  "auto.components.settings.mobile.settings.search.8d4ba0ef09": {
+   "group": "search-keyword",
+   "en": "beta"
+  },
+  "auto.components.settings.mobile.settings.search.a7eececc1d": {
+   "group": "search-keyword",
+   "en": "android"
+  },
+  "auto.components.settings.networkAddress.tailscale": {
+   "group": "proper-name",
+   "en": "Tailscale · {{address}}"
+  },
+  "auto.components.settings.notifications.search.079c29aeb5": {
+   "group": "search-keyword",
+   "en": "flac"
+  },
+  "auto.components.settings.notifications.search.5362074f19": {
+   "group": "search-keyword",
+   "en": "mp3"
+  },
+  "auto.components.settings.notifications.search.57e34a31cd": {
+   "group": "search-keyword",
+   "en": "wav"
+  },
+  "auto.components.settings.notifications.search.6ecb8418cb": {
+   "group": "format-only",
+   "en": "m4a"
+  },
+  "auto.components.settings.notifications.search.722face52f": {
+   "group": "search-keyword",
+   "en": "aac"
+  },
+  "auto.components.settings.notifications.search.c638ae989d": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.notifications.search.d16ae23645": {
+   "group": "search-keyword",
+   "en": "ogg"
+  },
+  "auto.components.settings.notifications.search.ef86a782cc": {
+   "group": "search-keyword",
+   "en": "bong"
+  },
+  "auto.components.settings.orcaAccount.relayTitle": {
+   "group": "proper-name",
+   "en": "Orca Relay"
+  },
+  "auto.components.settings.orchestration.search.741dfc03fa": {
+   "group": "search-keyword",
+   "en": "worker"
+  },
+  "auto.components.settings.orchestration.search.ca54c69806": {
+   "group": "search-keyword",
+   "en": "DAG"
+  },
+  "auto.components.settings.privacy.search.5854a5c752": {
+   "group": "search-keyword",
+   "en": "ci"
+  },
+  "auto.components.settings.quick.commands.search.0073cf8ce9": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.quick.commands.search.b86c727100": {
+   "group": "search-keyword",
+   "en": "npm"
+  },
+  "auto.components.settings.quick.commands.search.b949a7c0a0": {
+   "group": "search-keyword",
+   "en": "pnpm"
+  },
+  "auto.components.settings.repository.search.27733eb6c1": {
+   "group": "search-keyword",
+   "en": "favicon"
+  },
+  "auto.components.settings.repository.search.4733ec2395": {
+   "group": "search-keyword",
+   "en": "../worktrees"
+  },
+  "auto.components.settings.repository.search.4b9a18a56d": {
+   "group": "search-keyword",
+   "en": "monorepo"
+  },
+  "auto.components.settings.repository.search.8068d8d0f1": {
+   "group": "search-keyword",
+   "en": "pr"
+  },
+  "auto.components.settings.repository.search.84da7fa2d7": {
+   "group": "search-keyword",
+   "en": "node_modules"
+  },
+  "auto.components.settings.repository.search.9dc60d7f6d": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.repository.search.aa42616e3d": {
+   "group": "search-keyword",
+   "en": "checkout"
+  },
+  "auto.components.settings.repository.search.apfs": {
+   "group": "search-keyword",
+   "en": "apfs"
+  },
+  "auto.components.settings.repository.search.bf460fded8": {
+   "group": "search-keyword",
+   "en": "yaml"
+  },
+  "auto.components.settings.repository.search.cb4b4de666": {
+   "group": "search-keyword",
+   "en": "avatar"
+  },
+  "auto.components.settings.repository.search.cfad7ce5f3": {
+   "group": "search-keyword",
+   "en": "ai"
+  },
+  "auto.components.settings.repository.search.e760e3fae7": {
+   "group": "file-type",
+   "en": ".mcp.json"
+  },
+  "auto.components.settings.repository.search.f1c53f2820": {
+   "group": "search-keyword",
+   "en": "worktree"
+  },
+  "auto.components.settings.repository.search.fff8834983": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.repository.search.fork": {
+   "group": "search-keyword",
+   "en": "fork"
+  },
+  "auto.components.settings.repository.search.origin": {
+   "group": "search-keyword",
+   "en": "origin"
+  },
+  "auto.components.settings.repository.search.token": {
+   "group": "search-keyword",
+   "en": "token"
+  },
+  "auto.components.settings.repository.search.upstream": {
+   "group": "search-keyword",
+   "en": "upstream"
+  },
+  "auto.components.settings.repository.search.wsl": {
+   "group": "search-keyword",
+   "en": "wsl"
+  },
+  "auto.components.settings.runtime.environments.search.772e3b4753": {
+   "group": "search-keyword",
+   "en": "vm"
+  },
+  "auto.components.settings.serverList.sshTunnelChip": {
+   "group": "tech-term",
+   "en": "SSH tunnel"
+  },
+  "auto.components.settings.serverList.version": {
+   "group": "format-only",
+   "en": "v{{version}}"
+  },
+  "auto.components.settings.shortcuts.search.7e3fc707aa": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.shortcuts.search.7f1b38f59a": {
+   "group": "search-keyword",
+   "en": "tui"
+  },
+  "auto.components.settings.shortcuts.search.f1adebbe8c": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.settings.ssh.search.d41f296f64": {
+   "group": "search-keyword",
+   "en": "ping"
+  },
+  "auto.components.settings.tasks.search.11f001cdd4": {
+   "group": "search-keyword",
+   "en": "gitlab"
+  },
+  "auto.components.settings.tasks.search.5430396e11": {
+   "group": "search-keyword",
+   "en": "jira"
+  },
+  "auto.components.settings.tasks.search.604d8e4089": {
+   "group": "search-keyword",
+   "en": "atlassian"
+  },
+  "auto.components.settings.tasks.search.c10ac2125e": {
+   "group": "search-keyword",
+   "en": "github"
+  },
+  "auto.components.settings.terminal.clipboard.search.2061d8db1a": {
+   "group": "search-keyword",
+   "en": "neovim"
+  },
+  "auto.components.settings.terminal.clipboard.search.5ffcd13c90": {
+   "group": "search-keyword",
+   "en": "tmux"
+  },
+  "auto.components.settings.terminal.clipboard.search.62d1208b90": {
+   "group": "search-keyword",
+   "en": "osc 52"
+  },
+  "auto.components.settings.terminal.clipboard.search.64533e30cc": {
+   "group": "search-keyword",
+   "en": "nvim"
+  },
+  "auto.components.settings.terminal.clipboard.search.737cef6de1": {
+   "group": "format-only",
+   "en": "x11"
+  },
+  "auto.components.settings.terminal.clipboard.search.9dfc125cd3": {
+   "group": "search-keyword",
+   "en": "osc52"
+  },
+  "auto.components.settings.terminal.clipboard.search.9fda309db9": {
+   "group": "search-keyword",
+   "en": "fzf"
+  },
+  "auto.components.settings.terminal.clipboard.search.cf83ac3dbd": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.terminal.clipboard.search.grok": {
+   "group": "search-keyword",
+   "en": "grok"
+  },
+  "auto.components.settings.terminal.clipboard.search.zellij": {
+   "group": "search-keyword",
+   "en": "zellij"
+  },
+  "auto.components.settings.terminal.search.11fd3fbcf2": {
+   "group": "search-keyword",
+   "en": "ansi"
+  },
+  "auto.components.settings.terminal.search.1ab57a0fbd": {
+   "group": "search-keyword",
+   "en": "mac"
+  },
+  "auto.components.settings.terminal.search.1abcf4d7de": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.terminal.search.35c2311a33": {
+   "group": "search-keyword",
+   "en": "jetbrains mono"
+  },
+  "auto.components.settings.terminal.search.39ea7c0d28": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.terminal.search.454df22a5e": {
+   "group": "proper-name",
+   "en": "fish"
+  },
+  "auto.components.settings.terminal.search.6cddc858ba": {
+   "group": "search-keyword",
+   "en": "webgl"
+  },
+  "auto.components.settings.terminal.search.6ded6297fe": {
+   "group": "search-keyword",
+   "en": "iosevka"
+  },
+  "auto.components.settings.terminal.search.7ace5beec9": {
+   "group": "search-keyword",
+   "en": "meta"
+  },
+  "auto.components.settings.terminal.search.7c3ede6f12": {
+   "group": "search-keyword",
+   "en": "nushell"
+  },
+  "auto.components.settings.terminal.search.7db59c4738": {
+   "group": "search-keyword",
+   "en": "alpha"
+  },
+  "auto.components.settings.terminal.search.9c35f56625": {
+   "group": "search-keyword",
+   "en": "yen"
+  },
+  "auto.components.settings.terminal.search.9f2dda133c": {
+   "group": "search-keyword",
+   "en": "pty"
+  },
+  "auto.components.settings.terminal.search.a16224d16a": {
+   "group": "search-keyword",
+   "en": "calt"
+  },
+  "auto.components.settings.terminal.search.b495dc6a9f": {
+   "group": "search-keyword",
+   "en": "jis"
+  },
+  "auto.components.settings.terminal.search.bf09070e31": {
+   "group": "proper-name",
+   "en": "bash"
+  },
+  "auto.components.settings.terminal.search.c4427dc5ff": {
+   "group": "search-keyword",
+   "en": "alt"
+  },
+  "auto.components.settings.terminal.search.d26257a80d": {
+   "group": "search-keyword",
+   "en": "zsh"
+  },
+  "auto.components.settings.terminal.search.d31ed1ac1c": {
+   "group": "search-keyword",
+   "en": "rcfile"
+  },
+  "auto.components.settings.terminal.search.d8d6f7a3c5": {
+   "group": "search-keyword",
+   "en": "macos"
+  },
+  "auto.components.settings.terminal.search.db82cb13b0": {
+   "group": "search-keyword",
+   "en": "gpu"
+  },
+  "auto.components.settings.terminal.search.ddd5efe113": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.settings.terminal.search.f35400f7e8": {
+   "group": "search-keyword",
+   "en": "daemon"
+  },
+  "auto.components.settings.terminal.search.f66a7cf715": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.terminal.search.minimumContrast.wcag": {
+   "group": "search-keyword",
+   "en": "wcag"
+  },
+  "auto.components.settings.terminal.search.prompt": {
+   "group": "search-keyword",
+   "en": "prompt"
+  },
+  "auto.components.settings.terminal.search.tui": {
+   "group": "search-keyword",
+   "en": "tui"
+  },
+  "auto.components.settings.terminal.search.warp_import.keyword_yaml": {
+   "group": "search-keyword",
+   "en": "yaml"
+  },
+  "auto.components.settings.terminal.search.yaml_import.keyword_yaml": {
+   "group": "search-keyword",
+   "en": "yaml"
+  },
+  "auto.components.settings.terminal.windows.search.07ec155fb6": {
+   "group": "url-path-example",
+   "en": "bash.exe"
+  },
+  "auto.components.settings.terminal.windows.search.2d99cd91be": {
+   "group": "search-keyword",
+   "en": "powershell"
+  },
+  "auto.components.settings.terminal.windows.search.5a2db98d23": {
+   "group": "proper-name",
+   "en": "bash"
+  },
+  "auto.components.settings.terminal.windows.search.6cd20b9e64": {
+   "group": "search-keyword",
+   "en": "cmd"
+  },
+  "auto.components.settings.terminal.windows.search.768613e483": {
+   "group": "search-keyword",
+   "en": "powershell 7"
+  },
+  "auto.components.settings.terminal.windows.search.7c7056940a": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.settings.terminal.windows.search.d414022016": {
+   "group": "search-keyword",
+   "en": "pwsh"
+  },
+  "auto.components.settings.terminal.windows.search.e7d2793b03": {
+   "group": "search-keyword",
+   "en": "terminal"
+  },
+  "auto.components.settings.terminal.windows.search.f9162f0b8e": {
+   "group": "search-keyword",
+   "en": "windows powershell"
+  },
+  "auto.components.settings.token.source.control.integration.cards.186a6689df": {
+   "group": "code-command",
+   "en": "ORCA_AZURE_DEVOPS_API_BASE_URL"
+  },
+  "auto.components.settings.token.source.control.integration.cards.48842720d2": {
+   "group": "code-command",
+   "en": "ORCA_AZURE_DEVOPS_TOKEN"
+  },
+  "auto.components.settings.token.source.control.integration.cards.6d5c2a3005": {
+   "group": "code-command",
+   "en": "ORCA_GITEA_TOKEN"
+  },
+  "auto.components.settings.token.source.control.integration.cards.709057ad91": {
+   "group": "code-command",
+   "en": "ORCA_GITEA_API_BASE_URL"
+  },
+  "auto.components.settings.token.source.control.integration.cards.fbfd237f5e": {
+   "group": "code-command",
+   "en": "ORCA_AZURE_DEVOPS_ACCESS_TOKEN"
+  },
+  "auto.components.settings.voice.pane.search.04c25a6fb0": {
+   "group": "search-keyword",
+   "en": "openai"
+  },
+  "auto.components.settings.voice.pane.search.micAirpods": {
+   "group": "search-keyword",
+   "en": "airpods"
+  },
+  "auto.components.settings.wslHosts.chip": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.settings.wslHostsExperimental.keywordLinux": {
+   "group": "search-keyword",
+   "en": "linux"
+  },
+  "auto.components.settings.wslHostsExperimental.keywordWsl": {
+   "group": "search-keyword",
+   "en": "wsl"
+  },
+  "auto.components.sidebar.AddRemoteHostDialog.pairingCodePlaceholder": {
+   "group": "url-path-example",
+   "en": "orca://pair?code=..."
+  },
+  "auto.components.sidebar.AddRemoteHostDialog.sshHostPlaceholder": {
+   "group": "url-path-example",
+   "en": "deploy@server:22"
+  },
+  "auto.components.sidebar.AddRepoRemoteStep.6680289908": {
+   "group": "url-path-example",
+   "en": "/home/user/project"
+  },
+  "auto.components.sidebar.AddRepoServerStartStep.92d25420a0": {
+   "group": "url-path-example",
+   "en": "/home/user/project"
+  },
+  "auto.components.sidebar.AddRepoSteps.2ce3f6edf8": {
+   "group": "url-path-example",
+   "en": "/path/to/destination"
+  },
+  "auto.components.sidebar.AddRepoSteps.b698a4a29d": {
+   "group": "url-path-example",
+   "en": "https://github.com/user/repo.git"
+  },
+  "auto.components.sidebar.AddRepoSteps.remoteCloneParentPlaceholder": {
+   "group": "url-path-example",
+   "en": "/home/user/projects"
+  },
+  "auto.components.sidebar.CreateProjectLocationField.2a20a603a3": {
+   "group": "url-path-example",
+   "en": "/home/user/projects"
+  },
+  "auto.components.sidebar.HostSectionHeader.workspaceCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} workspace"
+  },
+  "auto.components.sidebar.SidebarFeedbackDialog.c9e5ea0791": {
+   "group": "proper-name",
+   "en": "GitHub:"
+  },
+  "auto.components.sidebar.SidebarFilter.81ded53722": {
+   "group": "proper-name",
+   "en": "SSH"
+  },
+  "auto.components.sidebar.SidebarNav.1b5c41caee": {
+   "group": "proper-name",
+   "en": "Orca Mobile"
+  },
+  "auto.components.sidebar.SidebarRepositoryFilterSection.2656053db4": {
+   "group": "proper-name",
+   "en": "SSH"
+  },
+  "auto.components.sidebar.SidebarSettingsHelpMenu.5687ab246a": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.components.sidebar.SidebarSettingsHelpMenu.c4f8e1b72a": {
+   "group": "format-only",
+   "en": "X"
+  },
+  "auto.components.sidebar.SidebarSettingsHelpMenu.eb9884e55b": {
+   "group": "proper-name",
+   "en": "Discord"
+  },
+  "auto.components.sidebar.SidebarWorkspaceOptionsMenu.0f9b959b31": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "auto.components.sidebar.SidebarWorkspaceOptionsMenu.cli": {
+   "group": "tech-term",
+   "en": "Orca CLI"
+  },
+  "auto.components.sidebar.WorktreeCardMeta.5e982e6128": {
+   "group": "tech-term",
+   "en": "Linear {{value0}}"
+  },
+  "auto.components.sidebar.WorktreeCardMeta.cliHeader": {
+   "group": "tech-term",
+   "en": "Orca CLI"
+  },
+  "auto.components.sidebar.WorktreeCardMeta.e97d8f2876": {
+   "group": "tech-term",
+   "en": "Issue #{{value0}}"
+  },
+  "auto.components.sidebar.WorktreeCardMeta.jiraIssue": {
+   "group": "tech-term",
+   "en": "Jira {{value0}}"
+  },
+  "auto.components.sidebar.WorktreeCardStatusSlot.branchIdentity": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "auto.components.sidebar.WorktreeContextMenu.workspaceSection": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.sidebar.WorktreeOpenInMenu.wsl": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.sidebar.WorktreeVisibilitySourceList.claude": {
+   "group": "proper-name",
+   "en": "Claude Code"
+  },
+  "auto.components.sidebar.WorktreeVisibilitySourceList.gsd": {
+   "group": "proper-name",
+   "en": "GSD"
+  },
+  "auto.components.sidebar.preserved.branch.batch.toast.4cf75caab7": {
+   "group": "format-only",
+   "en": "{{value0}}, {{value1}}"
+  },
+  "auto.components.skills.SkillDelete.blockedLine": {
+   "group": "format-only",
+   "en": "{{count}} × {{reason}}"
+  },
+  "auto.components.skills.SkillDelete.resultLine": {
+   "group": "format-only",
+   "en": "{{count}} × {{label}}"
+  },
+  "auto.components.skills.SkillInstallManagementDialog.176fef9516": {
+   "group": "proper-name",
+   "en": "· SSH"
+  },
+  "auto.components.skills.SkillInstallReviewContent.66cff7a804": {
+   "group": "url-path-example",
+   "en": "https://app.orca.dev/skills/share/…"
+  },
+  "auto.components.skills.SkillInstallTargetFields.0c10a406fb": {
+   "group": "proper-name",
+   "en": "WSL ·"
+  },
+  "auto.components.skills.SkillInstallTargetFields.0e5b43a9e3": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.skills.SkillInstallTargetFields.85d85880df": {
+   "group": "proper-name",
+   "en": "· SSH"
+  },
+  "auto.components.skills.SkillShareReviewContent.b3b1d4b911": {
+   "group": "tech-term",
+   "en": "SHA-256"
+  },
+  "auto.components.skills.managedInstall.titleMore": {
+   "group": "format-only",
+   "en": "{{name}} +{{count}}"
+  },
+  "auto.components.skills.share.script_one": {
+   "group": "tech-term",
+   "en": "{{count}} script"
+  },
+  "auto.components.skills.sourceKind.workspace": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.stats.ClaudeUsagePane.7765a4c3e1": {
+   "group": "format-only",
+   "en": "n/a"
+  },
+  "auto.components.stats.GrokUsagePane.h9i0j1k2l3": {
+   "group": "format-only",
+   "en": " • {{value0}}"
+  },
+  "auto.components.stats.ShareUsageCard.0eb31e79ee": {
+   "group": "tech-term",
+   "en": "Orca IDE"
+  },
+  "auto.components.stats.StatsPane.1e696db2f6": {
+   "group": "proper-name",
+   "en": "OpenCode"
+  },
+  "auto.components.stats.StatsPane.7d26110cea": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.stats.StatsPane.85457c02fe": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.components.stats.StatsPane.grokUsageTab": {
+   "group": "proper-name",
+   "en": "Grok"
+  },
+  "auto.components.stats.UsageBreakdownSection.7765a4c3e1": {
+   "group": "format-only",
+   "en": "n/a"
+  },
+  "auto.components.stats.share.card.utils.19f4b4dc75": {
+   "group": "url-path-example",
+   "en": "github.com/stablyai/orca"
+  },
+  "auto.components.stats.stats.search.6953af58e6": {
+   "group": "search-keyword",
+   "en": "opencode"
+  },
+  "auto.components.stats.stats.search.9f2a3b4c5d": {
+   "group": "search-keyword",
+   "en": "xai"
+  },
+  "auto.components.stats.stats.search.ef8bbf7739": {
+   "group": "search-keyword",
+   "en": "prs"
+  },
+  "auto.components.stats.stats.search.f8a1b2c3d4": {
+   "group": "search-keyword",
+   "en": "grok"
+  },
+  "auto.components.stats.usage.overview.model.544d6d4c16": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.components.stats.usage.overview.model.bc474051e5": {
+   "group": "proper-name",
+   "en": "OpenCode"
+  },
+  "auto.components.stats.usage.overview.model.eb220d193b": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.components.stats.usage.overview.sections.sessionsAndActivity": {
+   "group": "format-only",
+   "en": "{{sessions}} - {{activity}}"
+  },
+  "auto.components.status.bar.CaffeinateStatusSegment.ariaLabel": {
+   "group": "format-only",
+   "en": "{{title}}, {{status}}"
+  },
+  "auto.components.status.bar.PetStatusSegment.c6aa805b1b": {
+   "group": "format-only",
+   "en": "px"
+  },
+  "auto.components.status.bar.ResourceUsageStatusSegment.288a4dd177": {
+   "group": "proper-name",
+   "en": "Orca"
+  },
+  "auto.components.status.bar.ResourceUsageStatusSegment.298f4be7f2": {
+   "group": "tech-term",
+   "en": "CPU"
+  },
+  "auto.components.status.bar.WorkspaceSpaceCompactPanel.c361440dc0": {
+   "group": "tech-term",
+   "en": "Beta"
+  },
+  "auto.components.status.bar.WorkspaceSpaceManagerPanel.66870929fb": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "auto.components.status.bar.WorkspaceSpaceManagerPanel.b9b4a3a25d": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "auto.components.status.bar.WorkspaceSpaceManagerPanel.e4aebea158": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "auto.components.status.bar.resourceSessionLabels.pid": {
+   "group": "tech-term",
+   "en": "pid {{pid}}"
+  },
+  "auto.components.status.bar.resourceSessionLabels.terminalNumber": {
+   "group": "tech-term",
+   "en": "Terminal {{number}}"
+  },
+  "auto.components.status.bar.tooltip.zcode.mcp": {
+   "group": "tech-term",
+   "en": "MCP"
+  },
+  "auto.components.status.bar.usagePercentageLabel.bare": {
+   "group": "format-only",
+   "en": "{{value0}}%"
+  },
+  "auto.components.status.bar.workspaceSpaceDecision.activeAndCompletedAgents": {
+   "group": "format-only",
+   "en": "{{active}}, {{completed}}"
+  },
+  "auto.components.tab.bar.QuickLaunchButton.cliTag": {
+   "group": "tech-term",
+   "en": "(CLI)"
+  },
+  "auto.components.tab.bar.TabBar.2148f65e04": {
+   "group": "proper-name",
+   "en": "PowerShell"
+  },
+  "auto.components.tab.bar.TabBar.d1afac112b": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.tab.bar.TabBar.efb33546ff": {
+   "group": "proper-name",
+   "en": "Git Bash"
+  },
+  "auto.components.tab.bar.shell.icons.e9b2e70613": {
+   "group": "proper-name",
+   "en": "WSL"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.44caaf7b36": {
+   "group": "file-type",
+   "en": "md"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.5501c2fb7a": {
+   "group": "tech-term",
+   "en": "terminal"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.5f17fb9d0c": {
+   "group": "tech-term",
+   "en": "markdown"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.7ecdc5ef08": {
+   "group": "search-keyword",
+   "en": "ipad"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.8a580f88cf": {
+   "group": "search-keyword",
+   "en": "iphone"
+  },
+  "auto.components.tab.bar.tab.create.menu.options.9630dd5494": {
+   "group": "tech-term",
+   "en": "shell"
+  },
+  "auto.components.taskSourceContextSummary.hostStatus": {
+   "group": "format-only",
+   "en": "{{host}} {{status}}"
+  },
+  "auto.components.terminal.quick.commands.TerminalQuickCommandActionToggle.agent_short": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.terminal.quick.commands.TerminalQuickCommandActionToggle.terminal_short": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.components.terminal.quick.commands.TerminalQuickCommandDialog.0adba8fa0c": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "auto.components.terminal.quick.commands.TerminalQuickCommandDialog.79af0c0841": {
+   "group": "code-command",
+   "en": "npm run dev"
+  },
+  "auto.components.terminal.quick.commands.TerminalQuickCommandDialog.size_count": {
+   "group": "format-only",
+   "en": "{{value0}} / {{value1}}"
+  },
+  "auto.components.ui.color.picker.faa855a582": {
+   "group": "tech-term",
+   "en": "Hex"
+  },
+  "auto.components.workspace.cleanup.WorkspaceCleanupDialog.bef0adef9b": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "auto.components.workspace.cleanup.candidateRow.gitLabel": {
+   "group": "proper-name",
+   "en": "Git"
+  },
+  "auto.hooks.useSettingsNavigationMetadata.40d80bad8a": {
+   "group": "tech-term",
+   "en": "Beta"
+  },
+  "auto.hooks.useSettingsNavigationMetadata.a9fb10afca": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "auto.hooks.useSettingsNavigationMetadata.devSearchKeywordSonner": {
+   "group": "search-keyword",
+   "en": "sonner"
+  },
+  "auto.hooks.useSettingsNavigationMetadata.linearTitle": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "auto.i18n.hostedReview.copy.91b5c8d7e6": {
+   "group": "proper-name",
+   "en": "GitLab"
+  },
+  "auto.i18n.hostedReview.copy.a2c6d9e0f7": {
+   "group": "tech-term",
+   "en": "Merge Request"
+  },
+  "auto.i18n.hostedReview.copy.c4e8f1a2b9": {
+   "group": "tech-term",
+   "en": "MR"
+  },
+  "auto.i18n.hostedReview.copy.c7d1e5f9a8": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "auto.i18n.hostedReview.copy.d8e2f6a0b9": {
+   "group": "tech-term",
+   "en": "Pull Request"
+  },
+  "auto.i18n.hostedReview.copy.f0a4b8c2d1": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "auto.lib.agent.catalog.060d152fb5": {
+   "group": "proper-name",
+   "en": "Trae"
+  },
+  "auto.lib.agent.catalog.0708ed89f1": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "auto.lib.agent.catalog.09973b4d84": {
+   "group": "proper-name",
+   "en": "OMP"
+  },
+  "auto.lib.agent.catalog.0baad2d5d2": {
+   "group": "proper-name",
+   "en": "Grok"
+  },
+  "auto.lib.agent.catalog.12e6baa4f7": {
+   "group": "proper-name",
+   "en": "Gemini"
+  },
+  "auto.lib.agent.catalog.28810273af": {
+   "group": "proper-name",
+   "en": "Kimi"
+  },
+  "auto.lib.agent.catalog.302934c5d9": {
+   "group": "proper-name",
+   "en": "Pi"
+  },
+  "auto.lib.agent.catalog.4238b771b5": {
+   "group": "proper-name",
+   "en": "Codebuff"
+  },
+  "auto.lib.agent.catalog.4e63c7b956": {
+   "group": "proper-name",
+   "en": "Rovo Dev"
+  },
+  "auto.lib.agent.catalog.5dff448636": {
+   "group": "proper-name",
+   "en": "OpenClaw"
+  },
+  "auto.lib.agent.catalog.5e8eff11b3": {
+   "group": "proper-name",
+   "en": "Auggie"
+  },
+  "auto.lib.agent.catalog.691dd11789": {
+   "group": "proper-name",
+   "en": "Antigravity"
+  },
+  "auto.lib.agent.catalog.706b0fe68b": {
+   "group": "proper-name",
+   "en": "GitHub Copilot"
+  },
+  "auto.lib.agent.catalog.739a930554": {
+   "group": "proper-name",
+   "en": "Droid"
+  },
+  "auto.lib.agent.catalog.760bc6883d": {
+   "group": "proper-name",
+   "en": "Codex"
+  },
+  "auto.lib.agent.catalog.8a9ba743cc": {
+   "group": "proper-name",
+   "en": "Hermes"
+  },
+  "auto.lib.agent.catalog.918ba4ffed": {
+   "group": "proper-name",
+   "en": "Kilocode"
+  },
+  "auto.lib.agent.catalog.cbaf0c2e0b": {
+   "group": "proper-name",
+   "en": "Cline"
+  },
+  "auto.lib.agent.catalog.codebuddy_label": {
+   "group": "proper-name",
+   "en": "CodeBuddy"
+  },
+  "auto.lib.agent.catalog.da41abbdd4": {
+   "group": "proper-name",
+   "en": "Ante"
+  },
+  "auto.lib.agent.catalog.e0247254f2": {
+   "group": "proper-name",
+   "en": "Kiro"
+  },
+  "auto.lib.agent.catalog.e7a4ca5103": {
+   "group": "proper-name",
+   "en": "OpenCode"
+  },
+  "auto.lib.agent.catalog.fc80296033": {
+   "group": "proper-name",
+   "en": "Devin"
+  },
+  "auto.lib.agent.catalog.jcode_label": {
+   "group": "proper-name",
+   "en": "Jcode"
+  },
+  "auto.lib.agent.catalog.opencode2_label": {
+   "group": "proper-name",
+   "en": "OpenCode 2"
+  },
+  "auto.lib.agent.catalog.qoder_label": {
+   "group": "proper-name",
+   "en": "Qoder CLI"
+  },
+  "auto.lib.open.in.app.catalog.173553f73a": {
+   "group": "proper-name",
+   "en": "VS Code"
+  },
+  "auto.lib.open.in.app.catalog.f8b8ca2711": {
+   "group": "proper-name",
+   "en": "Zed"
+  },
+  "auto.store.slices.store.test.helpers.b9a8117c33": {
+   "group": "tech-term",
+   "en": "Terminal 1"
+  },
+  "auto.web.WebConnect.27393856e4": {
+   "group": "url-path-example",
+   "en": "orca://pair?code=..."
+  },
+  "auto.web.web.runtime.environment.07f788de83": {
+   "group": "tech-term",
+   "en": "WebSocket"
+  },
+  "browser.history.enterKey": {
+   "group": "code-command",
+   "en": "Enter"
+  },
+  "browser.history.escKey": {
+   "group": "code-command",
+   "en": "Esc"
+  },
+  "browser.viewport.laptop": {
+   "group": "tech-term",
+   "en": "Laptop — 1024 × 768"
+  },
+  "browser.viewport.laptop-l": {
+   "group": "tech-term",
+   "en": "Laptop L — 1440 × 900"
+  },
+  "components.RepositoryJiraProjectSection.keywordJira": {
+   "group": "search-keyword",
+   "en": "jira"
+  },
+  "components.agentSessionContinuation.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "components.cmd-j.paletteSessionAge.days": {
+   "group": "format-only",
+   "en": "{{value0}}d"
+  },
+  "components.cmd-j.paletteSessionAge.hours": {
+   "group": "format-only",
+   "en": "{{value0}}h"
+  },
+  "components.cmd-j.paletteSessionAge.minutes": {
+   "group": "format-only",
+   "en": "{{value0}}m"
+  },
+  "components.cmd-j.paletteSessionAge.underOneMinute": {
+   "group": "format-only",
+   "en": "<1m"
+  },
+  "components.native-chat.backgroundTasks.countShell_one": {
+   "group": "tech-term",
+   "en": "{{count}} shell"
+  },
+  "components.native-chat.backgroundTasks.countWorkflows_one": {
+   "group": "tech-term",
+   "en": "{{count}} workflow"
+  },
+  "components.native-chat.composer.optionValueShort.minimal": {
+   "group": "tech-term",
+   "en": "Min"
+  },
+  "components.native-chat.composer.pillAccessibleName": {
+   "group": "format-only",
+   "en": "{{value0}} {{value1}}"
+  },
+  "components.native-chat.providerFrame.byteCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} byte"
+  },
+  "components.native-chat.tool.milliseconds": {
+   "group": "format-only",
+   "en": "{{value0}}ms"
+  },
+  "components.native-chat.tool.runListSeparator": {
+   "group": "format-only",
+   "en": ", "
+  },
+  "components.onboarding.flow.stepTooltip.windowsTerminal": {
+   "group": "tech-term",
+   "en": "Windows Terminal"
+  },
+  "components.workspace.cleanup.browse.chip.branchQuery": {
+   "group": "tech-term",
+   "en": "Branch: {{value0}}"
+  },
+  "components.workspace.cleanup.browse.chip.kind.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "components.workspace.cleanup.browse.chip.kind.git": {
+   "group": "proper-name",
+   "en": "Git"
+  },
+  "components.workspace.cleanup.browse.chip.list": {
+   "group": "format-only",
+   "en": "{{value0}}: {{value1}}"
+  },
+  "components.workspace.cleanup.browse.chip.presence": {
+   "group": "format-only",
+   "en": "{{value0}}: {{value1}}"
+  },
+  "components.workspace.cleanup.browse.chip.triState": {
+   "group": "format-only",
+   "en": "{{value0}}: {{value1}}"
+  },
+  "components.workspace.cleanup.browse.facet.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "components.workspace.cleanup.browse.facet.git": {
+   "group": "proper-name",
+   "en": "Git"
+  },
+  "components.workspace.cleanup.browse.reviewPresence": {
+   "group": "tech-term",
+   "en": "PR / MR"
+  },
+  "components.workspace.cleanup.browse.sort.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "components.workspace.cleanup.browse.sort.branch": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "components.workspace.cleanup.browse.sort.git": {
+   "group": "proper-name",
+   "en": "Git"
+  },
+  "components.workspace.cleanup.browse.sort.name": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "components.workspace.cleanup.browse.ticket.issue": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "components.workspace.cleanup.browse.ticket.linear": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "components.workspace.cleanup.presentation.githubPullRequestNumber": {
+   "group": "tech-term",
+   "en": "PR #{{value0}}"
+  },
+  "components.workspace.cleanup.presentation.gitlabMergeRequestNumber": {
+   "group": "tech-term",
+   "en": "MR #{{value0}}"
+  },
+  "featureTips.sessionSearch.ageMinutes": {
+   "group": "format-only",
+   "en": "12m"
+  },
+  "featureTips.sessionSearch.demoHit1Age": {
+   "group": "format-only",
+   "en": "3d"
+  },
+  "featureWall.steps.terminal.name": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "featureWall.tiles.tile09.title": {
+   "group": "proper-name",
+   "en": "Orca CLI"
+  },
+  "notifications.workspaceFallback": {
+   "group": "tech-term",
+   "en": "workspace"
+  },
+  "projectBoardCard.itemLabel": {
+   "group": "format-only",
+   "en": "{{number}} — {{title}}"
+  },
+  "resourceManager.pty.binding": {
+   "group": "tech-term",
+   "en": "Tab"
+  },
+  "resourceManager.pty.pid": {
+   "group": "tech-term",
+   "en": "PID"
+  },
+  "resourceManager.pty.workspace": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "resourceManager.ptys": {
+   "group": "tech-term",
+   "en": "PTYs"
+  },
+  "sessionHistory.settings.serverVersion": {
+   "group": "proper-name",
+   "en": "Orca v{{version}}"
+  },
+  "settings.agents.defaultOpensAsCli": {
+   "group": "tech-term",
+   "en": "CLI"
+  },
+  "settings.appearance.chat.pixels": {
+   "group": "format-only",
+   "en": "px"
+  },
+  "settings.appearance.language.chineseTraditional": {
+   "group": "proper-name",
+   "en": "繁體中文（台灣）"
+  },
+  "settings.appearance.language.german": {
+   "group": "proper-name",
+   "en": "Deutsch"
+  },
+  "settings.appearance.language.portuguese": {
+   "group": "proper-name",
+   "en": "Português (Brasil)"
+  },
+  "settings.appearance.language.russian": {
+   "group": "proper-name",
+   "en": "Русский"
+  },
+  "settings.appearance.language.turkish": {
+   "group": "proper-name",
+   "en": "Türkçe"
+  },
+  "settings.browser.extensions.sourceWebStore": {
+   "group": "proper-name",
+   "en": "Chrome Web Store"
+  },
+  "settings.browser.profileScope.worktreeProfileLabel": {
+   "group": "tech-term",
+   "en": "Workspace: {{name}}"
+  },
+  "settings.chat.providers.searchCli": {
+   "group": "tech-term",
+   "en": "CLI"
+  },
+  "settings.chat.providers.searchTerminal": {
+   "group": "tech-term",
+   "en": "terminal"
+  },
+  "settings.general.openInMenu.keyword.devin": {
+   "group": "search-keyword",
+   "en": "devin"
+  },
+  "settings.general.openInMenu.keyword.devinDesktop": {
+   "group": "search-keyword",
+   "en": "devin desktop"
+  },
+  "settings.general.openInMenu.keyword.windsurf": {
+   "group": "search-keyword",
+   "en": "windsurf"
+  },
+  "settings.mcp.workspace": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "settings.openInApp.preset.devinDesktop": {
+   "group": "proper-name",
+   "en": "Devin Desktop"
+  },
+  "settings.terminal.limit.search.pty": {
+   "group": "search-keyword",
+   "en": "pty"
+  },
+  "settings.terminal.windows.keywordUac": {
+   "group": "search-keyword",
+   "en": "uac"
+  },
+  "sidebar.agentSummary.agentIdentityState": {
+   "group": "format-only",
+   "en": "{{agent}} {{status}}"
+  },
+  "sidebar.agentSummary.mixedStates": {
+   "group": "format-only",
+   "en": "{{subject}}: {{states}}"
+  },
+  "tabHoverCard.terminal": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "updates.installBlock.processId": {
+   "group": "tech-term",
+   "en": "PID {{pid}}"
+  },
+  "workspace.links.issueReference": {
+   "group": "tech-term",
+   "en": "Issue #{{number}}"
+  },
+  "workspace.links.kind.gitlab_mr": {
+   "group": "tech-term",
+   "en": "GitLab MR"
+  },
+  "workspace.links.mrReference": {
+   "group": "tech-term",
+   "en": "MR !{{number}}"
+  },
+  "workspace.links.prReference": {
+   "group": "tech-term",
+   "en": "PR #{{number}}"
+  },
+  "workspace.links.terminal": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
+  "worktreeJumpPalette.filter.tabKey": {
+   "group": "tech-term",
+   "en": "Tab"
+  },
+  "worktreeJumpPalette.matchLabel.issue": {
+   "group": "tech-term",
+   "en": "Issue"
+  },
+  "worktreeJumpPalette.matchLabel.mr": {
+   "group": "tech-term",
+   "en": "MR"
+  },
+  "worktreeJumpPalette.matchLabel.pr": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "wslDriveProject.label": {
+   "group": "proper-name",
+   "en": "Git"
+  },
+  "wslMove.orchestrator.blocker": {
+   "group": "format-only",
+   "en": "{{title}}. {{hint}}"
+  }
+ }
+}
