@@ -3,10 +3,10 @@
   "id": "vietnamese",
   "publisher": "minwan",
   "name": "Tiếng Việt cho Orca",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Gói giao diện tiếng Việt cho Orca.",
   "engines": {
-    "orca": ">=1.4.245"
+    "orca": ">=1.4.256"
   },
   "pluginApi": 1,
   "contributes": {

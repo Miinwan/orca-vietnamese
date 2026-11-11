@@ -5,9 +5,9 @@
 <br>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-da251d.svg)](LICENSE)
-[![Version 1.3.0](https://img.shields.io/badge/version-1.3.0-3a7bd5.svg)](CHANGELOG.md)
-[![Orca 1.4.245+](https://img.shields.io/badge/Orca-%E2%89%A51.4.245-1f1f1f.svg)](https://github.com/stablyai/orca)
-[![17,030 strings](https://img.shields.io/badge/translated-17%2C030%20strings-e6b800.svg)](#coverage)
+[![Version 1.4.0](https://img.shields.io/badge/version-1.4.0-3a7bd5.svg)](CHANGELOG.md)
+[![Orca 1.4.256+](https://img.shields.io/badge/Orca-%E2%89%A51.4.256-1f1f1f.svg)](https://github.com/stablyai/orca)
+[![17,443 strings](https://img.shields.io/badge/translated-17%2C443%20strings-e6b800.svg)](#coverage)
 
 **A Vietnamese language pack for [Orca](https://github.com/stablyai/orca), the app that runs several coding agents side by side.**
 
@@ -21,24 +21,24 @@ Tiếng Việt cho Orca puts the Orca interface into natural Vietnamese, in the 
 
 ## Coverage
 
-Built against the English catalog of Orca **1.4.245**, which has 18,316 strings.
+Built against the English catalog of Orca **1.4.256**, which has 19,624 strings.
 
 | Strings | Count | Share |
 | --- | ---: | ---: |
-| Translated | 17,030 | 92.98% |
-| Kept in English on purpose | 761 | 4.16% |
-| Protected by Orca | 525 | 2.87% |
+| Translated | 17,443 | 88.89% |
+| Kept in English on purpose | 792 | 4.04% |
+| Protected by Orca | 1,389 | 7.08% |
 | Missing | 0 | 0% |
 
-Strings kept in English are product names, glossary terms, URLs and examples, search keywords, commands and strings with nothing to translate. Each one has a reason in [`tools/keep-english.json`](tools/keep-english.json). Protected strings are the plugin install dialog and trust prompts, which Orca does not let a language pack replace.
+Strings kept in English are product names, glossary terms, URLs and examples, search keywords, commands and strings with nothing to translate. Each one has a reason in [`tools/keep-english.json`](tools/keep-english.json). Protected strings are trust prompts, security surfaces, destructive confirmations and native message boxes, which Orca does not let a language pack replace.
 
-Orca offers a language only when it covers at least 80% of the main catalog. This pack covers 99%. Strings added in a later Orca release appear in English until the pack catches up.
+Orca offers a language only when it covers at least 80% of the main catalog. This pack covers 99%, and 95% of everything a pack may translate. Strings added in a later Orca release appear in English until the pack catches up.
 
 ## Install
 
-Requires Orca 1.4.245 or newer.
+Requires Orca 1.4.256 or newer.
 
-1. Download `orca-vietnamese-1.3.0.zip` from the [latest release](https://github.com/Miinwan/orca-vietnamese/releases/latest) and unzip it, or clone the repository:
+1. Download `orca-vietnamese-1.4.0.zip` from the [latest release](https://github.com/Miinwan/orca-vietnamese/releases/latest) and unzip it, or clone the repository:
 
    ```sh
    git clone https://github.com/Miinwan/orca-vietnamese.git
@@ -56,7 +56,7 @@ Orca copies the plugin into its user data when you install it, so a new version 
 
 | Problem | What to do |
 | --- | --- |
-| **Tiếng Việt** is not in the Language list | Update Orca to 1.4.245 or newer. If an older version of the pack is installed, remove it and install this one. |
+| **Tiếng Việt** is not in the Language list | Update Orca to 1.4.256 or newer. If an older version of the pack is installed, remove it and install this one. |
 | Orca rejects the folder | Enter the full path to the folder that contains `orca-plugin.json`. |
 | Orca will not overwrite the plugin | Remove the old version under **Settings → Plugins**, then install again. |
 | The text did not change | Close and reopen the Settings window. |

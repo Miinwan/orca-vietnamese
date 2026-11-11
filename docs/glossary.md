@@ -1,6 +1,6 @@
 # Orca interface glossary
 
-Applies to Orca 1.4.245. Keep proper names, commands, paths, variable names, shortcuts and placeholders such as `{{name}}` unchanged. Capitalize the first letter of a label, not the whole sentence.
+Applies to Orca 1.4.256. Keep proper names, commands, paths, variable names, shortcuts and placeholders such as `{{name}}` unchanged. Capitalize the first letter of a label, not the whole sentence.
 
 | English | Vietnamese |
 | --- | --- |
