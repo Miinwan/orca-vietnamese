@@ -10,6 +10,10 @@
   "file-type": "File extensions and formats"
  },
  "keys": {
+  "accounts.antigravity.enterprise": {
+   "group": "proper-name",
+   "en": "Gemini Enterprise"
+  },
   "accounts.antigravity.keyword.agy": {
    "group": "search-keyword",
    "en": "agy"
@@ -18,6 +22,14 @@
    "group": "search-keyword",
    "en": "google"
   },
+  "accounts.antigravity.locationPlaceholder": {
+   "group": "url-path-example",
+   "en": "us-central1"
+  },
+  "accounts.antigravity.projectPlaceholder": {
+   "group": "url-path-example",
+   "en": "my-project-id"
+  },
   "accounts.antigravity.title": {
    "group": "proper-name",
    "en": "Antigravity"
@@ -25,6 +37,10 @@
   "aiVault.antigravity2ToCli": {
    "group": "tech-term",
    "en": "2.0 → CLI"
+  },
+  "aiVault.antigravityChatToCli": {
+   "group": "tech-term",
+   "en": "Chat → CLI"
   },
   "aiVault.antigravityIdeToCli": {
    "group": "tech-term",
@@ -366,6 +382,10 @@
    "group": "code-command",
    "en": ".pp-card[data-card=\"starter\"] .pp-cta"
   },
+  "auto.components.feature.wall.BrowserAnimatedVisual.1bec24acc1": {
+   "group": "code-command",
+   "en": "@keyframes browserFlash { 0% { opacity: 0; } 20% { opacity: 0.85; } 100% { opacity: 0; } } @keyframes browserTabIn { from { opacity: 0; transform: translateY(-2px); } to { opacity: 1; transform: none; } } @keyframes browserViewIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }"
+  },
   "auto.components.feature.wall.BrowserAnimatedVisual.6e4616d039": {
    "group": "proper-name",
    "en": "Claude"
@@ -393,6 +413,10 @@
   "auto.components.feature.wall.ConnectIntegrationsList.list_mid": {
    "group": "format-only",
    "en": ", "
+  },
+  "auto.components.feature.wall.EditorAnimatedVisual.e16479c1c5": {
+   "group": "code-command",
+   "en": "[data-slash-menu] [data-slash-row].slash-active { background: rgba(24,24,27,0.07); box-shadow: inset 0 0 0 1px rgba(24,24,27,0.06); } [data-md-active-line][data-role=\"active\"] { color: rgb(113 113 122); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; } [data-md-active-line][data-role=\"h1\"] { color: inherit; font-family: inherit; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; margin-top: 6px; } [data-md-caret] { display: inline-block; width: 1.5px; height: 1em; background: currentColor; vertical-align: -2px; margin-left: 1px; animation: md-caret-blink 1.05s steps(1) infinite; } @keyframes md-caret-blink { 0%, 50% { opacity: 1 } 51%, 100% { opacity: 0 } } @keyframes md-block-in { from { opacity: 0; transform: translateY(-2px); } to { opacity: 1; transform: none; } } @keyframes md-cursor-ripple { 0% { transform: scale(0.4); opacity: 0.9; } 100% { transform: scale(1.4); opacity: 0; } } [data-clicking=\"1\"] [data-cursor-ripple] { animation: md-cursor-ripple 460ms ease-out forwards; }"
   },
   "auto.components.feature.wall.ReviewNotesAnimatedVisual.09094f25e2": {
    "group": "proper-name",
@@ -510,25 +534,21 @@
    "group": "proper-name",
    "en": "Android"
   },
+  "auto.components.mobile.slides.HomeSlide.0c14dac908": {
+   "group": "format-only",
+   "en": "2m"
+  },
   "auto.components.mobile.slides.HomeSlide.19c212e25e": {
    "group": "proper-name",
    "en": "MacBook Pro"
-  },
-  "auto.components.mobile.slides.HomeSlide.25d6e8a491": {
-   "group": "url-path-example",
-   "en": "feat/mobile-page"
   },
   "auto.components.mobile.slides.HomeSlide.5d94e8ddcc": {
    "group": "proper-name",
    "en": "Orca"
   },
-  "auto.components.mobile.slides.HomeSlide.d047197480": {
+  "auto.components.mobile.slides.HomeSlide.b5308d5e2c": {
    "group": "proper-name",
-   "en": "GitHub · Linear"
-  },
-  "auto.components.mobile.slides.HomeSlide.d33d7a9c29": {
-   "group": "url-path-example",
-   "en": "orca  ·  feat/mobile-page"
+   "en": "M1 Mini"
   },
   "auto.components.mobile.slides.TerminalSlide.21b67dfc92": {
    "group": "proper-name",
@@ -649,6 +669,10 @@
   "auto.components.pet.pet.models.a84d5677ff": {
    "group": "proper-name",
    "en": "OpenCode"
+  },
+  "auto.components.plugins.pluginNameDisambiguation.nameWithPublisher": {
+   "group": "format-only",
+   "en": "{{value0}} ({{value1}})"
   },
   "auto.components.repo.NestedRepoScanLimitNotice.milliseconds": {
    "group": "format-only",
@@ -854,10 +878,6 @@
    "group": "format-only",
    "en": "\""
   },
-  "auto.components.settings.CliSection.c5c0f2641d": {
-   "group": "tech-term",
-   "en": "Orca CLI"
-  },
   "auto.components.settings.CommitMessageAiPane.02bab6542c": {
    "group": "search-keyword",
    "en": "pr"
@@ -897,10 +917,6 @@
   "auto.components.settings.GeneralEditorSettingsSection.a5db1d3975": {
    "group": "format-only",
    "en": "ms"
-  },
-  "auto.components.settings.GeneralWorkspaceSettingsSection.7511097c5d": {
-   "group": "tech-term",
-   "en": "Workspace"
   },
   "auto.components.settings.GitPane.2cde9044a8": {
    "group": "search-keyword",
@@ -961,10 +977,6 @@
   "auto.components.settings.OpenAiTranscriptionKeyDialog.c3380e4ca5": {
    "group": "url-path-example",
    "en": "sk-..."
-  },
-  "auto.components.settings.OrchestrationPane.heartbeatKeywordHeartbeat": {
-   "group": "search-keyword",
-   "en": "heartbeat"
   },
   "auto.components.settings.ProjectWindowsRuntimeSetting.windows": {
    "group": "proper-name",
@@ -1318,9 +1330,13 @@
    "group": "format-only",
    "en": "i18n"
   },
-  "auto.components.settings.appearance.search.leftSidebarAppearance.terminal": {
+  "auto.components.settings.appearance.search.meta": {
    "group": "search-keyword",
-   "en": "terminal"
+   "en": "meta"
+  },
+  "auto.components.settings.appearance.search.muse": {
+   "group": "search-keyword",
+   "en": "muse"
   },
   "auto.components.settings.appearance.search.showPinnedWorktreesInGroups.pr": {
    "group": "search-keyword",
@@ -1502,6 +1518,10 @@
    "group": "search-keyword",
    "en": "sox"
   },
+  "auto.components.settings.editorTypography.fontSizeUnit": {
+   "group": "format-only",
+   "en": "px"
+  },
   "auto.components.settings.ephemeralVms.search.keywordVm": {
    "group": "search-keyword",
    "en": "vm"
@@ -1515,22 +1535,6 @@
    "en": "kanban"
   },
   "auto.components.settings.experimental.search.agentHibernation.terminal": {
-   "group": "search-keyword",
-   "en": "terminal"
-  },
-  "auto.components.settings.experimental.search.nativeChat.grok": {
-   "group": "search-keyword",
-   "en": "grok"
-  },
-  "auto.components.settings.experimental.search.nativeChat.omp": {
-   "group": "search-keyword",
-   "en": "omp"
-  },
-  "auto.components.settings.experimental.search.nativeChat.openclaude": {
-   "group": "search-keyword",
-   "en": "openclaude"
-  },
-  "auto.components.settings.experimental.search.nativeChat.terminal": {
    "group": "search-keyword",
    "en": "terminal"
   },
@@ -2290,21 +2294,9 @@
    "group": "tech-term",
    "en": "Orca CLI"
   },
-  "auto.components.sidebar.WorktreeCardMeta.5e982e6128": {
-   "group": "tech-term",
-   "en": "Linear {{value0}}"
-  },
   "auto.components.sidebar.WorktreeCardMeta.cliHeader": {
    "group": "tech-term",
    "en": "Orca CLI"
-  },
-  "auto.components.sidebar.WorktreeCardMeta.e97d8f2876": {
-   "group": "tech-term",
-   "en": "Issue #{{value0}}"
-  },
-  "auto.components.sidebar.WorktreeCardMeta.jiraIssue": {
-   "group": "tech-term",
-   "en": "Jira {{value0}}"
   },
   "auto.components.sidebar.WorktreeCardStatusSlot.branchIdentity": {
    "group": "tech-term",
@@ -2762,6 +2754,14 @@
    "group": "tech-term",
    "en": "Agent"
   },
+  "components.automations.chat": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "components.automations.terminal": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
   "components.cmd-j.paletteSessionAge.days": {
    "group": "format-only",
    "en": "{{value0}}d"
@@ -2786,6 +2786,10 @@
    "group": "tech-term",
    "en": "{{count}} workflow"
   },
+  "components.native-chat.composer.optionValue.ultracode": {
+   "group": "proper-name",
+   "en": "Ultracode"
+  },
   "components.native-chat.composer.optionValueShort.minimal": {
    "group": "tech-term",
    "en": "Min"
@@ -2794,9 +2798,21 @@
    "group": "format-only",
    "en": "{{value0}} {{value1}}"
   },
+  "components.native-chat.composer.planMode": {
+   "group": "tech-term",
+   "en": "Plan"
+  },
+  "components.native-chat.composerWorkspace.worktree": {
+   "group": "tech-term",
+   "en": "Worktree"
+  },
   "components.native-chat.providerFrame.byteCount_one": {
    "group": "tech-term",
    "en": "{{count}} byte"
+  },
+  "components.native-chat.sideChat.argumentHint": {
+   "group": "code-command",
+   "en": "<question>"
   },
   "components.native-chat.tool.milliseconds": {
    "group": "format-only",
@@ -2806,9 +2822,65 @@
    "group": "format-only",
    "en": ", "
   },
+  "components.onboarding.agentSurface.terminal.label": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
   "components.onboarding.flow.stepTooltip.windowsTerminal": {
    "group": "tech-term",
    "en": "Windows Terminal"
+  },
+  "components.onboarding.theme.looks.orcaDark": {
+   "group": "proper-name",
+   "en": "Orca Dark"
+  },
+  "components.onboarding.theme.looks.orcaLight": {
+   "group": "proper-name",
+   "en": "Orca Light"
+  },
+  "components.orchestrationCrew.openFailed": {
+   "group": "format-only",
+   "en": "{{name}}: {{detail}}"
+  },
+  "components.orchestrationCrew.workers_one": {
+   "group": "tech-term",
+   "en": "{{count}} worker"
+  },
+  "components.settings.nativeChat.ciResultLinesSearchPr": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "components.settings.nativeChat.openedPullRequestsSearchPr": {
+   "group": "tech-term",
+   "en": "PR"
+  },
+  "components.settings.terminal.claudeCodeThemeSync.claude": {
+   "group": "search-keyword",
+   "en": "claude"
+  },
+  "components.settings.voice.openAiCompatible.baseUrlPlaceholder": {
+   "group": "url-path-example",
+   "en": "https://api.groq.com/openai/v1"
+  },
+  "components.settings.voice.openAiCompatible.modelPlaceholder": {
+   "group": "proper-name",
+   "en": "whisper-large-v3-turbo"
+  },
+  "components.settings.voice.vocabulary.heardAsChip": {
+   "group": "format-only",
+   "en": "← {{heardAs}}"
+  },
+  "components.settings.voice.vocabulary.repo": {
+   "group": "format-only",
+   "en": "{{repo}} · {{total}}"
+  },
+  "components.tabGroup.splitPaneLanding.markdown": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "components.tabGroup.splitPaneLanding.terminal": {
+   "group": "tech-term",
+   "en": "Terminal"
   },
   "components.workspace.cleanup.browse.chip.branchQuery": {
    "group": "tech-term",
@@ -2870,6 +2942,10 @@
    "group": "proper-name",
    "en": "Linear"
   },
+  "components.workspace.cleanup.browse.workspaceCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} workspace"
+  },
   "components.workspace.cleanup.presentation.githubPullRequestNumber": {
    "group": "tech-term",
    "en": "PR #{{value0}}"
@@ -2893,6 +2969,22 @@
   "featureWall.tiles.tile09.title": {
    "group": "proper-name",
    "en": "Orca CLI"
+  },
+  "gitGraph.cherryPick": {
+   "group": "tech-term",
+   "en": "Cherry-pick"
+  },
+  "gitGraph.confirmCommitAction": {
+   "group": "format-only",
+   "en": "{{action}} {{commit}}?"
+  },
+  "gitGraph.revert": {
+   "group": "tech-term",
+   "en": "Revert"
+  },
+  "gitGraph.title": {
+   "group": "proper-name",
+   "en": "Git Graph"
   },
   "notifications.workspaceFallback": {
    "group": "tech-term",
@@ -2926,9 +3018,17 @@
    "group": "tech-term",
    "en": "CLI"
   },
+  "settings.agents.defaultSurfaceTerminal": {
+   "group": "tech-term",
+   "en": "Terminal"
+  },
   "settings.appearance.chat.pixels": {
    "group": "format-only",
    "en": "px"
+  },
+  "settings.appearance.editorTheme.keyword.monaco": {
+   "group": "search-keyword",
+   "en": "monaco"
   },
   "settings.appearance.language.chineseTraditional": {
    "group": "proper-name",
@@ -2950,9 +3050,25 @@
    "group": "proper-name",
    "en": "Türkçe"
   },
+  "settings.appearance.reduceVisualEffects.keywords.gpu": {
+   "group": "search-keyword",
+   "en": "gpu"
+  },
   "settings.browser.extensions.sourceWebStore": {
    "group": "proper-name",
    "en": "Chrome Web Store"
+  },
+  "settings.browser.passwords.httpSuffix": {
+   "group": "format-only",
+   "en": " · http"
+  },
+  "settings.browser.passwords.searchKeywords.csv": {
+   "group": "search-keyword",
+   "en": "csv"
+  },
+  "settings.browser.passwords.searchKeywords.touchId": {
+   "group": "search-keyword",
+   "en": "touch id"
   },
   "settings.browser.profileScope.worktreeProfileLabel": {
    "group": "tech-term",
@@ -2966,6 +3082,18 @@
    "group": "tech-term",
    "en": "terminal"
   },
+  "settings.general.about.version": {
+   "group": "proper-name",
+   "en": "Orca {{version}}"
+  },
+  "settings.general.editorGroups.markdown": {
+   "group": "tech-term",
+   "en": "Markdown"
+  },
+  "settings.general.openInMenu.keyword.antigravity": {
+   "group": "search-keyword",
+   "en": "antigravity"
+  },
   "settings.general.openInMenu.keyword.devin": {
    "group": "search-keyword",
    "en": "devin"
@@ -2978,13 +3106,41 @@
    "group": "search-keyword",
    "en": "windsurf"
   },
+  "settings.general.search.keywords.artifact": {
+   "group": "search-keyword",
+   "en": "artifact"
+  },
+  "settings.general.search.keywords.claude": {
+   "group": "proper-name",
+   "en": "Claude"
+  },
+  "settings.general.search.keywords.diff": {
+   "group": "search-keyword",
+   "en": "diff"
+  },
+  "settings.general.search.keywords.gsd": {
+   "group": "proper-name",
+   "en": "GSD"
+  },
+  "settings.general.search.keywords.markdown": {
+   "group": "tech-term",
+   "en": "markdown"
+  },
   "settings.mcp.workspace": {
    "group": "tech-term",
    "en": "Workspace"
   },
+  "settings.openInApp.preset.antigravityIde": {
+   "group": "proper-name",
+   "en": "Antigravity IDE"
+  },
   "settings.openInApp.preset.devinDesktop": {
    "group": "proper-name",
    "en": "Devin Desktop"
+  },
+  "settings.repositoryFormatter.placeholder": {
+   "group": "code-command",
+   "en": "npx --no-install prettier --stdin-filepath \"${file}\""
   },
   "settings.terminal.limit.search.pty": {
    "group": "search-keyword",
@@ -2993,6 +3149,10 @@
   "settings.terminal.windows.keywordUac": {
    "group": "search-keyword",
    "en": "uac"
+  },
+  "settings.windowMaterial.keywords.acrylic": {
+   "group": "search-keyword",
+   "en": "acrylic"
   },
   "sidebar.agentSummary.agentIdentityState": {
    "group": "format-only",
