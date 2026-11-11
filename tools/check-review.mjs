@@ -23,10 +23,11 @@ function flatten(o, prefix = '', out = {}) {
   return out
 }
 
-const en = flatten(JSON.parse(fs.readFileSync(path.join(root, 'sources', 'en-1.4.245.json'), 'utf8')))
+const en = flatten(JSON.parse(fs.readFileSync(path.join(root, 'sources', 'en-1.4.256.json'), 'utf8')))
 const keepPath = path.join(root, 'tools', 'keep-english.json')
 const keepEnglish = fs.existsSync(keepPath) ? JSON.parse(fs.readFileSync(keepPath, 'utf8')).keys ?? {} : {}
-const ph = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][a-zA-Z0-9_]*\}/g
+// Single braces also cover shortcut placeholders such as {terminal.splitRight}
+const ph = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][\w.]*\}/g
 const protectedToken = /`[^`]+`|https?:\/\/[^\s)]+|\/[a-z][\w-]*(?:\s|$)|<\/?[a-z][^>]*>/gi
 const keepTerms = [
   /\bOrca\b/i, /\bClaude\b/i, /\bCodex\b/i, /\bGemini\b/i,

@@ -22,7 +22,7 @@ def flatten(obj, prefix="", out=None):
     return out
 
 
-en = flatten(json.loads((root / "sources/en-1.4.245.json").read_text()))
+en = flatten(json.loads((root / "sources/en-1.4.256.json").read_text()))
 vi = flatten(json.loads((root / "locales/vi.json").read_text()))
 overrides = json.loads((root / "tools/overrides.json").read_text())
 

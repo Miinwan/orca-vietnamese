@@ -2,7 +2,7 @@
 
 ## Orca
 
-The English catalogs in `sources/en-*.json` are taken from [Orca](https://github.com/stablyai/orca). `locales/vi.json` is a translation of those catalogs. Orca is distributed under the MIT License:
+The English catalogs in `sources/en-*.json` are taken from [Orca](https://github.com/stablyai/orca). `locales/vi.json` is a translation of those catalogs. `tools/protected-copy-keys.json` is copied from the Orca app. Orca is distributed under the MIT License:
 
 ```text
 MIT License

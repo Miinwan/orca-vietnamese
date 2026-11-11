@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const enPath = path.join(root, 'sources', 'en-1.4.245.json')
+const enPath = path.join(root, 'sources', 'en-1.4.256.json')
 const draftPath = process.argv[2] || path.join(root, 'sources', 'vi-draft.json')
 const outPath = path.join(root, 'locales', 'vi.json')
 const overridesPath = path.join(root, 'tools', 'overrides.json')
@@ -120,7 +120,8 @@ function normalize(source, target) {
   return text
 }
 
-const ph = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][a-zA-Z0-9_]*\}/g
+// Single braces also cover shortcut placeholders such as {terminal.splitRight}
+const ph = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][\w.]*\}/g
 const protectedToken = /`[^`]+`|https?:\/\/[^\s)]+|\/[a-z][\w-]*(?:\s|$)|<\/?[a-z][^>]*>/gi
 function tokens(text) { return [...text.matchAll(protectedToken)].map(x => x[0].trim()).sort() }
 const keepTerms = [
@@ -131,6 +132,9 @@ const keepTerms = [
   /\brebase\b/i, /\borigin\b/i, /\bstag(?:e|ed|ing)\b/i,
   /\bcheckout\b/i
 ]
+// Orca 1.4.256 rejects control and bidi characters and text longer than 4x the English (at least 64)
+const forbidden = /[\x00-\x09\x0b-\x1f\x7f-\x9f\u2028\u2029\ufeff]|\p{Bidi_Control}/u
+const lengthLimit = english => Math.min(8192, Math.max(64, 4 * english.length))
 function lostTerm(source, target) {
   return keepTerms.some(pattern => pattern.test(source) && !pattern.test(target))
 }
@@ -162,7 +166,7 @@ for (const [key, original] of Object.entries(en)) {
   if (JSON.stringify(expected) !== JSON.stringify(actual) ||
       JSON.stringify(tokens(original)) !== JSON.stringify(tokens(text)) ||
       (original.match(/\n/g)?.length ?? 0) !== (text.match(/\n/g)?.length ?? 0) ||
-      lostTerm(original, text) || text.length > 8192) {
+      lostTerm(original, text) || forbidden.test(text) || text.length > lengthLimit(original)) {
     stats.invalid++; missing.push(key); continue
   }
   if (text === original) {
@@ -176,7 +180,7 @@ const nested = {}
 for (const [key, value] of Object.entries(entries)) setPath(nested, key, value)
 fs.mkdirSync(path.dirname(outPath), { recursive: true })
 fs.writeFileSync(outPath, JSON.stringify(nested, null, 2) + '\n')
-fs.writeFileSync(path.join(root, 'sources', 'missing-1.4.245.txt'), missing.join('\n') + '\n')
+fs.writeFileSync(path.join(root, 'sources', 'missing-1.4.256.txt'), missing.join('\n') + '\n')
 const pct = (a, b) => (a / b * 100).toFixed(2) + '%'
 console.log(JSON.stringify({
   ...stats,
