@@ -7,9 +7,15 @@
   "format-only": "Only placeholders, numbers, units or symbols, nothing to translate",
   "search-keyword": "Settings search keywords kept so the English word still finds the setting",
   "code-command": "Commands, environment variables, CSS selectors and key names",
-  "file-type": "File extensions and formats"
+  "file-type": "File extensions and formats",
+  "plural-suffix": "Orca builds the English plural with a {{valueN}} suffix (\"s\"), which cannot read well in Vietnamese; needs a plural key upstream",
+  "checker-limit": "The build treats a slash word such as /size as a command, so a natural translation fails the token check; proposed text is in the O2 report"
  },
  "keys": {
+  "accounts.antigravity.agentPlatform": {
+   "group": "proper-name",
+   "en": "Google Agent Platform"
+  },
   "accounts.antigravity.enterprise": {
    "group": "proper-name",
    "en": "Gemini Enterprise"
@@ -22,6 +28,10 @@
    "group": "search-keyword",
    "en": "google"
   },
+  "accounts.antigravity.locationGlobal": {
+   "group": "url-path-example",
+   "en": "global"
+  },
   "accounts.antigravity.locationPlaceholder": {
    "group": "url-path-example",
    "en": "us-central1"
@@ -30,9 +40,65 @@
    "group": "url-path-example",
    "en": "my-project-id"
   },
+  "accounts.antigravity.runtime": {
+   "group": "tech-term",
+   "en": "Runtime"
+  },
   "accounts.antigravity.title": {
    "group": "proper-name",
    "en": "Antigravity"
+  },
+  "agentCliUpdate.claudeProduct": {
+   "group": "proper-name",
+   "en": "Claude Code"
+  },
+  "agentCliUpdate.codexProduct": {
+   "group": "proper-name",
+   "en": "Codex CLI"
+  },
+  "agentCliUpdate.copilotProduct": {
+   "group": "proper-name",
+   "en": "GitHub Copilot CLI"
+  },
+  "agentCliUpdate.copilotShortProduct": {
+   "group": "proper-name",
+   "en": "Copilot CLI"
+  },
+  "agentCliUpdate.cursorProduct": {
+   "group": "proper-name",
+   "en": "Cursor CLI"
+  },
+  "agentCliUpdate.grokProduct": {
+   "group": "proper-name",
+   "en": "Grok Build"
+  },
+  "agentCliUpdate.hermesProduct": {
+   "group": "proper-name",
+   "en": "Hermes Agent"
+  },
+  "agentCliUpdate.kimiProduct": {
+   "group": "proper-name",
+   "en": "Kimi Code"
+  },
+  "agentCliUpdate.ompProduct": {
+   "group": "proper-name",
+   "en": "OMP"
+  },
+  "agentCliUpdate.opencode2Product": {
+   "group": "proper-name",
+   "en": "OpenCode 2"
+  },
+  "agentCliUpdate.opencodeProduct": {
+   "group": "proper-name",
+   "en": "OpenCode"
+  },
+  "agentCliUpdate.versions": {
+   "group": "format-only",
+   "en": "{{installed}} → {{latest}}"
+  },
+  "agentPicker.chatTag": {
+   "group": "tech-term",
+   "en": "(Chat)"
   },
   "aiVault.antigravity2ToCli": {
    "group": "tech-term",
@@ -220,7 +286,7 @@
   },
   "auto.components.automations.AutomationRunHistory.a00e38d1a3": {
    "group": "format-only",
-   "en": "n/a"
+   "en": "—"
   },
   "auto.components.automations.ExternalAutomationManagers.5524365227": {
    "group": "proper-name",
@@ -232,7 +298,7 @@
   },
   "auto.components.automations.usage.costUnavailable": {
    "group": "format-only",
-   "en": "n/a"
+   "en": "—"
   },
   "auto.components.automations.usage.tokensAndCost_one": {
    "group": "tech-term",
@@ -362,6 +428,10 @@
    "group": "tech-term",
    "en": "{{name}} (diff)"
   },
+  "auto.components.editor.fileLoadError.fileNotFound": {
+   "group": "code-command",
+   "en": "ENOENT: no such file or directory, open {{path}}"
+  },
   "auto.components.feature.tips.CliFeatureTipVisual.badb4fc342": {
    "group": "format-only",
    "en": ">"
@@ -465,6 +535,10 @@
   "auto.components.feature.wall.review.animated.visual.shared.e7894927a2": {
    "group": "proper-name",
    "en": "Codex"
+  },
+  "auto.components.floating.terminal.FloatingTerminalIconContextMenu.a2fbd81c1b": {
+   "group": "checker-limit",
+   "en": "Reset position/size"
   },
   "auto.components.github.GitHubMarkdownComposer.f24783f470": {
    "group": "url-path-example",
@@ -2206,6 +2280,10 @@
    "group": "search-keyword",
    "en": "openai"
   },
+  "auto.components.settings.voice.pane.search.cleanupScratchKeyword": {
+   "group": "search-keyword",
+   "en": "scratch that"
+  },
   "auto.components.settings.voice.pane.search.micAirpods": {
    "group": "search-keyword",
    "en": "airpods"
@@ -2229,6 +2307,10 @@
   "auto.components.sidebar.AddRemoteHostDialog.sshHostPlaceholder": {
    "group": "url-path-example",
    "en": "deploy@server:22"
+  },
+  "auto.components.sidebar.AddRemoteHostDialog.sshImportSynced": {
+   "group": "plural-suffix",
+   "en": "Added {{value0}} host{{value1}} to Orca."
   },
   "auto.components.sidebar.AddRepoRemoteStep.6680289908": {
    "group": "url-path-example",
@@ -2710,6 +2792,10 @@
    "group": "proper-name",
    "en": "Qoder CLI"
   },
+  "auto.lib.local.file.manager.label.eb052ab0f6": {
+   "group": "proper-name",
+   "en": "Finder"
+  },
   "auto.lib.open.in.app.catalog.173553f73a": {
    "group": "proper-name",
    "en": "VS Code"
@@ -2717,6 +2803,14 @@
   "auto.lib.open.in.app.catalog.f8b8ca2711": {
    "group": "proper-name",
    "en": "Zed"
+  },
+  "auto.lib.workspacePortBrowserOpen.tooltip": {
+   "group": "format-only",
+   "en": "{{label}}. {{hint}}"
+  },
+  "auto.lib.worktreePaletteEvidence.mergeRequest": {
+   "group": "tech-term",
+   "en": "Merge request"
   },
   "auto.store.slices.store.test.helpers.b9a8117c33": {
    "group": "tech-term",
@@ -2729,6 +2823,146 @@
   "auto.web.web.runtime.environment.07f788de83": {
    "group": "tech-term",
    "en": "WebSocket"
+  },
+  "automations.botTarget.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "automations.botTarget.option": {
+   "group": "format-only",
+   "en": "Bot · {{name}}"
+  },
+  "bots.activity.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "bots.activity.branch": {
+   "group": "tech-term",
+   "en": "Branch"
+  },
+  "bots.activity.chat": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "bots.activity.worker": {
+   "group": "tech-term",
+   "en": "Worker"
+  },
+  "bots.activity.workspace": {
+   "group": "tech-term",
+   "en": "Workspace"
+  },
+  "bots.chat.mentionStateTitle": {
+   "group": "format-only",
+   "en": "{{name}}: {{why}}"
+  },
+  "bots.composio.card.heading": {
+   "group": "proper-name",
+   "en": "Composio"
+  },
+  "bots.connector.titleSeparator": {
+   "group": "format-only",
+   "en": " · "
+  },
+  "bots.github.account.title": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "bots.google.account": {
+   "group": "proper-name",
+   "en": "Google · {{email}}"
+  },
+  "bots.google.title": {
+   "group": "proper-name",
+   "en": "Google"
+  },
+  "bots.groups.items.filterBot": {
+   "group": "tech-term",
+   "en": "Bot"
+  },
+  "bots.groups.tabKey": {
+   "group": "code-command",
+   "en": "Tab"
+  },
+  "bots.import.rowDetail": {
+   "group": "format-only",
+   "en": "{{app}} {{kind}}"
+  },
+  "bots.items.activity.commentLabel": {
+   "group": "format-only",
+   "en": "{{name}}, {{time}}"
+  },
+  "bots.items.chat.chipLabel": {
+   "group": "format-only",
+   "en": "{{title}}, {{status}}"
+  },
+  "bots.items.chatFallback": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "bots.items.field.chat": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "bots.items.filter.chat": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "bots.items.link.issue": {
+   "group": "tech-term",
+   "en": "Issue #{{number}}"
+  },
+  "bots.items.link.pr": {
+   "group": "tech-term",
+   "en": "PR #{{number}}"
+  },
+  "bots.items.view.place": {
+   "group": "format-only",
+   "en": "{{index}} / {{total}}"
+  },
+  "bots.linear.account.title": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "bots.needs.actionFor": {
+   "group": "format-only",
+   "en": "{{action}}: {{title}}"
+  },
+  "bots.needs.worker": {
+   "group": "tech-term",
+   "en": "Worker: {{name}}"
+  },
+  "bots.new.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "bots.new.agentClaude": {
+   "group": "proper-name",
+   "en": "Claude Code"
+  },
+  "bots.share.receive.linkPlaceholder": {
+   "group": "url-path-example",
+   "en": "https://app.orca.dev/bots/share/…"
+  },
+  "bots.webhooks.calls.chat": {
+   "group": "tech-term",
+   "en": "Chat"
+  },
+  "bots.webhooks.card.title": {
+   "group": "tech-term",
+   "en": "Webhook"
+  },
+  "bots.webhooks.hookCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} hook"
+  },
+  "bots.webhooks.url": {
+   "group": "tech-term",
+   "en": "URL"
+  },
+  "bots.workspaces.botHeader": {
+   "group": "tech-term",
+   "en": "Bot"
   },
   "browser.history.enterKey": {
    "group": "code-command",
@@ -2778,6 +3012,46 @@
    "group": "format-only",
    "en": "<1m"
   },
+  "components.native-chat.approval.answerFailed": {
+   "group": "format-only",
+   "en": "{{name}}: {{detail}}"
+  },
+  "components.native-chat.automationRun.factsAt": {
+   "group": "format-only",
+   "en": "{{facts}} · {{time}}"
+  },
+  "components.native-chat.automationRun.github": {
+   "group": "proper-name",
+   "en": "GitHub"
+  },
+  "components.native-chat.automationRun.gmail": {
+   "group": "proper-name",
+   "en": "Gmail"
+  },
+  "components.native-chat.automationRun.linear": {
+   "group": "proper-name",
+   "en": "Linear"
+  },
+  "components.native-chat.automationRun.rowAccessibleName": {
+   "group": "format-only",
+   "en": "{{label}}: {{name}}. {{details}}"
+  },
+  "components.native-chat.automationRun.slack": {
+   "group": "proper-name",
+   "en": "Slack"
+  },
+  "components.native-chat.automationRun.webhook": {
+   "group": "tech-term",
+   "en": "Webhook"
+  },
+  "components.native-chat.automationRun.whatAt": {
+   "group": "format-only",
+   "en": "{{what}} · {{where}}"
+  },
+  "components.native-chat.automationSaved.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
   "components.native-chat.backgroundTasks.countShell_one": {
    "group": "tech-term",
    "en": "{{count}} shell"
@@ -2785,6 +3059,14 @@
   "components.native-chat.backgroundTasks.countWorkflows_one": {
    "group": "tech-term",
    "en": "{{count}} workflow"
+  },
+  "components.native-chat.composer.agentPillLabel": {
+   "group": "tech-term",
+   "en": "Agent: {{name}}"
+  },
+  "components.native-chat.composer.modelAndEffortValue": {
+   "group": "format-only",
+   "en": "{{model}} · {{effort}}"
   },
   "components.native-chat.composer.optionValue.ultracode": {
    "group": "proper-name",
@@ -2806,6 +3088,22 @@
    "group": "tech-term",
    "en": "Worktree"
   },
+  "components.native-chat.fork.accessibleName": {
+   "group": "tech-term",
+   "en": "Fork: {{name}}"
+  },
+  "components.native-chat.fork.mark": {
+   "group": "tech-term",
+   "en": "Fork ·"
+  },
+  "components.native-chat.fork.markedName": {
+   "group": "format-only",
+   "en": "{{mark}} {{name}}"
+  },
+  "components.native-chat.mcp.signIn.pastePlaceholder": {
+   "group": "url-path-example",
+   "en": "http://localhost:…"
+  },
   "components.native-chat.providerFrame.byteCount_one": {
    "group": "tech-term",
    "en": "{{count}} byte"
@@ -2821,6 +3119,10 @@
   "components.native-chat.tool.runListSeparator": {
    "group": "format-only",
    "en": ", "
+  },
+  "components.native-chat.usageLimitActions.srSummary": {
+   "group": "format-only",
+   "en": "{{sentence}} {{status}}"
   },
   "components.onboarding.agentSurface.terminal.label": {
    "group": "tech-term",
@@ -2874,6 +3176,10 @@
    "group": "format-only",
    "en": "{{repo}} · {{total}}"
   },
+  "components.settings.workspaceCleanup.keep.withDetail": {
+   "group": "format-only",
+   "en": "{{cause}} · {{detail}}"
+  },
   "components.tabGroup.splitPaneLanding.markdown": {
    "group": "tech-term",
    "en": "Markdown"
@@ -2881,6 +3187,10 @@
   "components.tabGroup.splitPaneLanding.terminal": {
    "group": "tech-term",
    "en": "Terminal"
+  },
+  "components.workspace.atRiskLocalFiles.namesWithCount": {
+   "group": "format-only",
+   "en": "{{names}} +{{value0}}"
   },
   "components.workspace.cleanup.browse.chip.branchQuery": {
    "group": "tech-term",
@@ -2954,6 +3264,30 @@
    "group": "tech-term",
    "en": "MR #{{value0}}"
   },
+  "editor.gitBlame.statusAriaLabel": {
+   "group": "tech-term",
+   "en": "Git blame: {{summary}}"
+  },
+  "editor.gitBlame.statusBarItem": {
+   "group": "tech-term",
+   "en": "Git Blame"
+  },
+  "featureTips.botsTeammate.product": {
+   "group": "proper-name",
+   "en": "Orca Bots"
+  },
+  "featureTips.botsTeammate.slackAppTag": {
+   "group": "url-path-example",
+   "en": "APP"
+  },
+  "featureTips.botsTeammate.slackChannel": {
+   "group": "url-path-example",
+   "en": "# mobile"
+  },
+  "featureTips.botsTeammate.slackPerson": {
+   "group": "url-path-example",
+   "en": "Jordan Lee"
+  },
   "featureTips.sessionSearch.ageMinutes": {
    "group": "format-only",
    "en": "12m"
@@ -2986,6 +3320,10 @@
    "group": "proper-name",
    "en": "Git Graph"
   },
+  "languages.systemResolved": {
+   "group": "format-only",
+   "en": "{{system}} ({{language}})"
+  },
   "notifications.workspaceFallback": {
    "group": "tech-term",
    "en": "workspace"
@@ -2993,6 +3331,10 @@
   "projectBoardCard.itemLabel": {
    "group": "format-only",
    "en": "{{number}} — {{title}}"
+  },
+  "resourceManager.owner.orca": {
+   "group": "proper-name",
+   "en": "Orca"
   },
   "resourceManager.pty.binding": {
    "group": "tech-term",
@@ -3054,6 +3396,34 @@
    "group": "search-keyword",
    "en": "gpu"
   },
+  "settings.appearance.statusBar.gitBlameKeywordBlame": {
+   "group": "search-keyword",
+   "en": "blame"
+  },
+  "settings.appearance.statusBar.gitBlameKeywordCommit": {
+   "group": "search-keyword",
+   "en": "commit"
+  },
+  "settings.appearance.statusBar.gitBlameTitle": {
+   "group": "tech-term",
+   "en": "Git blame"
+  },
+  "settings.bots.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "settings.bots.memoryHistory.chat": {
+   "group": "tech-term",
+   "en": "Chat \"{{title}}\""
+  },
+  "settings.bots.tools.details.commandPlaceholder": {
+   "group": "code-command",
+   "en": "npx"
+  },
+  "settings.bots.tools.details.urlPlaceholder": {
+   "group": "url-path-example",
+   "en": "https://example.com/mcp"
+  },
   "settings.browser.extensions.sourceWebStore": {
    "group": "proper-name",
    "en": "Chrome Web Store"
@@ -3082,6 +3452,14 @@
    "group": "tech-term",
    "en": "terminal"
   },
+  "settings.editorEndOfLine.crlf": {
+   "group": "code-command",
+   "en": "CRLF"
+  },
+  "settings.editorEndOfLine.lf": {
+   "group": "code-command",
+   "en": "LF"
+  },
   "settings.general.about.version": {
    "group": "proper-name",
    "en": "Orca {{version}}"
@@ -3089,6 +3467,10 @@
   "settings.general.editorGroups.markdown": {
    "group": "tech-term",
    "en": "Markdown"
+  },
+  "settings.general.inlineBlameKeywordBlame": {
+   "group": "search-keyword",
+   "en": "blame"
   },
   "settings.general.openInMenu.keyword.antigravity": {
    "group": "search-keyword",
@@ -3149,6 +3531,10 @@
   "settings.terminal.windows.keywordUac": {
    "group": "search-keyword",
    "en": "uac"
+  },
+  "settings.uninstall.host.ssh": {
+   "group": "tech-term",
+   "en": "SSH"
   },
   "settings.windowMaterial.keywords.acrylic": {
    "group": "search-keyword",

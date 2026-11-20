@@ -1038,7 +1038,6 @@
  "auto.components.settings.AgentsPane.cfb3f35775": "Tham số",
  "auto.components.settings.AgentsPane.codexSessionSource": "Thư mục Codex nguồn để nhập",
  "auto.components.settings.AgentsPane.codexSessionSourceInfo": "Giới thiệu nhập lịch sử Codex",
- "auto.components.settings.AgentsPane.codexSessionSourceTooltip": "Orca chạy Codex trong thư mục riêng. Trỏ đến thư mục Codex hiện có để nhập lịch sử phiên. Để trống sẽ dùng ~/.codex.",
  "auto.components.settings.AgentsPane.d4d2a45d63": "Đã bật",
  "auto.components.settings.AgentsPane.d83834f5e6": "Đang tìm Agent đã cài…",
  "auto.components.settings.AgentsPane.dc4a2ffdc0": "Mở rộng phần ghi đè lệnh",
