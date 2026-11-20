@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-11-21
+
+### Added
+
+- Translations for the strings added or changed in Orca 1.4.266, including Bots (setup, who can ask, webhooks, connectors, import and automations), native chat, Workspace Cleanup, voice cleanup, uninstall, Antigravity accounts, agent CLI updates and the new sidebar items.
+
+### Changed
+
+- The pack now requires Orca 1.4.266 or newer.
+- Protected keys follow the protected copy list of Orca 1.4.266, which adds the bot access prompts.
+- Coverage is 20,744 of 23,650 strings, with 870 kept in English on purpose, 2,036 protected by Orca and none missing.
+
+### Removed
+
+- Translations for the 423 strings Orca 1.4.266 no longer uses.
+
 ## [1.4.0] - 2026-11-11
 
 ### Added
@@ -52,6 +68,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release of the language pack, built against Orca 1.4.230.
 
-[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/Miinwan/orca-vietnamese/releases/tag/v1.3.0
