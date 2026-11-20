@@ -23,7 +23,7 @@ function flatten(o, prefix = '', out = {}) {
   return out
 }
 
-const en = flatten(JSON.parse(fs.readFileSync(path.join(root, 'sources', 'en-1.4.256.json'), 'utf8')))
+const en = flatten(JSON.parse(fs.readFileSync(path.join(root, 'sources', 'en-1.4.266.json'), 'utf8')))
 const keepPath = path.join(root, 'tools', 'keep-english.json')
 const keepEnglish = fs.existsSync(keepPath) ? JSON.parse(fs.readFileSync(keepPath, 'utf8')).keys ?? {} : {}
 // Single braces also cover shortcut placeholders such as {terminal.splitRight}

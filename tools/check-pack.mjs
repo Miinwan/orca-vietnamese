@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.256.json')))
+const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.266.json')))
 const catalogPath = path.join(root, 'locales/vi.json')
 const raw = fs.readFileSync(catalogPath)
 if (raw.byteLength > 5 * 1024 * 1024) throw new Error('Catalog is larger than 5 MB')
@@ -25,7 +25,7 @@ if (displayName !== undefined &&
 let entries = 0
 let translated = 0
 const placeholder = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][\w.]*\}/g
-// String rules from shared/plugins/languages/plugin-translation-string-policy.js in Orca 1.4.256
+// String rules from shared/plugins/languages/plugin-translation-string-policy.js in Orca 1.4.266 (unchanged since 1.4.256)
 const forbidden = /[\x00-\x09\x0b-\x1f\x7f-\x9f\u2028\u2029\ufeff]|\p{Bidi_Control}/u
 const lengthLimit = english => Math.min(8192, Math.max(64, 4 * english.length))
 function walk(current, source, prefix = '', depth = 0) {
@@ -57,6 +57,6 @@ function walk(current, source, prefix = '', depth = 0) {
   }
 }
 walk(vi, en)
-// Orca 1.4.256 allows at most 50,000 entries, nested nodes included
+// Orca 1.4.266 allows at most 50,000 entries, nested nodes included
 if (entries > 50000) throw new Error(`More than 50,000 entries: ${entries}`)
 console.log(JSON.stringify({ translated, catalogEntries: entries, maxEntries: 50000, displayName: displayName ?? null }, null, 2))

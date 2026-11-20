@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const enPath = path.join(root, 'sources', 'en-1.4.256.json')
+const enPath = path.join(root, 'sources', 'en-1.4.266.json')
 const draftPath = process.argv[2] || path.join(root, 'sources', 'vi-draft.json')
 const outPath = path.join(root, 'locales', 'vi.json')
 const overridesPath = path.join(root, 'tools', 'overrides.json')
