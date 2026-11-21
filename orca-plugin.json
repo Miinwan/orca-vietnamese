@@ -1,14 +1,17 @@
 {
-  "manifestVersion": 1,
+  "manifestVersion": 2,
   "id": "vietnamese",
-  "publisher": "minwan",
   "name": "Tiếng Việt cho Orca",
   "version": "1.5.0",
   "description": "Gói giao diện tiếng Việt cho Orca.",
+  "license": "MIT",
+  "author": {
+    "name": "Minwan"
+  },
   "engines": {
     "orca": ">=1.4.266"
   },
-  "pluginApi": 1,
+  "execution": "data",
   "contributes": {
     "languagePacks": [
       {
@@ -17,6 +20,5 @@
         "path": "locales/vi.json"
       }
     ]
-  },
-  "capabilities": []
+  }
 }
