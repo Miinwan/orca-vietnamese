@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.1] - 2026-11-21
+
+### Changed
+
+- The manifest uses format 2 and no longer sets a publisher, so Orca takes it from the GitHub owner and the pack can be listed in the Orca community catalog.
+
 ## [1.5.0] - 2026-11-21
 
 ### Added
@@ -68,7 +74,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release of the language pack, built against Orca 1.4.230.
 
-[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/Miinwan/orca-vietnamese/releases/tag/v1.3.0
