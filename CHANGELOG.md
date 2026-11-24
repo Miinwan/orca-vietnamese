@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-11-24
+
+### Added
+
+- Translations for the strings Orca 1.4.272 shows from its main process: the new Bot templates, their skills and schedules, Bot failure and tool sign-in messages, group attachments, Bot notices, app connector lines and chat deletion.
+- `check-pack.mjs` reports coverage the way Orca counts it, for the main process catalog and the full catalog, and fails when the main process catalog is under the 80% Orca needs to offer the pack. `tools/main-catalog-keys.mjs` reads that catalog from an Orca install.
+
+### Changed
+
+- The pack now requires Orca 1.4.272 or newer.
+- Protected keys follow the protected copy list of Orca 1.4.272.
+- Coverage is 21,013 of 24,700 strings, with 884 kept in English on purpose, 2,182 protected by Orca and 621 not translated yet. The main process catalog is 98% covered.
+
+### Fixed
+
+- Tiếng Việt showed as unavailable in Orca 1.4.272, because the pack covered only 53% of the main process catalog.
+
+### Removed
+
+- Translations for the 113 strings Orca 1.4.272 no longer uses.
+
 ## [1.5.1] - 2026-11-21
 
 ### Changed
@@ -74,7 +95,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release of the language pack, built against Orca 1.4.230.
 
-[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.3.0...v1.4.0
