@@ -572,7 +572,6 @@
  "bots.agentSwitch.description": "Chat chính của {{name}} bắt đầu lại từ đầu trên {{agent}}. Cuộc trò chuyện hiện tại vẫn nằm trong lịch sử.",
  "bots.agentSwitch.kept": "Giữ lại: tính cách, bộ nhớ, tự động hóa, kết nối",
  "bots.agentSwitch.notKept": "Không giữ: cuộc trò chuyện hiện tại",
- "bots.agentSwitch.threads": "Các luồng Slack đang chạy vẫn dùng {{agent}} cho tới khi xong",
  "bots.agentSwitch.title": "Chuyển {{name}} sang {{agent}}?",
  "bots.apps.accessNotAllowed": "Chưa được cấp quyền truy cập.",
  "bots.apps.addByUrl": "Thêm bằng URL",

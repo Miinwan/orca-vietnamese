@@ -2944,6 +2944,62 @@
    "group": "url-path-example",
    "en": "https://app.orca.dev/bots/share/…"
   },
+  "bots.templateSkills.bugReproduction": {
+   "group": "proper-name",
+   "en": "bug-reproduction"
+  },
+  "bots.templateSkills.ciFailureTriage": {
+   "group": "proper-name",
+   "en": "ci-failure-triage"
+  },
+  "bots.templateSkills.dependencyUpgrade": {
+   "group": "proper-name",
+   "en": "dependency-upgrade"
+  },
+  "bots.templateSkills.feedbackThemes": {
+   "group": "proper-name",
+   "en": "feedback-themes"
+  },
+  "bots.templateSkills.incidentTimeline": {
+   "group": "proper-name",
+   "en": "incident-timeline"
+  },
+  "bots.templateSkills.issueTriage": {
+   "group": "proper-name",
+   "en": "issue-triage"
+  },
+  "bots.templateSkills.nameWithFolder": {
+   "group": "format-only",
+   "en": "{{name}} ({{folder}})"
+  },
+  "bots.templateSkills.prReviewChecklist": {
+   "group": "proper-name",
+   "en": "pr-review-checklist"
+  },
+  "bots.templateSkills.releaseNotesStyle": {
+   "group": "proper-name",
+   "en": "release-notes-style"
+  },
+  "bots.templateSkills.releaseReadiness": {
+   "group": "proper-name",
+   "en": "release-readiness"
+  },
+  "bots.templateSkills.securityChecklist": {
+   "group": "proper-name",
+   "en": "security-checklist"
+  },
+  "bots.templateSkills.specFormat": {
+   "group": "proper-name",
+   "en": "spec-format"
+  },
+  "bots.templateSkills.statusBrief": {
+   "group": "proper-name",
+   "en": "status-brief"
+  },
+  "bots.templateSkills.workspaceHygiene": {
+   "group": "proper-name",
+   "en": "workspace-hygiene"
+  },
   "bots.webhooks.calls.chat": {
    "group": "tech-term",
    "en": "Chat"
@@ -3327,6 +3383,18 @@
   "notifications.workspaceFallback": {
    "group": "tech-term",
    "en": "workspace"
+  },
+  "plugins.displayText.tb0b38488": {
+   "group": "proper-name",
+   "en": "GitHub Themes for Orca"
+  },
+  "plugins.displayText.tb8aa98fc": {
+   "group": "proper-name",
+   "en": "VS Code Default Themes for Orca"
+  },
+  "plugins.displayText.tfc425a57": {
+   "group": "proper-name",
+   "en": "Multipass VM Recipes"
   },
   "projectBoardCard.itemLabel": {
    "group": "format-only",

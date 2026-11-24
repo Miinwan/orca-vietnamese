@@ -1147,7 +1147,6 @@
  "auto.components.settings.serverList.throughSsh": "Qua {{host}} → cổng {{port}}",
  "auto.components.settings.serverList.unreachableHint": "Kiểm tra Orca có đang chạy trên máy chủ và máy này có truy cập được địa chỉ của nó không.",
  "auto.components.settings.serverList.unreachableLead": "Orca không kết nối được máy chủ này.",
- "auto.components.settings.serverList.updateAll": "Cập nhật tất cả ({{count}})",
  "auto.components.settings.serverList.updateAvailable": "Đã có v{{version}}",
  "auto.components.settings.serverList.updateFailedLead": "Lần cập nhật trước chưa xong.",
  "auto.components.settings.serverList.updateMenu": "Cập nhật…",

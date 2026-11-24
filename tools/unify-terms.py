@@ -37,6 +37,7 @@ PREFERRED = {
     "AI Provider Accounts": "Tài khoản AI",
     "Give agents Orca skills": "Cấp skill Orca cho Agent",
     "Later": "Để sau",
+    "Share setup": "Chia sẻ thiết lập",
     "Setup": "Thiết lập",
     "Checklist": "Danh sách kiểm tra",
     "Body text": "Văn bản thường",

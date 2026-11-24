@@ -813,7 +813,6 @@
       },
       "userAgent": {
         "title": "Danh tính trình duyệt",
-        "description": "Chọn user-agent cho mọi hồ sơ và trang. Khởi động lại để áp dụng.",
         "remoteUnsupported": "Quản lý danh tính trình duyệt trên máy chủ từ xa bằng Orca CLI.",
         "loading": "Đang tải…",
         "resetRequired": "Cần đặt lại dữ liệu danh tính trước khi thay đổi.",
@@ -911,8 +910,6 @@
       }
     },
     "agents": {
-      "installedRegion": "Agent đã cài",
-      "availableRegion": "Agent có thể cài",
       "permissionsTitle": "Quyền truy cập",
       "permissionsChoiceExplanation": "Những việc mọi Agent được làm mà không cần hỏi. Có thể đặt riêng cho từng Agent bên dưới.",
       "permissionEachOwn": "Cài đặt riêng của từng Agent",
@@ -949,8 +946,6 @@
       "customArgsBadge": "Tùy chỉnh",
       "customArgsTooltip": "Dùng tham số khởi chạy riêng.",
       "editRowPermissions": "Quyền của {{agent}}: {{mode}}",
-      "rowPermissions": "Quyền truy cập",
-      "rowPermissionsLabel": "Quyền của {{agent}}",
       "customPermissions": "Tham số tùy chỉnh",
       "replaceWithPermissionMode": "Thay bằng {{mode}}",
       "permissionArgsTerminalOnly": "Các tham số này có thể điều khiển quyền terminal của {{agent}} nên Orca không thêm cờ nào. Cuộc trò chuyện dùng lựa chọn Quyền truy cập ở trên.",
@@ -958,15 +953,9 @@
       "localSaveFailedAgent": "Không lưu được cài đặt {{agent}}. Thử lại.",
       "permissionFromArgs": "{{agent}} đặt thành {{mode}} trong terminal và cuộc trò chuyện mới.",
       "permissionFromArgsTerminals": "{{agent}} đặt thành {{mode}} trong terminal.",
-      "permissionOwnAgent": "Dùng cài đặt riêng của {{agent}}",
-      "permissionOwnAll": "Cài đặt riêng của Agent",
-      "permissionOwnLegacyDescription": "Orca không thêm cờ quyền nào trong terminal; cuộc trò chuyện dùng Cài đặt → Cuộc trò chuyện.",
-      "permissionOwnDescription": "Terminal và cuộc trò chuyện theo cài đặt quyền riêng của Agent.",
       "permissionOwnShort": "Cài đặt riêng",
       "permissionWithoutAuto": "Agent không có Duyệt thay tôi",
       "permissionMixed": "Hỗn hợp",
-      "permissionSurfaceDifference": "Terminal dùng cài đặt riêng của Agent; cuộc trò chuyện mới dùng {{mode}}.",
-      "permissionSameAsAll": "Giống mọi Agent",
       "choiceChipRemove": "Xóa {{flag}}",
       "choiceChipTooltip": "Do {{choice}} thêm vào. Xóa để dùng mặc định.",
       "permissionChipRemove": "Xóa {{flag}} và dùng cài đặt riêng của {{agent}}",
@@ -1264,7 +1253,6 @@
       "permissions": "Quyền truy cập",
       "permissionsDescription": "Quyền ban đầu cho phiên mới. Mọi thao tác vượt quá sẽ được hỏi trong phiên.",
       "active": "Đang hoạt động",
-      "activeDescription": "Trả lời tin nhắn và chạy tự động hóa.",
       "memoryFact": "Bộ nhớ",
       "cancel": "Hủy",
       "save": "Lưu",
@@ -1351,7 +1339,6 @@
       "connectorRequests_other": "{{count}} yêu cầu",
       "connectorOnlyYou": "Chỉ bạn",
       "memorySource": "Từ {{source}}",
-      "memorySourceLink": "liên kết",
       "lookAround": {
         "firstLook": "Lần rà soát đầu: {{time}}",
         "notArmed": "Lần rà soát đầu tiên diễn ra vài giờ sau cuộc trò chuyện đầu tiên.",
@@ -1425,7 +1412,6 @@
         "missing": "Dự án này không còn trong Orca.",
         "notYet": "Chưa khả dụng",
         "none": "Dự án này chưa có kỹ năng nào. Chạy bước thiết lập của dự án để thêm kỹ năng; chúng sẽ nạp trong chat tiếp theo của {{bot}}.",
-        "more": "và {{count}} mục khác",
         "openFolder": "Mở thư mục",
         "noneShort": "Không có kỹ năng",
         "link": "Liên kết dự án",
@@ -1671,8 +1657,7 @@
       "saveFailed": "Không lưu được cài đặt cập nhật tự động.",
       "title": "Cập nhật tự động",
       "description": "Trên các bản cài đặt máy tính được hỗ trợ, Orca tải các bản cập nhật phù hợp theo lịch kiểm tra định kỳ và tự khởi động lại để cài.",
-      "info": "Về cập nhật tự động",
-      "installingStatus": "đang được cài đặt."
+      "info": "Về cập nhật tự động"
     }
   },
   "menu": {
@@ -2914,8 +2899,8 @@
         "e30a5470c9": "Cuộc trò chuyện",
         "3fdf777817": "Mở trên GitHub",
         "c43fe79ee0": "Sao chép liên kết GitHub",
-        "0caac1a18f": "Bắt đầu workspace từ PR",
-        "0ab4664a8b": "Bắt đầu workspace từ issue",
+        "0caac1a18f": "Bắt đầu workspace",
+        "0ab4664a8b": "Bắt đầu workspace",
         "36182aa57f": "Bắt đầu workspace mới",
         "fe6ff12dc2": "Các hành động workspace về issue khác",
         "726db41722": "Mở workspace",
@@ -3278,7 +3263,7 @@
         "someoneUpdatedIssue": "Có người đã cập nhật issue · {{time}}"
       },
       "LinearItemDrawer": {
-        "04008e6c46": "Bắt đầu workspace từ issue",
+        "04008e6c46": "Bắt đầu workspace",
         "a4fcc57522": "Chưa có bình luận.",
         "fde849b2b6": "Bình luận",
         "9dc54172db": "Đóng · Esc",
@@ -3427,7 +3412,7 @@
         "161d91ef02": "Gửi bình luận",
         "d2030fc8cd": "Thêm bình luận…",
         "1208347ac0": "Không thể thêm bình luận",
-        "61452f2143": "Bắt đầu workspace từ issue",
+        "61452f2143": "Bắt đầu workspace",
         "14c9fc70ed": "+ Người nhận",
         "bc215fea4d": "+ Nhãn",
         "b936cc51a4": "Đã đóng",
@@ -3944,7 +3929,7 @@
         "05ad78a6d1": "Orca v{{value0}} đã sẵn sàng.",
         "318d3b4bc7": "Bỏ qua bản cập nhật",
         "9abc59f814": "Có bản cập nhật",
-        "aad383aecc": "Đọc toàn bộ ghi chú phát hành",
+        "aad383aecc": "Ghi chú phát hành",
         "b1d867f4fb": "Các phiên terminal của bạn sẽ không bị gián đoạn trong quá trình cập nhật.",
         "09a55c39b5": "Đang cài…",
         "ea2a41adbe": "Bạn đang dùng bản mới nhất.",
@@ -5351,7 +5336,7 @@
             "09960d86bd": "Đã quét",
             "eee5240810": "Đã xóa workspace",
             "9afc97f9a3": "Đã xóa workspace",
-            "792a214457": "Xóa workspace",
+            "792a214457": "Xóa",
             "a998501630": "Buộc",
             "9155381019": "Một phần",
             "f39d291997": "Chọn",
@@ -5553,13 +5538,8 @@
           "resource": {
             "memory": {
               "metric": {
-                "workingSetDescription": "Tổng bộ nhớ hoạt động (WS): các trang hiện trong RAM. Trang dùng chung có thể được tính ở nhiều tiến trình; phần Windows đã chuyển ra đĩa không được tính.",
-                "privateBytesDescription": "Tổng byte riêng: bộ nhớ các tiến trình đã commit, gồm phần đang ở RAM hoặc đã chuyển ra đĩa. Lượng này tính vào giới hạn commit của máy chủ, nên có thể tăng dù mức RAM sử dụng giảm.",
-                "footprintDescription": "Tổng bộ nhớ sử dụng, cùng con số Activity Monitor hiển thị: bộ nhớ mỗi tiến trình sở hữu, kể cả bộ nhớ đồ họa. Trang dùng chung giữa các tiến trình không bị tính hai lần.",
-                "rssDescription": "Tổng bộ nhớ thường trú (RSS). Trang bộ nhớ dùng chung có thể được tính ở nhiều tiến trình.",
                 "memColumn": "Bộ nhớ",
-                "memorySummary": "Σ Bộ nhớ",
-                "privateSummary": "Σ Riêng"
+                "memorySummary": "Σ Bộ nhớ"
               }
             },
             "manager": {
@@ -6431,7 +6411,6 @@
         },
         "skillPlanOpCopy": {
           "busy": "Một lượt cài khác vẫn đang chạy",
-          "edited": "Kỹ năng đã bị sửa ngoài Orca",
           "install": "Cài đặt",
           "installFor": "Cài cho {{value0}}",
           "installed": "Đã cài đặt",
@@ -6606,14 +6585,12 @@
           "cloneFolderNotEmpty": "\"{{value0}}\" đã có trong thư mục này nên bản clone cần thư mục riêng."
         },
         "AutoRenameFailedDialog": {
-          "dismissing": "Đang bỏ qua…",
           "aed1623b1e": "Đóng",
           "eab8b45238": "Sao chép lỗi",
           "a23b22d16f": "Đã sao chép",
           "74fc00776f": "Chi tiết lỗi",
           "ca3b225195": "Không tự đặt được tên branch",
           "couldNotGenerateBranchName": "Orca không tạo được tên branch cho <name>{{name}}</name> từ tin nhắn đầu tiên gửi Agent.",
-          "dismiss": "Bỏ qua",
           "tryAgain": "Thử lại",
           "namingBranch": "Đang đặt tên branch…",
           "errorDetailsAt": "Chi tiết lỗi · {{time}}",
@@ -7679,7 +7656,6 @@
           "running": "Đang chạy",
           "stopped": "Đã dừng",
           "title": "Thêm bản phân phối WSL",
-          "description": "Orca chạy máy chủ ngay trong bản phân phối WSL, nên Git, tệp và terminal hoạt động trực tiếp trên Linux. Hãy dùng cách này cho dự án mới; các dự án đã mở qua \\\\wsl.localhost vẫn hoạt động bình thường.",
           "distro": "Bản phân phối",
           "loading": "Đang tìm bản phân phối WSL…",
           "placeholder": "Chọn bản phân phối",
@@ -8513,21 +8489,14 @@
         },
         "GeneralUpdateSettingsSection": {
           "8a52ca1d02": "Ghi chú phát hành",
-          "d89806cc89": "sẵn sàng cài đặt.",
-          "a6b37929dc": "Phiên bản",
-          "8311da27ba": "đã có.",
           "02dc082e70": "Không tải được bản cập nhật.",
           "ceb579abaf": "Kiểm tra cập nhật ứng dụng và cài phiên bản Orca mới.",
           "bd79d412f0": "Kiểm tra cập nhật thất bại. {{value0}}",
           "b9ad70c30d": "Lỗi cập nhật. {{value0}}",
-          "2a48034c4c": "Đang tải v{{value0}}... {{value1}}%",
           "f40d88390d": "Bạn đang dùng phiên bản mới nhất.",
           "31fd7150cf": "Đang kiểm tra cập nhật...",
           "d69a09b672": "Tự kiểm tra cập nhật khi mở ứng dụng.",
-          "e3b9d21c07": "đã có. Cập nhật Orca qua trình quản lý gói hệ thống; Orca không thể tự cài bản này.",
-          "6d27bd46e3": "Kiểm tra cập nhật",
-          "857ca887da": "Tải bản cập nhật (",
-          "c0a8f827c7": "Khởi động lại để cập nhật ("
+          "6d27bd46e3": "Kiểm tra cập nhật"
         },
         "GeneralWorkspaceSettingsSection": {
           "3d538a98f7": "Chọn ứng dụng trong menu Mở bằng của workspace.",
@@ -9229,7 +9198,7 @@
           "connect": "Kết nối",
           "runtimeReachable": "Kết nối được {{value0}}.",
           "updateServer": "Cập nhật",
-          "updatingServers": "Đang cập nhật máy chủ…",
+          "updatingServers": "Đang cập nhật…",
           "sshTunnelRequired": "Cần SSH tunnel",
           "accessRevoked": "{{value0}} không còn cho máy này kết nối. Ghép đôi lại bằng liên kết mới.",
           "managedAccessRevoked": "{{value0}} không còn chấp nhận máy này và Orca không ghép nối lại được qua SSH. Kết nối để thử lại.",
@@ -11913,7 +11882,7 @@
           "anywhereDescription": "Điện thoại có thể dùng dữ liệu di động hoặc Wi‑Fi bất kỳ. Chỉ Relay cần đăng nhập.",
           "relayUnavailable": "Orca Relay không có trong bản này. Hãy dùng LAN.",
           "signIn": "Đăng nhập để dùng Relay",
-          "signInAgain": "Đăng nhập lại để dùng Relay",
+          "signInAgain": "Đăng nhập lại",
           "localDescription": "Điện thoại phải dùng Wi‑Fi này hoặc kết nối qua Tailscale. Không cần tài khoản.",
           "retrying": "Đang thử lại",
           "relayCell": "Qua Relay",
@@ -11970,14 +11939,14 @@
           "updating": "Đang cập nhật máy chủ…",
           "serverCountOne": "1 máy chủ đã ghép",
           "fdd271abf0": "Máy chủ Orca từ xa",
-          "e4e5937469": "Kiểm tra cập nhật máy chủ",
+          "e4e5937469": "Kiểm tra cập nhật",
           "newerCount": "{{value0}} mới hơn ứng dụng này"
         },
         "RemoteServerUpdateDialog": {
           "versionUnavailable": "Không có phiên bản",
           "restartingHelp": "Đang chờ máy chủ mới kết nối lại với phiên bản mới.",
           "retry": "Thử lại",
-          "update": "Cập nhật máy chủ này",
+          "update": "Cập nhật máy chủ",
           "description": "Xem máy chủ đã ghép đôi và cập nhật bản cài được hỗ trợ từ Orca này.",
           "restartWarning": "Cập nhật sẽ khởi động lại các máy chủ này. {{value0}} và {{value1}} có thể mất kết nối trong giây lát.",
           "checking": "Đang kiểm tra máy chủ đã ghép…",
@@ -12189,9 +12158,6 @@
           "title": "Kênh phát hành",
           "description": "Đổi kênh cập nhật hoặc chuyển sang bản dựng đã phát hành, kể cả bản cũ. Có thể hạ cấp; bản chưa kiểm thử có thể lỗi.",
           "devOnly": "Chỉ bản dev",
-          "channelAriaLabel": "Kênh cập nhật",
-          "hourlyWarning": "Bản dựng hằng giờ lấy trực tiếp từ main, chưa qua kiểm thử; bản Windows chưa được ký. Hãy giữ bản ổn định.",
-          "dailyWarning": "Bản dựng hằng ngày lấy trực tiếp từ main, chưa qua kiểm thử; bản Windows chưa được ký. Hãy giữ bản ổn định.",
           "adhocWarning": "Bản adhoc lấy từ branch chưa hợp nhất; bản Windows chưa được ký. Bản này có thể bị bỏ dở, nên hãy giữ một bản ổn định.",
           "loadingBuilds": "Đang tải bản dựng…",
           "noBuilds": "Không tìm thấy bản dựng",
@@ -12201,9 +12167,9 @@
           "alreadyRunning": "Bạn đang dùng bản này.",
           "webUnavailable": "Chỉ đổi bản dựng trong ứng dụng trên máy.",
           "devChannelUnsupportedAria": "{{value0}} (chỉ {{value1}})",
-          "devChannelUnsupported": "Bản {{value0}} chỉ có cho {{value1}}. Linux chỉ dùng Stable hoặc RC.",
+          "devChannelUnsupported": "Bản {{value0}} chỉ có cho {{value1}}. Linux chỉ dùng {{stable}} hoặc {{rc}}.",
           "downloadInstaller": "Tải bộ cài",
-          "manualInstallHint": "Bản {{value0}} trên Windows chưa được ký nên không thể cài đè bản đã ký qua trình cập nhật trong ứng dụng. Chạy trình cài tải về một lần; Windows sẽ cảnh báo nhà phát hành không rõ. Sau đó có thể đổi bản tại đây, kể cả về Stable."
+          "manualInstallHint": "Bản {{value0}} trên Windows chưa được ký nên không thể cài đè bản đã ký qua trình cập nhật trong ứng dụng. Chạy trình cài tải về một lần; Windows sẽ cảnh báo nhà phát hành không rõ. Sau đó có thể đổi bản tại đây, kể cả về {{stable}}."
         },
         "VoiceMicrophoneSetting": {
           "systemDefault": "Mặc định hệ thống",
@@ -12849,12 +12815,11 @@
           "thisComputer": "Máy tính này",
           "defaultHostHelp": "Dự án hiện có vẫn ở nguyên chỗ.",
           "defaultHostWebHelp": "Trình duyệt này mở dự án mới trên máy chủ đã chọn.",
-          "updateAll": "Cập nhật tất cả ({{count}})",
+          "updateAll": "Cập nhật tất cả",
           "addServer": "Thêm máy chủ",
           "moreWaysToAdd": "Thêm cách khác để thêm máy chủ",
           "pasteAccessLink": "Dán liên kết truy cập",
           "checkForUpdates": "Kiểm tra cập nhật",
-          "emptyDescription": "Ghép nối máy dev, máy trên đám mây hoặc máy tính ở nhà. Phiên vẫn chạy ở đó khi máy này ngủ.",
           "movePaused": "Đã tạm dừng chuyển",
           "shareTitle": "Chia sẻ máy này",
           "done": "Hoàn tất",
@@ -12929,7 +12894,6 @@
           "attentionUnwritable": "Cần xử lý · Orca không ghi được vào {{folder}}",
           "attentionBusy": "Cần xử lý · Một lượt cài kỹ năng khác vẫn đang hoàn tất ở đây",
           "attentionUnreadable": "Cần xử lý · Orca không đọc được hết tệp trong bản này",
-          "attentionEdited": "Cần xử lý · Bản này đã bị sửa",
           "attentionOther": "Cần xử lý · Một kỹ năng khác đã dùng tên này",
           "attentionSharedNotCurrent": "Cần xử lý · Bản dùng chung của thư mục này không phải của Orca",
           "resultUpdateSkippedPlaces": "{{result}} · Bỏ qua cập nhật ở {{places}} chỗ: {{reason}}",
@@ -15587,7 +15551,6 @@
           },
           "useEmulatorScreenKeyboard": {
             "pasteTooLarge": "Dán quá lớn để nhập bàn phím giả lập.",
-            "unsupportedPasteText": "Trình sao chép bàn phím trình giả lập chỉ hỗ trợ văn bản bàn phím Mỹ.",
             "pasteTargetUnavailable": "Lệnh dán bàn phím trình giả lập không thành công vì thiết bị chưa sẵn sàng."
           }
         }
@@ -16787,8 +16750,6 @@
             "27d863542c": "Chú thích trình duyệt",
             "e48569ac6d": "Trang web này không thể truy cập được.",
             "bbe8f15e83": "Ô này do máy chạy hiện tại hiển thị.",
-            "8b7e6d1f5a": "Chú thích trình duyệt chỉ có sẵn trong các tab trình duyệt cục bộ.",
-            "deb5293610": "Không thể chú thích trình duyệt trên runtime từ xa",
             "90d021f2ad": "Thêm",
             "0cb3bd6221": "Ý định chú thích",
             "532bac48c5": "Mô tả thay đổi Agent cần làm tại đây…",
@@ -17080,7 +17041,6 @@
         },
         "AutomationRunHistory": {
           "402651bfb6": "Chưa có lượt chạy.",
-          "13988187b3": "Token",
           "86a248187e": "Chi phí",
           "8faaa00726": "Chạy",
           "historyUnavailable": "Lịch sử lượt chạy không khả dụng từ máy chủ này. Điều này không có nghĩa là quá trình tự động hóa đã thất bại hoặc không có lần chạy nào."
@@ -17146,7 +17106,6 @@
           "missingWorkspace": "Thiếu workspace",
           "usageUnavailable": "Không có dữ liệu sử dụng",
           "noRunUsageYet": "Chưa có dữ liệu sử dụng",
-          "noWorkspace": "Chưa có workspace",
           "latestSavedOutput": "Đầu ra đã lưu mới nhất",
           "fullOutputUnavailable": "Không tải được toàn bộ đầu ra.",
           "retryFullOutput": "Thử lại",
@@ -17402,7 +17361,6 @@
           "failed7d": "Lỗi · 7d",
           "automation": "Tự động hóa",
           "triggered": "Đã kích hoạt",
-          "trigger": "Kích hoạt",
           "loading": "Đang tải lượt chạy…",
           "noRuns": "Chưa có lượt chạy",
           "emptyDescription": "Các tác vụ chạy xuất hiện ở đây sau khi một quy trình tự động được kích hoạt.",
@@ -17522,7 +17480,6 @@
           "needsCredentials": "{{host}} cần thông tin đăng nhập để kết nối lại, nên lượt chạy này chưa bắt đầu.",
           "signIn": "Đăng nhập {{host}}",
           "output": "Đầu ra",
-          "details": "Chi tiết",
           "runNumber": "Lượt chạy #{{number}}",
           "runFailed": "Lượt chạy thất bại.",
           "scheduledAt": "Đã lên lịch {{time}}",
@@ -17627,9 +17584,6 @@
           "hideOtherClients": "Ẩn Agent từ client khác"
         },
         "ActivityThreadHoverCard": {
-          "pathCopied": "Đã sao chép đường dẫn",
-          "copyPathFailed": "Không chép được đường dẫn",
-          "copyPath": "Sao chép đường dẫn",
           "jumpToWorkspace": "Chuyển đến workspace"
         },
         "ActivityThreadRow": {
@@ -18417,11 +18371,10 @@
         "stoppedRestart_one": "{{count}} chat đã dừng khi Orca đóng.",
         "stoppedRestart_other": "{{count}} chat đã dừng khi Orca đóng.",
         "promptsNotResent": "Tiếp tục sẽ không gửi lại prompt.",
-        "promptsNotSent": "Prompt chưa được gửi lại.",
         "resume": "Tiếp tục",
         "details": "Chi tiết",
         "close": "Đóng",
-        "listLabel": "Chat",
+        "listLabel": "Agent",
         "untitled": "Chat chưa đặt tên",
         "willAsk": "Orca sẽ yêu cầu các chat tiếp tục. Tin nhắn trong hàng đợi có thể được gửi.",
         "asked": "Orca đã yêu cầu các chat tiếp tục. Tin nhắn trong hàng đợi có thể được gửi.",
@@ -18993,7 +18946,6 @@
         "placeholder": "Hỏi bất cứ điều gì, @ để nhắc tới tệp, / để gọi lệnh",
         "loadingFiles": "Đang tải tệp...",
         "noFiles": "Không có tệp khớp",
-        "noMembers": "Không có bot nào khớp",
         "filesLoadFailed": "Không thể tải tệp",
         "attach": "Đính kèm tệp",
         "startDictation": "Bắt đầu đọc chính tả",
@@ -19078,19 +19030,6 @@
         "attachmentOwnerChanged": "Workspace đổi máy chủ khi đang đính kèm — hãy thả tệp lại.",
         "attachmentUnreadable": "Không đọc được tệp đã thả.",
         "tooManyAttachments": "Mỗi lần đính kèm tối đa {{value0}} tệp.",
-        "permissions": "Quyền truy cập",
-        "permissionAsk": "Hỏi trước khi làm",
-        "permissionAskDescription": "Hỏi trước khi sửa hoặc chạy lệnh ngoài quyền cài đặt",
-        "permissionAskSharedDescription": "Hỏi trước thao tác sửa hoặc lệnh chưa được phép",
-        "permissionAcceptEdits": "Chấp nhận thay đổi",
-        "permissionAcceptEditsDescription": "Cho phép sửa tệp và lệnh trên tệp; hỏi với phần còn lại",
-        "permissionAcceptEditsAntigravityDescription": "Cho phép sửa tệp; hỏi với phần còn lại",
-        "permissionAuto": "Duyệt thay tôi",
-        "permissionAutoDescription": "Xem yêu cầu phê duyệt thay bạn",
-        "permissionFullAccess": "Toàn quyền",
-        "permissionFullAccessDescription": "Không hỏi trước khi sửa hoặc chạy lệnh",
-        "permissionFullAccessCodexDescription": "Không hỏi; có thể sửa mọi tệp và dùng mạng",
-        "permissionFullAccessSharedDescription": "Không hỏi trước khi sửa hoặc chạy lệnh",
         "pasteFailed": "Dán thất bại.",
         "tooManySkills": "Tin nhắn chưa được gửi tới {{agent}}. Chỉ giữ tối đa {{limit}} tệp kỹ năng đã chọn rồi thử lại.",
         "commandAttachmentsUnsupported": "Gỡ tệp đính kèm trước khi dùng lệnh trong phiên trò chuyện.",
@@ -19364,10 +19303,6 @@
         "questionCount": "{{value0}} câu hỏi"
       },
       "approval": {
-        "reasonSentAsMessage": "Lý do, gửi dưới dạng tin nhắn",
-        "answerNotApplied": "{{name}}: câu trả lời không đến được yêu cầu này",
-        "answerWorkerEnded": "{{name}} đã kết thúc, nên yêu cầu này đã đóng",
-        "countdown": "Claude sẽ tự từ chối sau {{time}} nếu không ai trả lời.",
         "record": {
           "showLess": "Thu gọn",
           "showMore": "Xem thêm",
@@ -19376,19 +19311,6 @@
           "youAllowedForSession": "Bạn đã cho phép <tool>{{tool}}</tool> trong phiên này",
           "youDenied": "Bạn đã từ chối <tool>{{tool}}</tool>",
           "youAnswered": "Bạn đã trả lời <tool>{{tool}}</tool>: {{answer}}",
-          "youAllowedFor": "Bạn đã cho phép <tool>{{tool}}</tool> cho <task>{{task}}</task>",
-          "youDeniedFor": "Bạn đã từ chối <tool>{{tool}}</tool> cho <task>{{task}}</task>",
-          "coordinatorAllowed": "Agent điều phối đã cho phép <tool>{{tool}}</tool> cho <task>{{task}}</task>",
-          "coordinatorDenied": "Agent điều phối đã từ chối <tool>{{tool}}</tool> cho <task>{{task}}</task>",
-          "allowedInTerminal": "Đã cho phép <tool>{{tool}}</tool> cho <task>{{task}}</task> trong terminal của nó",
-          "deniedInTerminal": "Đã từ chối <tool>{{tool}}</tool> cho <task>{{task}}</task> trong terminal của nó",
-          "allowedInChat": "Đã cho phép <tool>{{tool}}</tool> cho <task>{{task}}</task> trong chat của nó",
-          "deniedInChat": "Đã từ chối <tool>{{tool}}</tool> cho <task>{{task}}</task> trong chat của nó",
-          "autoDenied": "Tự động từ chối <tool>{{tool}}</tool> cho <task>{{task}}</task> sau 2:00",
-          "waitsInTerminal": "<tool>{{tool}}</tool> cho <task>{{task}}</task> đang chờ trong terminal của nó",
-          "workerEnded": "<tool>{{tool}}</tool> cho <task>{{task}}</task> đã đóng: worker đã kết thúc",
-          "closedUnnamed": "<tool>{{tool}}</tool> cho <task>{{task}}</task> đã đóng mà không có câu trả lời được ghi lại",
-          "coordinatorReason": "Lý do của Agent điều phối",
           "coordinatorAllowedHere": "Agent điều phối đã cho phép <tool>{{tool}}</tool>",
           "coordinatorDeniedHere": "Agent điều phối đã từ chối <tool>{{tool}}</tool>",
           "allowedUnnamed": "Đã cho phép <tool>{{tool}}</tool>",
@@ -19548,7 +19470,6 @@
         "steerHint": "Gửi ngay, Agent vẫn tiếp tục làm việc",
         "sendHint": "Gửi tin nhắn ngay",
         "delete": "Xóa",
-        "moreActions": "Thao tác khác",
         "moveChanged": "Hàng đợi đã thay đổi trước thao tác này. Thử kéo tin nhắn lại.",
         "reorderHint": "Kéo để sắp xếp lại, hoặc dùng phím mũi tên Lên và Xuống.",
         "reorderMessage": "Sắp xếp lại tin nhắn",
@@ -19558,7 +19479,6 @@
         "listLabel": "Tin nhắn đang chờ",
         "alreadySent": "Tin nhắn đã gửi rồi.",
         "withdrawnHold": "Đã dừng trước khi gửi",
-        "pausedSendFailed": "Không gửi được — nhấn Gửi để thử lại.",
         "paused": "Đã tạm dừng",
         "resume": "Tiếp tục",
         "fromSender": "Từ",
@@ -19573,8 +19493,6 @@
         "editGonePrompt": "Tin nhắn đã gửi hoặc xóa. Bản sửa sẽ vào ô cuộc trò chuyện sau khi bạn trả lời Agent.",
         "imageCount_one": "{{count}} ảnh",
         "imageCount_other": "{{count}} ảnh",
-        "collapse": "Thu gọn",
-        "expand": "Mở rộng",
         "queued": "Đang chờ",
         "clearAll": "Xóa tất cả",
         "editReturned": "Bản sửa đã nằm trong ô chat.",
@@ -19804,6 +19722,7 @@
         "stopUnconfirmed": "Orca không xác nhận được worker đã dừng."
       },
       "connectorAsker": {
+        "anApp": "Một ứng dụng",
         "directMessage": "Tin nhắn riêng {{source}}",
         "earlierMessages": "{{count}} tin nhắn trước đó trong luồng",
         "earlierMessages_one": "{{count}} tin nhắn trước đó trong luồng",
@@ -19832,7 +19751,7 @@
         "loading": "Đang tải",
         "deleted": "Tự động hóa này đã bị xóa",
         "loadFailed": "Không đọc được tự động hóa này",
-        "openFullPage": "Mở toàn trang",
+        "openFullPage": "Mở trang",
         "onAgent": "trên {{name}}"
       },
       "botContext": {
@@ -19845,7 +19764,6 @@
       },
       "connectorOffer": {
         "connected": "Đã kết nối",
-        "connect": "Kết nối",
         "connectedIn": "Đã kết nối ở {{places}}",
         "addOrg": "Thêm tổ chức",
         "addWorkspace": "Thêm workspace",
@@ -19854,7 +19772,6 @@
       },
       "toolAdded": {
         "removed": "Đã xóa",
-        "heading": "Đã thêm công cụ",
         "remove": "Xóa",
         "added": "Đã thêm"
       },
@@ -19926,7 +19843,6 @@
         "copyFailed": "Không thể sao chép",
         "copyIdentity": "Sao chép {{value0}}",
         "detachedCommit": "Commit {{head}} (không phải branch)",
-        "folder": "Thư mục",
         "mainCheckout": "Checkout chính",
         "turnWorking": "Agent của chat này đang làm việc. Đổi branch sau khi lượt của Agent kết thúc."
       },
@@ -19953,7 +19869,6 @@
         "changed": "Chuyển sang, có thay đổi",
         "already": "Đã có ở đây",
         "stays": "Ở lại {{app}}",
-        "heading": "Kế hoạch nhập",
         "fromAgain": "Từ {{app}}, lần nữa",
         "from": "Từ {{app}}",
         "selected": "Đã chọn {{chosen}}/{{total}} · không bao giờ sao chép khóa và đăng nhập",
@@ -20319,9 +20234,6 @@
     },
     "workspace": {
       "cleanup": {
-        "presentationFixtures": {
-          "reviewAlphaCleanup": "Xem lại bản dọn dẹp thử nghiệm"
-        },
         "browse": {
           "noSizes": "Chưa đo dung lượng workspace.",
           "noSizesDescription": "Dung lượng hiện sau khi đo mức sử dụng ổ đĩa.",
@@ -20951,7 +20863,6 @@
           "unsavedEditorChanges": "Thay đổi chưa lưu",
           "uncommittedChanges": "Thay đổi chưa commit",
           "unpushedCommits": "Commit chưa push",
-          "ignoredFiles": "Tệp Git bỏ qua",
           "gitUnknown": "Không đọc được trạng thái Git",
           "archiveUnavailable": "Không lưu trữ được",
           "archiveScript": "Có script lưu trữ",
@@ -21133,7 +21044,6 @@
       "cancelFailed": "Không hủy cài đặt được. Thử lại.",
       "install": "Cài đặt {{agent}}",
       "installManaged": "Cài bản Orca",
-      "installed": "Đã cài đặt",
       "installedByOrca": "Do Orca cài · {{version}}",
       "notInstalled": "Chưa cài đặt.",
       "progress": "Đang tải {{agent}}",
@@ -21194,14 +21104,10 @@
       "copyAddress": "Sao chép địa chỉ",
       "showDetails": "Hiện tác vụ và tin nhắn mới nhất của {{name}}",
       "task": "Tác vụ",
-      "asksYou": "Đang hỏi",
       "chatUnavailable": "Máy này không mở được chat. Thử lại.",
       "terminalExited": "Terminal này đã thoát.",
       "openOnHost": "Mở Agent này trên {{host}}.",
-      "cannotLocate": "Máy này không tìm thấy Agent này. Thử lại.",
-      "latest": "Mới nhất",
-      "to": "Đến",
-      "from": "Từ"
+      "cannotLocate": "Máy này không tìm thấy Agent này. Thử lại."
     },
     "orchestration": {
       "workerAutoClose": {
@@ -21209,8 +21115,7 @@
         "finished": "Worker điều phối tạm thời đã xong · Đóng sau {{countdown}}",
         "keepOpen": "Giữ mở",
         "bannerRunning": "Worker điều phối · Đóng 2 phút sau khi xong",
-        "bannerFinished": "Worker điều phối đã xong · Đóng sau {{countdown}}",
-        "temporaryBadge": "Tạm thời"
+        "bannerFinished": "Worker điều phối đã xong · Đóng sau {{countdown}}"
       }
     },
     "bots": {
@@ -22297,7 +22202,7 @@
       "apiKeySave": "Lưu",
       "apiKeyReplace": "Thay khóa",
       "apiKeyRemove": "Xóa",
-      "apiKeyGet": "Lấy khóa từ Google AI Studio",
+      "apiKeyGet": "Lấy khóa API",
       "location": "Vị trí",
       "enterpriseFieldsShort": "Nhập dự án và vị trí.",
       "chatUseMethod": "Đăng nhập lại để dùng {{method}}",
@@ -22397,6 +22302,9 @@
         "description": "Dùng đăng nhập Claude Code để kiểm tra mức sử dụng, tín dụng và tài khoản không hoạt động. Tắt để chỉ dùng số đọc trực tiếp từ terminal.",
         "about": "Về kiểm tra mức sử dụng Claude"
       }
+    },
+    "codex": {
+      "usageSignInLabel": "Đã đăng xuất"
     },
     "hostSignIn": {
       "copied": "Đã sao chép",
@@ -23127,11 +23035,9 @@
     "restartLocal": "Khởi động lại daemon cục bộ",
     "killAllLocal": "Dừng mọi phiên cục bộ",
     "killFailed": "Không dừng được terminal. Vẫn giữ các phiên quan sát được lần cuối.",
-    "metricDetails": "Chi tiết chỉ số",
     "owner": {
       "agents": "Agent",
       "otherTerminals": "Terminal khác",
-      "description": "Orca là ứng dụng. Agent là các terminal đang chạy Agent; Terminal khác là phần còn lại chạy trong Orca. Thanh hiển thị phần bộ nhớ mỗi nhóm chiếm trong tổng bộ nhớ chung.",
       "privateBytes": "Bộ nhớ đã cấp cho Orca và terminal"
     }
   },
@@ -23656,7 +23562,7 @@
       "approved": "Đã duyệt thiết lập. Các lượt chạy sau của tự động hóa này sẽ chạy thiết lập.",
       "skippedSinceApproved": "Lượt này không chạy thiết lập vì lệnh thiết lập orca.yaml trong branch đã đổi. Các lệnh đó đã được duyệt sau đó, nên các lượt sau sẽ chạy.",
       "skippedReview": "Thiết lập không chạy: branch của lượt chạy này có lệnh thiết lập orca.yaml khác với lệnh đã duyệt cho tự động hóa này. Xem lại để chạy thiết lập ở các lượt sau.",
-      "reviewAction": "Xem lại và duyệt thiết lập",
+      "reviewAction": "Xem lại thiết lập",
       "listSkipped": "Đã bỏ qua thiết lập",
       "listSkippedTitle": "Lượt chạy gần nhất bỏ qua thiết lập vì lệnh thiết lập orca.yaml trong branch đã đổi. Xem lại trong menu thao tác."
     },
@@ -24097,7 +24003,6 @@
       "hostReconnect": "Kết nối lại",
       "hostReconnecting": "Đang kết nối lại…",
       "hostUpdateAction": "Cập nhật",
-      "description": "Đồng đội AI có tên, bộ nhớ và tự động hóa. Bot nằm trong một thư mục trên một máy.",
       "picture": "Ảnh",
       "previousPicture": "Ảnh trước",
       "nextPicture": "Ảnh tiếp theo",
@@ -24123,8 +24028,6 @@
       "computer": "Máy",
       "computerHint": "Nơi bot chạy.",
       "computerAccountHint": "Nơi bot chạy, đăng nhập Orca bằng {{account}}.",
-      "useChatDefaults": "Dùng mặc định của chat",
-      "usingChatDefault": "Đang dùng mặc định của chat. Lượt chạy nền dùng cài đặt Agent.",
       "folder": "Thư mục: {{path}}",
       "cancel": "Hủy",
       "openFailed": "Đã tạo {{name}} nhưng chưa mở được.",
@@ -24133,9 +24036,7 @@
       "reports": "Báo cáo",
       "takesOver": "Tiếp quản",
       "agentsKeepRunning": "Các Agent vẫn tiếp tục chạy.",
-      "fromTemplate": "Tạo từ mẫu",
       "uploadDropOrPaste": "<upload>Tải lên</upload>, thả hoặc dán ảnh",
-      "createBot": "Tạo bot",
       "purposeLabel": "Mục đích",
       "purposePlaceholder": "Mô tả việc của bot (không bắt buộc)",
       "uploadPasteOrDrop": "hoặc tải lên, dán hay thả ảnh riêng",
@@ -24145,10 +24046,6 @@
       "title": "Bot",
       "newBot": "Bot mới",
       "startFromScratch": "Bắt đầu từ đầu",
-      "emptyTitle": "Làm quen với đồng đội AI",
-      "emptyBody": "Hỏi từ bất cứ đâu. Bot điều hành cả đội Agent và nhớ những gì đã học.",
-      "emptySeeHow": "Xem cách hoạt động",
-      "emptyCreate": "Tạo bot",
       "emptyTemplates": "Mẫu",
       "expand": "Mở rộng Bot",
       "collapse": "Thu gọn Bot",
@@ -24316,7 +24213,7 @@
       "description": "Chat chính của {{name}} bắt đầu lại từ đầu trên {{agent}}. Cuộc trò chuyện hiện tại vẫn nằm trong lịch sử.",
       "kept": "Giữ lại: tính cách, bộ nhớ, tự động hóa, kết nối",
       "notKept": "Không giữ: cuộc trò chuyện hiện tại",
-      "threads": "Các luồng Slack đang chạy vẫn dùng {{agent}} cho tới khi xong",
+      "threads": "Luồng Slack đã có chat Orca vẫn giữ Agent của chat đó",
       "action": "Chuyển sang {{agent}}"
     },
     "avatar": {
@@ -24697,10 +24594,6 @@
       "reading": "Đang tìm hiểu môi trường làm việc…",
       "read": "Tìm hiểu môi trường làm việc"
     },
-    "header": {
-      "runs": "chạy bằng {{agent}}",
-      "newBot": "Bot mới của bạn"
-    },
     "lookSteps": {
       "slackThread": "một luồng Slack",
       "slackChannel": "một kênh Slack",
@@ -24764,6 +24657,15 @@
       "picked": "Đã chọn {{count}}",
       "filter": "Lọc bot",
       "pickTwo": "Chọn từ 2 bot trở lên",
+      "remoteReplied": "Đã trả lời trên {{computer}}",
+      "remoteNotice": "Không trả lời trên {{computer}}",
+      "remoteNotSent": "Chưa gửi tới {{computer}}",
+      "remoteUnknown": "Không rõ đã gửi chưa",
+      "remoteStopped": "Đã dừng ở đây",
+      "remoteSending": "Đang hỏi trên {{computer}}…",
+      "remoteAsked": "Đã hỏi trên {{computer}}",
+      "remoteMayAnswer": "Có thể vẫn trả lời trên {{computer}}.",
+      "remoteShortened": "Đã rút gọn. Câu trả lời đầy đủ ở trên {{computer}}.",
       "nameIt": "Đặt tên nhóm",
       "suggestTwo": "{{a}} và {{b}}",
       "suggestThree": "{{a}}, {{b}} và {{c}}",
@@ -24801,8 +24703,6 @@
       }
     },
     "google": {
-      "copied": "Đã sao chép. Gửi cho quản trị viên Google.",
-      "checksAgain": "Orca sẽ tự kiểm tra lại.",
       "file": {
         "tooLarge": "Tệp này quá lớn, không phải tệp ứng dụng Google."
       },
@@ -24816,7 +24716,6 @@
         "revoke": "Xóa và thu hồi ở Google"
       },
       "reconnect": "Kết nối lại",
-      "addService": "Thêm dịch vụ",
       "thisComputer": "máy tính này",
       "thisServer": "máy chủ này",
       "description": "Cho bot dùng Gmail, Calendar và Drive thay mặt bạn. Thông tin đăng nhập Google nằm trên {{host}}.",
@@ -24835,12 +24734,7 @@
         "signInButton": "Đăng nhập lại"
       },
       "signIn": "Đăng nhập Google",
-      "waiting": "Hoàn tất kết nối Google trong trình duyệt.",
-      "waitingHowPersonal": "Chọn tài khoản và bấm Cho phép. Google sẽ yêu cầu xác nhận trước: bấm Tiếp tục.",
-      "waitingHow": "Chọn tài khoản và bấm Cho phép.",
-      "openAgain": "Mở lại",
-      "disconnectMenu": "Ngắt kết nối",
-      "shareButton": "Chia sẻ với đồng đội",
+      "shareButton": "Chia sẻ thiết lập",
       "setUpTime": "Khoảng 10 phút",
       "haveSetupFile": "Có tệp thiết lập từ nhóm?",
       "importSetupFile": "Nhập tệp",
@@ -24866,8 +24760,7 @@
       },
       "setUp": "Thiết lập Google",
       "setUpOpens": "Mở chat của {{bot}}",
-      "createBotToSetUp": "Tạo bot để thiết lập Google",
-      "pasteHint": "Sau khi bấm Cho phép, trang sẽ không tải được. Dán địa chỉ của trang vào đây."
+      "createBotToSetUp": "Bot mới"
     },
     "googleSetup": {
       "receipt": {
@@ -24892,7 +24785,6 @@
         "guideHereNote": "Bạn tự bấm, trong Orca",
         "guideBrowserNote": "Bạn tự bấm, trong trình duyệt"
       },
-      "dismiss": "Bỏ qua",
       "account": {
         "title": "Dùng tài khoản Google nào?",
         "note": "Mọi trang Google Cloud sẽ mở bằng tài khoản bạn chọn.",
@@ -24916,7 +24808,7 @@
         "heading": "Đã kết nối Google",
         "canUse": "{{bot}} dùng được {{services}}.",
         "add": "Thêm dịch vụ",
-        "share": "Chia sẻ thiết lập với đồng đội"
+        "share": "Chia sẻ thiết lập"
       },
       "progress": {
         "done": "Hoàn tất",
@@ -24936,7 +24828,7 @@
       },
       "takeOver": "Tiếp quản từ đây",
       "ownerStep": "Bước {{step}}/3",
-      "otherAccount": "Dùng tài khoản khác",
+      "otherAccount": "Đổi tài khoản",
       "keyMissed": "Đã tải khóa về mà Orca không nhận?",
       "action": {
         "makeNewKey": "Tạo khóa mới",
@@ -25149,7 +25041,6 @@
       "close": "Đóng",
       "comesWith": "Đi kèm",
       "comesWithHelp": "Về lịch chạy và thiết lập của mẫu",
-      "olderHost": "{{host}} đang chạy Orca cũ, nên kỹ năng và lịch chạy của mẫu này sẽ không được thêm. Cập nhật Orca ở đó để có đủ, hoặc tạo bot chỉ với phần hướng dẫn.",
       "comesWithNote": "Lịch chạy ban đầu đang tắt. Tự động hóa và kết nối được thiết lập trong chat đầu tiên, sau khi bạn chọn kho mã hoặc kênh.",
       "keepSkill": "Thêm kỹ năng {{skill}}",
       "stateOff": "Tắt",
@@ -25170,7 +25061,6 @@
       "closeTooltip": "Đóng · Esc",
       "fromLink": "Từ liên kết",
       "search": "Tìm mẫu",
-      "originTemplateNamed": "Từ mẫu {{template}}",
       "aboutTemplate": "Về {{name}}",
       "allTemplates": "Mọi mẫu",
       "filterCategory": "Lọc theo danh mục",
@@ -25183,7 +25073,398 @@
         "ops": "Vận hành",
         "personal": "Trợ lý cá nhân"
       },
-      "paletteLine": "Mẫu bot"
+      "paletteLine": "Mẫu bot",
+      "pr-review": {
+        "name": "Duyệt Pull Request",
+        "line": "Duyệt Pull Request bạn được nhờ duyệt và liệt kê thay đổi rủi ro.",
+        "firstChat": "Hỏi cần theo dõi kho mã nào, rồi duyệt các Pull Request đang mở chờ bạn duyệt và đăng kết quả ở đây, kèm tệp và dòng. Bot chỉ bình luận trên GitHub khi bạn cho phép.",
+        "watches": "Pull Request chờ bạn duyệt trong các kho mã bạn chọn",
+        "does": "Duyệt từng Pull Request, liệt kê thay đổi rủi ro và test còn thiếu, kèm tệp và dòng.",
+        "reports": "Tại đây, khi có yêu cầu duyệt",
+        "example1": "#4121: bộ đếm thử lại không bao giờ được đặt lại, nên sự cố lần hai làm dừng việc thử lại.",
+        "example2": "Chưa có test nào cho luồng xử lý timeout mới.",
+        "events": {
+          "review-requested": {
+            "trigger": "Khi bạn được nhờ duyệt Pull Request",
+            "action": "Duyệt và đăng kết quả ở đây"
+          }
+        }
+      },
+      "bug-investigation": {
+        "name": "Điều tra lỗi",
+        "line": "Tái hiện lỗi được báo và tìm chỗ phát sinh.",
+        "firstChat": "Đưa cho bot báo cáo lỗi hoặc liên kết issue. Bot mở một Agent trong workspace mới để ghi lại cách tái hiện, rồi báo nguyên nhân. Bot chỉ viết bản sửa khi bạn đồng ý.",
+        "watches": "Báo cáo lỗi bạn đưa và issue Linear giao cho bạn",
+        "does": "Tái hiện lỗi trong workspace mới, tìm chỗ phát sinh và đề xuất cách sửa.",
+        "reports": "Tại đây, khi đã tái hiện được và tìm ra nguyên nhân",
+        "example1": "Đã tái hiện ORC-640 trên Windows: khi dán, dòng cuối bị mất nếu không có ký tự xuống dòng.",
+        "example2": "Nguyên nhân: dấu kết thúc dán được gửi trước đoạn cuối. Bắt đầu sửa?",
+        "events": {
+          "linear-assigned": {
+            "trigger": "Khi bạn được giao một issue Linear",
+            "action": "Điều tra issue đó"
+          }
+        }
+      },
+      "dependency-updates": {
+        "name": "Cập nhật gói phụ thuộc",
+        "line": "Tìm gói lỗi thời hoặc có lỗ hổng và đề xuất nâng cấp.",
+        "firstChat": "Liệt kê gói lỗi thời và có lỗ hổng trong kho mã bạn chọn, gấp nhất trước. Khi bạn đồng ý, một Agent mở một Pull Request cho mỗi nhóm.",
+        "watches": "Gói trong các kho mã bạn chọn",
+        "does": "Liệt kê cảnh báo bảo mật và gói lỗi thời, gấp nhất trước; khi được đồng ý thì nâng cấp mỗi nhóm trong một Pull Request.",
+        "reports": "Tại đây, 9 giờ sáng thứ Hai",
+        "example1": "1 cảnh báo bảo mật: http-client 6.19 có bản sửa mức nghiêm trọng cao ở 6.21.",
+        "example2": "4 nâng cấp nhỏ có thể gộp vào một Pull Request.",
+        "schedules": {
+          "weekly-check": {
+            "when": "9 giờ sáng thứ Hai",
+            "what": "Cảnh báo bảo mật và phiên bản lớn mới"
+          }
+        }
+      },
+      "unreviewed-work": {
+        "name": "Việc Agent chưa duyệt",
+        "line": "Danh sách hằng ngày các việc Agent đã xong mà chưa ai xem.",
+        "firstChat": "Liệt kê workspace có Agent đã xong với thay đổi bạn chưa duyệt hoặc chưa tạo Pull Request. Orca đã báo khi Agent chờ bạn; bot này lo phần việc đã xong.",
+        "watches": "Workspace Orca của bạn",
+        "does": "Liệt kê workspace có Agent đã xong với thay đổi chưa ai duyệt hoặc mở Pull Request.",
+        "reports": "Tại đây, 9 giờ sáng ngày thường",
+        "example1": "mobile-pairing xong hôm qua với diff 340 dòng, chưa có Pull Request.",
+        "example2": "Thêm 2 workspace xong trong tuần này.",
+        "schedules": {
+          "daily-list": {
+            "when": "9 giờ sáng ngày thường",
+            "what": "Việc đã xong chờ duyệt"
+          }
+        }
+      },
+      "workspace-cleanup": {
+        "name": "Dọn workspace",
+        "line": "Tìm workspace đã xong hoặc bị bỏ dở và đề xuất xóa.",
+        "firstChat": "Liệt kê workspace có Pull Request đã merge hoặc hai tuần không thay đổi, kèm thay đổi chưa commit. Bot chỉ xóa những workspace bạn chọn.",
+        "watches": "Workspace Orca của bạn và Pull Request của chúng",
+        "does": "Liệt kê workspace đã xong hoặc bị bỏ dở, kèm thay đổi chưa commit; chỉ xóa những workspace bạn chọn.",
+        "reports": "Tại đây, 4 giờ chiều thứ Sáu",
+        "example1": "6 workspace đã xong: Pull Request của chúng đã merge trong tuần này.",
+        "example2": "2 thư mục không thay đổi từ 20/10.",
+        "schedules": {
+          "weekly-list": {
+            "when": "4 giờ chiều thứ Sáu",
+            "what": "Workspace có thể xóa"
+          }
+        }
+      },
+      "security-check": {
+        "name": "Kiểm tra bảo mật",
+        "line": "Rà thay đổi đã merge để tìm bí mật bị lộ và mã rủi ro.",
+        "firstChat": "Duyệt các Pull Request đã merge tuần trước trong kho mã bạn chọn và liệt kê chỗ cần xem lại, kèm tệp và dòng.",
+        "watches": "Pull Request đã merge trong các kho mã bạn chọn",
+        "does": "Tìm bí mật bị lộ, lỗi injection, thiếu xác thực và mặc định không an toàn.",
+        "reports": "Tại đây, 9 giờ sáng thứ Hai và khi một Pull Request được merge",
+        "example1": "#4133 ghi log toàn bộ header của request, kể cả token xác thực.",
+        "example2": "Tuần này không còn gì khác.",
+        "schedules": {
+          "weekly-review": {
+            "when": "9 giờ sáng thứ Hai",
+            "what": "Thay đổi đã merge trong tuần"
+          }
+        },
+        "events": {
+          "pr-merged": {
+            "trigger": "Khi Pull Request được merge",
+            "action": "Kiểm tra"
+          }
+        }
+      },
+      "release": {
+        "name": "Sẵn sàng phát hành",
+        "line": "Theo dõi những gì đang chặn bản phát hành tiếp theo.",
+        "firstChat": "Giữ một danh sách ngắn: kiểm tra đang lỗi, Pull Request chờ duyệt, vướng mắc còn mở.",
+        "watches": "Pull Request, kiểm tra và workspace",
+        "does": "Giữ một danh sách ngắn: kiểm tra đang lỗi, Pull Request chờ duyệt, vướng mắc còn mở.",
+        "reports": "Tại đây, sáng ngày thường",
+        "example1": "1.5 đang bị chặn bởi một kiểm tra lỗi: typecheck ở #4121.",
+        "example2": "Còn hai Pull Request cần duyệt: #4108, #4130.",
+        "schedules": {
+          "readiness-list": {
+            "when": "9 giờ sáng ngày thường",
+            "what": "Danh sách sẵn sàng"
+          }
+        }
+      },
+      "release-notes": {
+        "name": "Ghi chú phát hành",
+        "line": "Soạn nháp ghi chú cho bản phát hành tiếp theo từ Pull Request đã merge.",
+        "firstChat": "Tìm tag phát hành gần nhất và soạn nháp ghi chú theo ba nhóm: mới, đã sửa, thay đổi. Bạn sửa ngay tại đây.",
+        "watches": "Pull Request đã merge từ bản phát hành trước",
+        "does": "Soạn nháp ghi chú phát hành cho người dùng theo ba nhóm: mới, đã sửa, thay đổi.",
+        "reports": "Tại đây, khi bạn yêu cầu",
+        "example1": "Bản nháp cho 1.5: 4 mới, 9 đã sửa, 2 thay đổi.",
+        "example2": "Thay đổi lớn nhất: bot có thể dùng chung kỹ năng."
+      },
+      "ci-failures": {
+        "name": "Lỗi CI",
+        "line": "Giải thích kiểm tra thất bại và giữ danh sách kiểm tra chập chờn.",
+        "firstChat": "Đọc các lượt kiểm tra trong hai tuần qua và liệt kê kiểm tra chập chờn, rồi giải thích từng kiểm tra lỗi trên Pull Request đang mở của bạn. Bot chỉ bắt đầu sửa khi bạn đồng ý.",
+        "watches": "Lượt kiểm tra trong các kho mã bạn chọn",
+        "does": "Phân biệt kiểm tra chập chờn với lỗi thật, giải thích từng lỗi và giữ danh sách kiểm tra chập chờn.",
+        "reports": "Tại đây, 9 giờ sáng thứ Hai và khi một kiểm tra thất bại",
+        "needsSetup": "GitHub chưa lọc được lỗi theo branch, nên bot xem mọi lỗi trong kho mã và bỏ qua lỗi không quan trọng. Mỗi lỗi tốn một lượt.",
+        "example1": "#4130 typecheck: một export bị đổi tên, sót hai chỗ gọi. Sửa trong một commit.",
+        "example2": "Chập chờn nhất tuần này: test terminal-resize, 4/30 lượt chạy.",
+        "schedules": {
+          "flaky-list": {
+            "when": "9 giờ sáng thứ Hai",
+            "what": "Kiểm tra chập chờn"
+          }
+        },
+        "events": {
+          "check-failed": {
+            "trigger": "Khi một kiểm tra thất bại",
+            "action": "Cho biết lỗi chập chờn hay lỗi thật"
+          }
+        }
+      },
+      "deploy-watch": {
+        "name": "Theo dõi triển khai",
+        "line": "Đăng thay đổi của mỗi lần triển khai và đánh dấu lần thất bại.",
+        "firstChat": "Đưa bạn một địa chỉ tự động hóa để công cụ triển khai gọi tới, rồi tóm tắt mỗi lần triển khai từ các Pull Request đã phát hành.",
+        "watches": "Lời gọi từ công cụ triển khai",
+        "does": "Tóm tắt mỗi lần triển khai từ các Pull Request đã phát hành và đánh dấu lần thất bại.",
+        "reports": "Tại đây, sau mỗi lần triển khai",
+        "needsSetup": "Chưa có kết nối cho công cụ triển khai: bạn tự thêm địa chỉ của tự động hóa vào công cụ triển khai.",
+        "example1": "Triển khai production 14:02: 5 Pull Request, gồm bản sửa thử lại của relay.",
+        "example2": "Triển khai staging thất bại ở bước migrate: cột đã tồn tại.",
+        "events": {
+          "deploy-called": {
+            "trigger": "Khi công cụ triển khai gọi tới",
+            "action": "Tóm tắt lần triển khai"
+          }
+        }
+      },
+      "support": {
+        "name": "Phân loại hỗ trợ",
+        "line": "Giữ danh sách câu hỏi chưa ai trả lời.",
+        "firstChat": "Liệt kê câu hỏi chưa được trả lời trong các kênh Slack bạn chọn, kèm liên kết, và ghi chú câu nào đã có issue.",
+        "watches": "Kênh Slack bạn chọn",
+        "does": "Liệt kê câu hỏi chưa được trả lời kèm liên kết, và ghi chú câu nào đã có issue Linear.",
+        "reports": "Tại đây, 2 giờ một lần vào ngày thường",
+        "example1": "3 câu hỏi mới trong #help từ 11 giờ sáng. Cũ nhất (chờ 2 giờ): SSH từ xa liên tục mất kết nối.",
+        "example2": "“Có xuất bot được không?” đã có SUP-212.",
+        "schedules": {
+          "unanswered": {
+            "when": "Ngày thường, 2 giờ một lần từ 9 giờ sáng đến 5 giờ chiều",
+            "what": "Câu hỏi chưa được trả lời"
+          }
+        }
+      },
+      "feedback": {
+        "name": "Tổng hợp góp ý",
+        "line": "Gom góp ý thành danh sách chủ đề hằng tuần.",
+        "firstChat": "Gom góp ý trong tháng qua ở các kênh bạn chọn thành chủ đề, kèm số lượng và trích dẫn.",
+        "watches": "Kênh góp ý trên Slack",
+        "does": "Gom góp ý thành chủ đề kèm trích dẫn và số lượng, rồi liên kết issue Linear đã có.",
+        "reports": "Tại đây, 9 giờ sáng thứ Hai",
+        "example1": "Chủ đề nổi bật: dán trong terminal Windows, 7 người, đã liên kết ORC-640.",
+        "example2": "Mới tuần này: 3 người hỏi cách xuất bot.",
+        "schedules": {
+          "weekly-themes": {
+            "when": "9 giờ sáng thứ Hai",
+            "what": "Chủ đề trong tuần"
+          }
+        }
+      },
+      "bug-intake": {
+        "name": "Tiếp nhận báo lỗi",
+        "line": "Biến báo lỗi trên Slack thành issue được theo dõi, kèm các bước tái hiện.",
+        "firstChat": "Đọc kênh bạn chọn và soạn nháp issue cho mỗi báo lỗi mới. Bot chỉ tạo issue sau khi bạn duyệt.",
+        "watches": "Kênh Slack nơi báo lỗi",
+        "does": "Soạn nháp issue Linear kèm các bước tái hiện cho mỗi báo lỗi; tạo issue khi được duyệt.",
+        "reports": "Tại đây, khi có báo lỗi",
+        "example1": "Đã soạn nháp: “Terminal bị treo sau khi máy ngủ trên macOS 27”, các bước lấy từ luồng.",
+        "example2": "Có thể trùng với ORC-702.",
+        "events": {
+          "bug-posted": {
+            "trigger": "Khi có người đăng trong kênh báo lỗi",
+            "action": "Soạn nháp issue"
+          }
+        }
+      },
+      "issue-triage": {
+        "name": "Phân loại issue GitHub",
+        "line": "Gắn nhãn issue mới, tìm issue trùng và hỏi thông tin còn thiếu.",
+        "firstChat": "Xem các issue mới trong tuần qua ở kho mã bạn chọn và đề xuất nhãn, issue trùng tại đây.",
+        "watches": "Issue mới trong các kho mã bạn chọn",
+        "does": "Đề xuất nhãn, issue trùng và liệt kê thông tin còn thiếu cho mỗi issue mới.",
+        "reports": "Tại đây, khi có issue mới được mở",
+        "example1": "#2210: bug, windows, trùng với #2188.",
+        "example2": "#2214 thiếu phiên bản và các bước. Hỏi thêm?",
+        "events": {
+          "issue-opened": {
+            "trigger": "Khi issue được mở",
+            "action": "Đề xuất nhãn và issue trùng"
+          }
+        }
+      },
+      "briefing": {
+        "name": "Tóm tắt dự án",
+        "line": "Bản tóm tắt hằng tuần về các dự án bạn chọn.",
+        "firstChat": "Viết những gì đã thay đổi, đang bị chặn và cần quyết định cho các dự án bạn chọn.",
+        "watches": "Dự án Linear và kho mã GitHub",
+        "does": "Viết những gì đã thay đổi, đang bị chặn và cần quyết định.",
+        "reports": "Tại đây, 3 giờ chiều thứ Sáu",
+        "example1": "Mobile v2: đóng 6 issue, 2 issue chờ thiết kế.",
+        "example2": "Cần quyết định: ORC-902, nội dung xin quyền push.",
+        "schedules": {
+          "weekly-brief": {
+            "when": "3 giờ chiều thứ Sáu",
+            "what": "Bản tóm tắt"
+          }
+        }
+      },
+      "docs-upkeep": {
+        "name": "Bảo trì tài liệu",
+        "line": "Đánh dấu tài liệu không còn khớp với mã đã merge.",
+        "firstChat": "Đọc các Pull Request đã merge tuần trước và liệt kê trang tài liệu giờ đã nói sai.",
+        "watches": "Pull Request đã merge và tài liệu trong các kho mã bạn chọn",
+        "does": "Liệt kê trang tài liệu không còn khớp với thay đổi đã merge, kèm dòng giờ đã sai.",
+        "reports": "Tại đây, 10 giờ sáng thứ Tư",
+        "example1": "docs/remote.md vẫn ghi SSH cần khởi động lại; #4108 đã bỏ điều đó.",
+        "example2": "Thêm 1 trang còn nhắc tên cài đặt cũ.",
+        "schedules": {
+          "weekly-docs": {
+            "when": "10 giờ sáng thứ Tư",
+            "what": "Tài liệu cần cập nhật"
+          }
+        }
+      },
+      "spec-drafts": {
+        "name": "Soạn spec",
+        "line": "Biến một cuộc thảo luận thành spec ngắn để chia sẻ.",
+        "firstChat": "Đưa cho bot một luồng Slack hoặc tài liệu. Bot soạn nháp spec một trang và hỏi về những gì còn bỏ ngỏ.",
+        "watches": "Luồng Slack và tài liệu bạn đưa",
+        "does": "Soạn nháp spec một trang: vấn đề, quyết định, phạm vi, câu hỏi còn mở.",
+        "reports": "Tại đây, khi bạn yêu cầu",
+        "example1": "Bản nháp: “Chia sẻ bot v2”. 3 quyết định, 2 câu hỏi còn mở.",
+        "example2": "Đã lưu vào Drive dưới dạng tài liệu."
+      },
+      "backlog-cleanup": {
+        "name": "Dọn backlog",
+        "line": "Tìm issue cũ, trùng hoặc chưa có người phụ trách.",
+        "firstChat": "Liệt kê issue 60 ngày không ai động tới, issue có thể trùng và issue chưa có người phụ trách, cho nhóm bạn chọn.",
+        "watches": "Issue Linear của nhóm bạn chọn",
+        "does": "Liệt kê issue cũ, issue có thể trùng và issue chưa có người phụ trách.",
+        "reports": "Tại đây, ngày 1 hằng tháng",
+        "example1": "14 issue không ai động tới từ tháng 8.",
+        "example2": "ORC-511 và ORC-688 có vẻ cùng một lỗi.",
+        "schedules": {
+          "monthly-list": {
+            "when": "9 giờ sáng ngày 1 hằng tháng",
+            "what": "Danh sách cần dọn"
+          }
+        }
+      },
+      "incident-notes": {
+        "name": "Ghi chép sự cố",
+        "line": "Ghi dòng thời gian trong kênh sự cố và soạn nháp báo cáo.",
+        "firstChat": "Theo dõi kênh sự cố bạn chọn và các luồng của kênh, ghi dòng thời gian có mốc giờ, và soạn nháp báo cáo không đổ lỗi khi sự cố kết thúc.",
+        "watches": "Kênh sự cố bạn chọn và các luồng của kênh",
+        "does": "Ghi dòng thời gian có mốc giờ, rồi soạn nháp báo cáo không đổ lỗi.",
+        "reports": "Tại đây, trong và sau sự cố",
+        "example1": "14:02 cảnh báo bật; 14:09 bắt đầu rollback; 14:21 tỉ lệ lỗi về bình thường.",
+        "example2": "Đã có bản nháp báo cáo.",
+        "events": {
+          "incident-posted": {
+            "trigger": "Khi có người đăng trong kênh sự cố",
+            "action": "Thêm vào dòng thời gian"
+          }
+        }
+      },
+      "oncall-handoff": {
+        "name": "Bàn giao ca trực",
+        "line": "Tóm tắt hằng tuần về cảnh báo, sự cố và việc cần làm tiếp.",
+        "firstChat": "Đọc kênh cảnh báo và issue sự cố trong tuần qua rồi viết bản bàn giao.",
+        "watches": "Kênh cảnh báo và issue sự cố của bạn",
+        "does": "Tóm tắt cảnh báo và sự cố trong tuần, liệt kê việc cần làm tiếp.",
+        "reports": "Tại đây, 4 giờ chiều thứ Sáu",
+        "needsSetup": "Chưa có kết nối cho công cụ gọi trực: bot chỉ đọc cảnh báo được đăng trên Slack.",
+        "example1": "12 cảnh báo, 2 sự cố. Cảnh báo ổ đĩa trên cell-3 bật 5 lần.",
+        "example2": "Còn 3 việc cần làm tiếp.",
+        "schedules": {
+          "weekly-handoff": {
+            "when": "4 giờ chiều thứ Sáu",
+            "what": "Bàn giao"
+          }
+        }
+      },
+      "followup": {
+        "name": "Phản hồi còn nợ",
+        "line": "Nhắc bạn những phản hồi còn nợ.",
+        "firstChat": "Tìm câu hỏi gửi bạn chưa được trả lời và việc bạn đã hứa làm, trong luồng Slack và bình luận issue.",
+        "watches": "Luồng Slack và bình luận Linear",
+        "does": "Tìm câu hỏi gửi bạn chưa được trả lời và việc bạn đã hứa làm.",
+        "reports": "Tại đây, 4 giờ chiều hằng ngày",
+        "example1": "Bạn đã nói với đồng đội “Mai mình xem” trong #design, 2 ngày trước.",
+        "example2": "ORC-881 có câu hỏi cho bạn từ hôm qua.",
+        "schedules": {
+          "daily-owed": {
+            "when": "4 giờ chiều hằng ngày",
+            "what": "Việc bạn còn nợ"
+          }
+        }
+      },
+      "standup": {
+        "name": "Ghi chú standup hằng ngày",
+        "line": "Hôm qua bạn và các Agent đã làm gì, và việc tiếp theo.",
+        "firstChat": "Viết ghi chú hôm qua từ workspace, Pull Request đã merge và issue đã chuyển trạng thái. Bạn chép vào nơi nhóm đọc.",
+        "watches": "Workspace, Pull Request và issue của bạn",
+        "does": "Viết ghi chú hôm qua và kế hoạch hôm nay.",
+        "reports": "Tại đây, 9 giờ sáng ngày thường",
+        "example1": "Hôm qua: đã merge #4121, thử lại relay. Agent làm xong 2 workspace.",
+        "example2": "Hôm nay: ORC-702, duyệt #4130.",
+        "schedules": {
+          "daily-notes": {
+            "when": "9 giờ sáng ngày thường",
+            "what": "Ghi chú standup"
+          }
+        }
+      },
+      "email-digest": {
+        "name": "Tổng hợp email",
+        "line": "Hai lần mỗi ngày, các email cần bạn trả lời.",
+        "firstChat": "Đọc hộp thư hôm nay và liệt kê email cần bạn trả lời, mới nhất trước. Bot không bao giờ gửi email.",
+        "watches": "Hộp thư của bạn",
+        "does": "Liệt kê email cần bạn trả lời, mới nhất trước. Không bao giờ gửi email.",
+        "reports": "Tại đây, 9 giờ sáng và 2 giờ chiều ngày thường",
+        "example1": "2 email cần trả lời: ngày rà soát bảo mật và một câu hỏi về hóa đơn.",
+        "example2": "Đã bỏ qua 14 bản tin.",
+        "schedules": {
+          "morning": {
+            "when": "9 giờ sáng ngày thường",
+            "what": "Email cần bạn xử lý"
+          },
+          "afternoon": {
+            "when": "2 giờ chiều ngày thường",
+            "what": "Email cần bạn xử lý"
+          }
+        }
+      },
+      "meeting-prep": {
+        "name": "Chuẩn bị họp",
+        "line": "Trước mỗi cuộc họp, gom issue, Pull Request và tài liệu liên quan.",
+        "firstChat": "Xem lịch hôm nay và viết ghi chú chuẩn bị ngắn cho mỗi cuộc họp.",
+        "watches": "Lịch của bạn",
+        "does": "Trước mỗi cuộc họp, liệt kê issue, Pull Request và tài liệu liên quan.",
+        "reports": "Tại đây, trước mỗi cuộc họp",
+        "example1": "Họp đồng bộ Mobile lúc 11 giờ: ORC-902 cần quyết định; #4130 đang chờ bạn.",
+        "example2": "Tài liệu: “Nội dung xin quyền push”.",
+        "events": {
+          "meeting-soon": {
+            "trigger": "15 phút trước cuộc họp",
+            "action": "Ghi chú chuẩn bị"
+          }
+        }
+      }
     },
     "options": {
       "title": "Tùy chọn bot",
@@ -25221,7 +25502,6 @@
       "publishing": "Đang xuất bản…",
       "previewChanged": "Bản xem trước đã thay đổi. Xem lại trước khi xuất bản.",
       "manageSharing": "Quản lý chia sẻ…",
-      "sharedUpdated": "Đã chia sẻ · cập nhật {{date}}",
       "secretFoundTitle": "Phát hiện thông tin bí mật",
       "secretWhere": "{{flag}} trong {{where}}, dòng {{line}}",
       "goToLine": "Tới dòng",
@@ -25335,7 +25615,20 @@
         "github": "Lượt nhắc tới và sự kiện trên issue, PR",
         "slack": "Tin nhắn và lượt nhắc tới",
         "linear": "Issue được giao và lượt nhắc tới",
-        "google": "Gmail, Calendar và Drive, thay mặt bạn"
+        "google": "Gmail, Calendar và Drive, thay mặt bạn",
+        "vercel": "Kiểm tra lần triển khai và đọc log",
+        "sentry": "Xem lỗi và sự kiện đằng sau",
+        "datadog": "Tìm log, số liệu và monitor",
+        "posthog": "Truy vấn phân tích sản phẩm và feature flag",
+        "cloudflare": "Quản lý Workers, DNS và mọi thứ khác trong tài khoản",
+        "supabase": "Truy vấn cơ sở dữ liệu và quản lý dự án",
+        "neon": "Chạy SQL và quản lý branch Postgres",
+        "netlify": "Triển khai trang web và kiểm tra bản dựng",
+        "gitlab": "Đọc và cập nhật issue, Merge Request",
+        "context7": "Tài liệu và ví dụ mới nhất cho thư viện mã",
+        "atlassian": "Issue Jira và trang Confluence",
+        "notion": "Tìm, đọc và sửa trang",
+        "stripe": "Tra cứu thanh toán, khách hàng và gói đăng ký"
       },
       "mcp": {
         "adding": "Đang thêm {{app}}…"
@@ -25343,7 +25636,33 @@
       "unsupported": "Chưa hỗ trợ ứng dụng này",
       "cantReach": "Không kết nối được {{app}}",
       "accessNotAllowed": "Chưa được cấp quyền truy cập.",
-      "signInExpired": "Phiên đăng nhập đã hết hạn."
+      "signInExpired": "Phiên đăng nhập đã hết hạn.",
+      "composioLine": {
+        "outlook": "Thư, lịch và danh bạ",
+        "microsoft_teams": "Chat, kênh và cuộc họp",
+        "notion": "Trang, cơ sở dữ liệu và bình luận",
+        "jira": "Issue, dự án và sprint",
+        "hubspot": "Liên hệ, công ty, thương vụ và ticket",
+        "salesforce": "Tài khoản, khách tiềm năng và cơ hội bán hàng",
+        "asana": "Tác vụ, dự án và bình luận",
+        "airtable": "Base, bảng và bản ghi",
+        "zendesk": "Ticket, người dùng và bài viết trợ giúp",
+        "figma": "Tệp, bình luận và component",
+        "stripe": "Thanh toán, khách hàng và hóa đơn",
+        "dropbox": "Tệp và thư mục",
+        "one_drive": "Tệp và thư mục",
+        "confluence": "Trang, space và bình luận",
+        "clickup": "Tác vụ, danh sách và tài liệu",
+        "monday": "Bảng, mục và cập nhật",
+        "intercom": "Cuộc trò chuyện, liên hệ và bài viết",
+        "zoom": "Cuộc họp, bản ghi và bản chép lời",
+        "calendly": "Sự kiện, khách mời và liên kết đặt lịch",
+        "trello": "Bảng, danh sách và thẻ",
+        "sentry": "Issue, sự kiện và bản phát hành",
+        "box": "Tệp và thư mục",
+        "miro": "Bảng, ghi chú dán và khung",
+        "reddit": "Bài đăng, bình luận và subreddit"
+      }
     },
     "panel": {
       "idle": "Đang chờ",
@@ -25380,14 +25699,10 @@
     },
     "upcoming": {
       "empty": "Nhờ {{name}} trong chat để chạy việc gì đó theo lịch hoặc khi có sự kiện.",
-      "every2h": "mỗi 2 giờ",
-      "every4h": "mỗi 4 giờ",
       "lookFirst": "Sau chat đầu tiên · rồi {{every}}",
-      "mornings": "mỗi sáng",
       "tidyUp": "Dọn bộ nhớ",
       "today": "Hôm nay lúc {{time}}",
       "tomorrow": "Ngày mai lúc {{time}}",
-      "twiceDaily": "hai lần mỗi ngày",
       "tidyNightAfter": "Mỗi đêm sau {{from}}, hoặc khi máy này thức dậy",
       "tidyWeekAfter": "Mỗi tuần một lần sau {{from}}, hoặc khi máy này thức dậy",
       "lastNeededSignIn": "Lượt chạy gần nhất dừng vì cần đăng nhập",
@@ -25460,7 +25775,6 @@
       "chip": "Bot",
       "chipLabel": "Bot, hiện tất cả",
       "searchEverything": "Tìm \"{{text}}\" ở mọi nơi",
-      "searchBotsFor": "Tìm \"{{text}}\" trong bot",
       "noMatch": "Không có bot nào khớp \"{{text}}\"",
       "noBotsYet": "Chưa có bot nào",
       "filtersPaused": "Bộ lọc áp dụng cho workspace, không cho bot",
@@ -25481,11 +25795,8 @@
       "yesterday": "hôm qua",
       "lastLooked": "rà soát lần cuối {{when}}",
       "lastTidied": "dọn lần cuối {{when}}",
-      "memoryFiles_one": "MEMORY.md và {{count}} tệp chủ đề",
-      "memoryFiles_other": "MEMORY.md và {{count}} tệp chủ đề",
       "toolsFrom": "{{count}} từ {{agent}}",
       "toolsMore": "thêm {{count}} từ {{agent}}",
-      "withAccess": "{{service}} {{people}} có quyền truy cập",
       "onlyYou": "Chỉ bạn"
     },
     "page": {
@@ -25502,7 +25813,6 @@
         "accountChangedHere": "Thông tin đăng nhập Orca trên máy này đã thay đổi. Bắt đầu lại.",
         "notRouted": "Trang của {{service}} phải mở trong trình duyệt Orca cho {{host}}. Kết nối lại {{host}} rồi bắt đầu lại."
       },
-      "thisComputer": "máy tính này",
       "pageUnrouted": "Không kết nối được {{host}} để mở trang này trong trình duyệt của máy đó. Kết nối lại {{host}} rồi thử lại.",
       "signIn": {
         "waitingFirst": "Đăng nhập tài khoản Orca mà {{host}} sẽ dùng, trong trình duyệt Orca cho {{host}}. Kiểm tra trang hiện mã {{code}}.",
@@ -25575,9 +25885,9 @@
       "runningCount": "{{count}} đang chạy",
       "showMoreCount": "Hiện thêm {{count}}",
       "workers": "Worker",
-      "waitingCount": "{{count}} chờ phản hồi",
       "loading": "Đang tải chat…",
-      "readFailed": "Không đọc được chat của bot này."
+      "readFailed": "Không đọc được chat của bot này.",
+      "needsYouCount": "{{count}} cần phản hồi"
     },
     "cloudSignIn": {
       "automationScheduledOnly": "Chỉ chạy theo lịch: sự kiện tạm dừng khi đăng xuất khỏi Orca",
@@ -25612,14 +25922,11 @@
       "copyPath": "Sao chép đường dẫn",
       "topicFiles": "Tệp chủ đề",
       "schedule": "Lịch chạy",
-      "automationsFoot": "Tự động hóa nằm ở Trang chính › Tự động hóa.",
       "soulAndMemory": "Tính cách và bộ nhớ",
       "access": "Quyền truy cập",
       "whoCanAsk": "Ai có thể hỏi",
-      "chatDefault": "mặc định của chat",
       "name": "Tên bot",
       "rename": "Đổi tên {{name}}",
-      "share": "Chia sẻ…",
       "agent": "Agent và mô hình",
       "computer": "Máy",
       "deleteBot": "Xóa bot…",
@@ -25638,7 +25945,6 @@
       "items": "Mục",
       "itemsStale": {
         "days": "{{days}} ngày",
-        "detail": "Không có hoạt động trong khoảng này. Mục Dự kiến được gấp 3 lần thời gian.",
         "never": "Không bao giờ",
         "title": "Đánh dấu mục đã cũ sau"
       }
@@ -25648,7 +25954,6 @@
         "canceled": "đã hủy mục này",
         "changed": "đã đổi {{field}}",
         "closed": "đã đánh dấu hoàn tất",
-        "goToAnswer": "Đã trả lời lúc {{time}}. Tới câu trả lời",
         "replyingTo": "Đang trả lời: {{question}}. Tới câu hỏi",
         "linked": "đã liên kết {{links}}",
         "made": "đã thêm mục này",
@@ -25659,9 +25964,9 @@
         "retry": "Thử lại",
         "discard": "Bỏ",
         "reopened": "đã mở lại mục này",
-        "waitingOnYou": "Đang chờ bạn",
         "workerFailed": "Worker đã dừng:",
         "workerFinished": "Worker đã xong:",
+        "anotherAgent": "Agent khác",
         "workerStarted": "Worker đã bắt đầu:",
         "you": "Bạn",
         "snoozed": "đã tạm hoãn mục này tới {{when}}",
@@ -25714,7 +26019,8 @@
           "linkedMany": "{{chat}} đã gắn {{count}} liên kết vào {{items}}",
           "linked": "{{chat}} đã gắn {{link}} vào {{items}}"
         },
-        "anotherChat": "Chat khác"
+        "anotherChat": "Chat khác",
+        "anotherAgent": "Agent khác"
       },
       "comment": {
         "add": "Thêm bình luận…",
@@ -25728,7 +26034,6 @@
       "empty": {
         "allClear": "Không có gì chờ bạn và không có gì đang chạy.",
         "body": "Khi {{bot}} nhận việc cho bạn, việc đó sẽ hiện ở đây kèm những gì bot đang làm và cần gì từ bạn.",
-        "chatNeedsYou": "Không có gì trong {{chat}} chờ bạn.",
         "filtered": "Không có mục nào khớp.",
         "needsYou": "Không có gì chờ bạn.",
         "title": "Chưa có mục nào",
@@ -25741,7 +26046,6 @@
         "title": "tiêu đề"
       },
       "filter": {
-        "all": "Mọi chat",
         "clearAll": "Xóa bộ lọc",
         "label": "Lọc mục",
         "needsYou": "Chỉ mục chờ bạn",
@@ -25790,7 +26094,8 @@
         "done": "Hoàn tất",
         "needsYou": "Chờ bạn",
         "planned": "Dự kiến",
-        "working": "Đang làm"
+        "working": "Đang làm",
+        "waiting": "Đang chờ"
       },
       "tab": "Trang chính",
       "view": {
@@ -25800,7 +26105,6 @@
         "links": "Liên kết",
         "showLess": "Thu gọn",
         "showMore": "Xem thêm",
-        "sub": "Mục {{number}} · {{chat}} · {{when}}",
         "showEarlier": "Hiện mục trước đó",
         "next": "Mục tiếp theo",
         "previous": "Mục trước",
@@ -25834,31 +26138,6 @@
         "inHours_one": "{{count}} giờ nữa",
         "inHours_other": "{{count}} giờ nữa",
         "pickCustom": "Chọn ngày giờ"
-      },
-      "ask": {
-        "closed": "Câu hỏi đó đã đóng trước khi câu trả lời được gửi. Câu trả lời của bạn vẫn giữ trên mục này.",
-        "asks": "{{name}} hỏi",
-        "asksAt": "{{name}} hỏi · {{time}}",
-        "answeredInComment": "Đã trả lời trong bình luận",
-        "notAnswered": "Chưa trả lời",
-        "youAnswered": "Bạn đã trả lời:",
-        "skipped": "Đã bỏ qua",
-        "answeredEarlier": "Bạn đã trả lời một câu hỏi trước đó",
-        "hostCannotRecord": "Máy Orca này chưa ghi nhận được câu trả lời nên chưa gửi gì. Cập nhật Orca trên máy của bot; câu trả lời của bạn vẫn giữ ở đây.",
-        "answeredElsewhere": "Đã có câu trả lời ở nơi khác trước khi câu của bạn được gửi. Câu trả lời của bạn vẫn giữ ở đây.",
-        "changed": "Câu hỏi đã thay đổi trước khi câu trả lời được gửi. Câu trả lời của bạn vẫn giữ ở đây.",
-        "withdrawn": "Câu hỏi đã đóng trước khi câu trả lời được gửi. Câu trả lời của bạn vẫn giữ ở đây.",
-        "copied": "Đã sao chép",
-        "copy": "Sao chép",
-        "toComment": "Đưa vào ô bình luận",
-        "dismiss": "Bỏ qua",
-        "commentNotAnswer": "Bình luận, kèm tệp nếu có, sẽ được gửi tới bot và chuyển mục này sang Đang làm, nhưng không được ghi là câu trả lời của bạn. Mở rộng câu hỏi để trả lời.",
-        "uncertain": "Câu hỏi đã đóng trong lúc gửi câu trả lời và không có phản hồi, nên có thể chưa gửi được. Xem Hoạt động; câu trả lời của bạn vẫn giữ ở đây.",
-        "oursEditedAfter": "Đã ghi nhận câu trả lời. Phần chữ chưa được đưa vào vẫn giữ ở đây.",
-        "reply": "Trả lời",
-        "replyPlaceholder": "Trả lời {{name}}…",
-        "cancelReply": "Hủy",
-        "sendReply": "Gửi"
       }
     },
     "search": {
@@ -25874,7 +26153,6 @@
       "matchCount_other": "{{count}} kết quả"
     },
     "setup": {
-      "copyHowToAsk": "Sao chép {{text}}",
       "forOnHost": "cho {{name}} trên {{host}}",
       "for": "cho {{name}}"
     },
@@ -25900,12 +26178,163 @@
       "itemsNeedYou_other": "{{count}} mục bot đánh dấu cho bạn",
       "review": "Xem xét",
       "openHome": "Mở trang chính của {{name}}"
+    },
+    "failures": {
+      "lookUnfinished": "Lần rà soát trước chưa xong.",
+      "lookTimedOut": "Lần rà soát trước bị dừng sau {{minutes}} phút.",
+      "lookInterrupted": "Orca dừng giữa lần rà soát trước.",
+      "lookCouldNotStart": "Lần rà soát trước không bắt đầu được.",
+      "lookAsleep": "Lỡ lần rà soát trước vì máy đang ngủ.",
+      "tidyUpUnfinished": "Lần dọn trước chưa xong.",
+      "tidyUpTimedOut": "Lần dọn trước bị dừng sau {{minutes}} phút.",
+      "tidyUpCouldNotStart": "Lần dọn trước không bắt đầu được.",
+      "tidyUpAsleep": "Lỡ lần dọn trước vì máy đang ngủ.",
+      "tidyUpUnreadChats": "Lần dọn trước không đọc được chat nên không chạy.",
+      "tidyUpNoDraft": "Lần dọn trước không trả về MEMORY.md mới.",
+      "tidyUpNoOps": "Câu trả lời của lần dọn trước không phải danh sách thay đổi mà Orca đọc được.",
+      "tidyUpAllSkipped": "Orca bỏ qua mọi thay đổi lần dọn trước yêu cầu nên không có gì thay đổi. ({{detail}})",
+      "tidyUpNotListLines": "Lần dọn trước không chạy: MEMORY.md có khá nhiều dòng không phải dòng danh sách, mà chế độ dọn ops chỉ đọc dòng danh sách.",
+      "tidyUpMovedOnly": "Lần dọn trước đã chuyển dòng trạng thái vào memory/journal/, nhưng Orca không dùng được phần còn lại của câu trả lời. ({{detail}})",
+      "tidyUpBadTopic": "Lần dọn trước nêu một tệp chủ đề Orca không ghi được nên không có gì thay đổi.",
+      "tidyUpTooLong": "MEMORY.md của lần dọn trước dài hơn {{max}} dòng và không ngắn hơn bản cũ nên không có gì thay đổi.",
+      "tidyUpTooManyRemoved": "Lần dọn trước xóa quá nhiều dòng một lúc nên không có gì thay đổi.",
+      "tidyUpTooManyAdded": "Lần dọn trước thêm quá nhiều dòng mới một lúc nên không có gì thay đổi.",
+      "tidyUpNotCopied": "Lần dọn trước chuyển đi một dòng không có trong MEMORY.md; thông tin mới phải ghi vào MEMORY.md nên không có gì thay đổi.",
+      "tidyUpTooManyFiled": "Lần dọn trước chuyển hơn {{max}} dòng một lúc nên không có gì thay đổi.",
+      "tidyUpChanged": "MEMORY.md bị sửa trong lúc dọn nên không có gì thay đổi.",
+      "tidyUpNotApplied": "Không lưu được thay đổi của lần dọn trước nên không có gì thay đổi.",
+      "toolGone": "Bot này không còn công cụ đó.",
+      "toolDetailsInvalid": "Thông tin công cụ không hợp lệ. Kiểm tra tên, URL hoặc tệp chạy và các giá trị.",
+      "toolDestinationChanged": "Đích của thông tin đăng nhập đã đổi. Nhập lại giá trị đã lưu hoặc xóa các dòng đó.",
+      "toolSavedValueGone": "Giá trị đã lưu đó không còn. Nhập lại hoặc xóa dòng của nó.",
+      "toolValueMissing": "Nhập giá trị cho từng dòng, hoặc xóa dòng đó.",
+      "toolCredentialsUnreadable": "Không đọc được thông tin đăng nhập công cụ đã lưu của bot. Nhập lại giá trị của công cụ.",
+      "toolSignInManaged": "Orca tự đăng nhập công cụ này. Hãy đăng nhập hoặc đăng xuất công cụ thay vì sửa.",
+      "toolCredentialsRaced": "Thông tin đăng nhập công cụ của bot đã đổi ở một Orca khác. Thử lại.",
+      "toolSourceManaged": "Orca quản lý công cụ này. Đổi ở nơi bạn đã thiết lập.",
+      "toolValuesUnmoved": "Một công cụ vẫn giữ giá trị đã lưu. Mở lại công cụ của bot để chuyển chúng.",
+      "toolCodexCheckFailed": "Codex không kiểm tra hoặc kết nối được công cụ. Kiểm tra thiết lập của Codex rồi thử lại.",
+      "toolCodexNoThread": "Codex không mở luồng nào để kiểm tra công cụ.",
+      "toolSignInFolderFailed": "Không chuẩn bị được thư mục đăng nhập: {{detail}}",
+      "toolClaudePrepareFailed": "Không chuẩn bị được {{name}} trong Claude Code. Kiểm tra cấu hình công cụ.",
+      "toolNameTaken": "Bot này đã có công cụ tên {{name}}.",
+      "toolNameTakenByAgent": "{{agent}} của bạn đã có công cụ tên {{name}}, và bot này cũng nhận công cụ đó. Chọn tên khác bằng --name.",
+      "toolNameTakenByCodexStdio": "Codex của bạn đã có công cụ cục bộ tên {{name}} nên {{name}} của bot này không chạy được. Đổi tên công cụ của bot.",
+      "toolNotUpdated": "Chưa cập nhật công cụ.",
+      "toolSignInAddressIncomplete": "Dán toàn bộ địa chỉ của trang cuối cùng khi đăng nhập.",
+      "toolSignInAddressWrong": "Đó không phải địa chỉ kết thúc lần đăng nhập này. Bắt đầu lại bằng Kết nối, đăng nhập, rồi dán địa chỉ trình duyệt hiện.",
+      "toolSignInEnded": "Lần đăng nhập đã kết thúc hoặc hết thời gian. Bắt đầu lại bằng Kết nối.",
+      "toolNotFound": "Bot này không có công cụ tên {{name}}.",
+      "toolNeedsNoSignIn": "{{name}} dùng giá trị đã lưu, không cần đăng nhập.",
+      "toolSignInAgentUnsupported": "Orca chỉ đăng nhập {{name}} cho Claude Code và Codex. Hãy thêm công cụ bằng giá trị đăng nhập của nó.",
+      "toolCodexNoSignInPage": "Codex không đưa trang đăng nhập cho {{name}}.",
+      "toolClaudeSignInFailed": "Claude không bắt đầu đăng nhập {{name}} được.",
+      "toolClaudeNoSignInPage": "Claude không mở trang đăng nhập cho {{name}}.",
+      "groupMessageIdReused": "Mã định danh tin nhắn đã được dùng.",
+      "groupChangedBeforeSend": "Nhóm đã thay đổi. Xem lại thành viên hiện tại trước khi gửi.",
+      "groupEmptyBeforeSend": "Mọi bot đã rời nhóm này. Thêm bot trước khi gửi.",
+      "groupRequestUnverifiable": "Không xác minh được yêu cầu nhóm ban đầu trong hàng chờ.",
+      "groupTurnInactive": "Yêu cầu nhóm hoặc thành viên này không còn hoạt động.",
+      "groupBotUnavailable": "Bot này đang tạm dừng hoặc không khả dụng. Không có bot nào khác được thay vào.",
+      "groupBotTwice": "Mỗi bot chỉ chọn một lần.",
+      "groupBotGone": "Một bot đã chọn không còn khả dụng.",
+      "groupLocalOnly": "Hiện nhóm chỉ hỗ trợ bot chạy trên máy cục bộ này.",
+      "groupChanged": "Nhóm đã thay đổi. Mở lại hộp thoại này rồi thử lại.",
+      "groupReplierGone": "Chọn một thành viên hiện tại ở mục Trả lời trong phòng.",
+      "groupEmptyBeforeThread": "Mọi bot đã rời nhóm này. Thêm bot trước khi mở luồng mới.",
+      "groupNeedsLocalBot": "Nhóm này cần ít nhất một bot trên máy này.",
+      "groupNameTaken": "{{name}} đã có trong nhóm này. Thành viên cần tên khác nhau để việc nhắc tên không bị nhầm.",
+      "groupPostFromHost": "Để đăng trong nhóm có bot trên máy khác, hãy dùng {{host}}.",
+      "groupPeerTooOld": "Cập nhật Orca trên {{host}} để thêm bot của máy đó vào nhóm.",
+      "attachmentUnreadable": "Không đọc được {{name}}.",
+      "attachmentTooLarge": "{{name}} lớn hơn {{maxMb}} MB.",
+      "attachmentUploading": "{{name}} vẫn đang tải lên.",
+      "attachmentExpired": "{{names}}: tệp đính kèm này đã hết hạn. Đính kèm lại.",
+      "commentImagesTooMany": "Mỗi bình luận nhận tối đa {{max}} ảnh.",
+      "commentImagesTooLarge": "Các ảnh này tổng cộng {{totalMb}} MB. Mỗi bình luận nhận tối đa {{maxMb}} MB.",
+      "commentImageNotStored": "Bình luận chỉ nhận ảnh đã dán hoặc đính kèm.",
+      "commentAttachmentsUnavailable": "Máy này tạm thời không nhận tệp đính kèm. Lát nữa hãy bình luận lại.",
+      "commentFileNotAbsolute": "{{path}}: ghi tệp bằng đường dẫn đầy đủ.",
+      "commentFilesTooMany": "Mỗi bình luận nhận tối đa {{max}} tệp, không tính ảnh.",
+      "commentChatDeleted": "Chat của mục này đã bị xóa nên không đính kèm tệp ở đây được.",
+      "commentAttachFailed": "Không đính kèm được tệp. Lát nữa hãy bình luận lại.",
+      "groupImagesTooMany": "Mỗi tin nhắn nhóm nhận tối đa {{max}} ảnh.",
+      "groupImagesTooLarge": "Các ảnh này tổng cộng {{totalMb}} MB. Mỗi tin nhắn nhóm nhận tối đa {{maxMb}} MB.",
+      "groupImageNotStored": "Tin nhắn nhóm chỉ nhận ảnh đã dán hoặc đính kèm.",
+      "groupAttachmentsUnavailable": "Máy này tạm thời không nhận tệp đính kèm. Lát nữa hãy thử gửi lại.",
+      "groupAttachFailed": "Không đính kèm được tệp. Lát nữa hãy thử gửi lại.",
+      "groupMentionAmbiguous": "Sửa chỗ nhắc tên bot chưa rõ trước khi gửi.",
+      "groupMentionUnavailable": "Sửa chỗ nhắc tên bot không khả dụng hoặc chưa rõ trước khi gửi.",
+      "groupReplierNotMember": "Chọn một thành viên hiện tại của phòng ở mục Trả lời trong phòng.",
+      "groupMailNeverStarted": "Thư này chưa từng bắt đầu lượt nào.",
+      "groupRemoteUnreachable": "Không kết nối được {{host}}. {{detail}}",
+      "groupRemoteUnreachableRetry": "Không kết nối được {{host}}. {{detail}} Đăng lại để thử lại."
+    },
+    "lookAroundEvery": {
+      "every4h": "4 giờ một lần, từ 8 giờ sáng đến 8 giờ tối",
+      "every2h": "2 giờ một lần, từ 8 giờ sáng đến 8 giờ tối",
+      "twiceDaily": "Hai lần mỗi ngày, 8 giờ sáng và 1 giờ chiều",
+      "mornings": "8 giờ sáng mỗi ngày"
+    },
+    "templateSkills": {
+      "lines": {
+        "pr-review-checklist": "Đọc diff để tìm thay đổi hành vi, test còn thiếu và chỉnh sửa rủi ro; dẫn chứng cho từng phát hiện.",
+        "bug-reproduction": "Ghi lại chính xác các bước làm lộ lỗi trước khi tìm nguyên nhân.",
+        "ci-failure-triage": "Phân biệt kiểm tra chập chờn với lỗi thật hay hạ tầng hỏng, và tìm commit gây ra.",
+        "release-readiness": "Những gì chặn bản phát hành và cách liệt kê: kiểm tra, lượt duyệt, vướng mắc còn mở.",
+        "release-notes-style": "Ghi chú cho người dùng: mới, đã sửa, thay đổi; bỏ qua refactor và tên mã nội bộ.",
+        "dependency-upgrade": "Nâng cấp từng nhóm một, đọc changelog, chạy test, mỗi nhóm một Pull Request.",
+        "security-checklist": "Bí mật, injection, kiểm tra xác thực và mặc định không an toàn cần tìm trong một thay đổi.",
+        "issue-triage": "Gắn nhãn, tìm issue trùng, hỏi thông tin tái hiện còn thiếu trong một bình luận.",
+        "feedback-themes": "Gom góp ý thành chủ đề kèm số lượng và trích dẫn ngắn; liên kết issue đã có.",
+        "status-brief": "Đã đổi, bị chặn, cần quyết định: bản tóm tắt dưới mười dòng.",
+        "spec-format": "Spec một trang: vấn đề, quyết định, phạm vi, câu hỏi còn mở.",
+        "incident-timeline": "Ghi dòng thời gian có mốc giờ, rồi soạn nháp báo cáo không đổ lỗi.",
+        "workspace-hygiene": "Khi nào workspace đã xong hoặc bị bỏ dở, và cần kiểm tra gì trước khi xóa."
+      }
+    },
+    "notices": {
+      "couldNotFinish": "{{bot}} không làm xong được",
+      "turnEnded": "\"{{automation}}\" đã dừng trước khi xong.",
+      "folderMissing": "\"{{automation}}\" không bắt đầu được vì thiếu thư mục của bot.",
+      "sessionRefused": "\"{{automation}}\" không bắt đầu được.",
+      "askedYou": "{{bot}} đã hỏi bạn",
+      "accessAsked": "{{person}} xin dùng {{bot}}",
+      "webhookNeedsLook": "Webhook của {{bot}} cần được xem lại",
+      "webhookRefusals": "\"{{automation}}\" đã từ chối {{refused}} lời gọi trong 10 phút qua. Nếu không mong đợi chúng, hãy tạm dừng tự động hóa.",
+      "webhookHourlyCap": "\"{{automation}}\" đã đạt giới hạn {{limit}} lượt chạy mỗi giờ; các lời gọi khác phải chờ. Muốn dừng, hãy tạm dừng tự động hóa."
+    },
+    "tools": {
+      "input": {
+        "invalid": "Nhập tên máy chủ và URL hoặc tệp chạy hợp lệ.",
+        "namesRepeat": "Mỗi tên header hoặc biến môi trường phải là duy nhất.",
+        "rowInvalid": "Nhập tên và giá trị hợp lệ cho mọi dòng, hoặc xóa dòng đó."
+      },
+      "paste": {
+        "notConfig": "Dán URL máy chủ hoặc lệnh khởi động, hoặc nhập cấu hình trong Sửa chi tiết.",
+        "badUrl": "Dùng URL HTTP hoặc HTTPS không chứa thông tin đăng nhập.",
+        "badCommand": "Dùng một lệnh khởi động duy nhất có dấu nháy cân đối, hoặc nhập chi tiết thủ công. Không hỗ trợ biểu thức shell."
+      },
+      "signInFailure": {
+        "unsupported": "Chưa hỗ trợ ứng dụng này.",
+        "unavailable": "Không kết nối được ứng dụng này. Kiểm tra địa chỉ rồi thử lại.",
+        "noTool": "Bot này không còn công cụ đó.",
+        "desktopOnly": "Đăng nhập từ Orca trên {{host}}.",
+        "denied": "Chưa được cấp quyền truy cập.",
+        "expired": "Phiên đăng nhập đã hết hạn. Thử lại.",
+        "couldNotSignIn": "Không đăng nhập được. Thử lại."
+      }
     }
   },
   "plugins": {
     "frameSaveAs": {
       "title": "Lưu tệp",
       "allFiles": "Tất cả tệp"
+    },
+    "displayText": {
+      "t0f9f5503": "Bộ theme VS Code chính chủ của GitHub: Light Default, Dark Default, Dark Dimmed và các biến thể tương phản cao.",
+      "t0b4f7e19": "Bản chuyển không chính thức của các theme màu mặc định trong VS Code: Dark Modern, Light Modern, Dark+ và Light+.",
+      "tc86eed7d": "Vòng đời khởi đầu đã được duyệt cho workspace Multipass dùng một lần."
     }
   },
   "checks": {
@@ -26185,6 +26614,14 @@
     "monthCalendar": {
       "previous": "Tháng trước",
       "next": "Tháng sau"
+    }
+  },
+  "chats": {
+    "delete": {
+      "failed": "Không xóa được chat",
+      "groupRoom": "Không xóa được chat của phòng nhóm",
+      "workerOwed": "Một lượt điều phối vẫn đang chờ chat này",
+      "home": "Không xóa được Chat chính của Agent được quản lý"
     }
   }
 }

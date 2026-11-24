@@ -448,5 +448,6 @@
  "featureTips.botsTeammate.slackPrTitle": "#1284 Làm trang cài đặt đáp ứng",
  "accounts.claude.oauthUsage.about": "Về kiểm tra mức sử dụng Claude",
  "auto.components.settings.voice.pane.search.cleanupDescription": "Dùng Agent sửa dấu câu, số và từ sửa khi nói trước khi chèn văn bản.",
- "components.settings.voice.cleanup.description": "Sửa dấu câu, số và từ sửa khi nói trước khi chèn văn bản. Chỉ gửi văn bản cho {{agent}}, không gửi âm thanh."
+ "components.settings.voice.cleanup.description": "Sửa dấu câu, số và từ sửa khi nói trước khi chèn văn bản. Chỉ gửi văn bản cho {{agent}}, không gửi âm thanh.",
+ "auto.components.settings.RepositoryPane.499a437335": "Danh tính"
 }
