@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "vietnamese",
   "name": "Tiếng Việt cho Orca",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Gói giao diện tiếng Việt cho Orca.",
   "license": "MIT",
   "author": {

@@ -5,9 +5,9 @@
 <br>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-da251d.svg)](LICENSE)
-[![Version 1.6.0](https://img.shields.io/badge/version-1.6.0-3a7bd5.svg)](CHANGELOG.md)
+[![Version 1.6.1](https://img.shields.io/badge/version-1.6.1-3a7bd5.svg)](CHANGELOG.md)
 [![Orca 1.4.272+](https://img.shields.io/badge/Orca-%E2%89%A51.4.272-1f1f1f.svg)](https://github.com/stablyai/orca)
-[![21,013 strings](https://img.shields.io/badge/translated-21%2C013%20strings-e6b800.svg)](#coverage)
+[![21,615 strings](https://img.shields.io/badge/translated-21%2C615%20strings-e6b800.svg)](#coverage)
 
 **A Vietnamese language pack for [Orca](https://github.com/stablyai/orca), the app that runs several coding agents side by side.**
 
@@ -25,20 +25,20 @@ Built against the English catalog of Orca **1.4.272**, which has 24,700 strings.
 
 | Strings | Count | Share |
 | --- | ---: | ---: |
-| Translated | 21,013 | 85.07% |
-| Kept in English on purpose | 884 | 3.58% |
+| Translated | 21,615 | 87.51% |
+| Kept in English on purpose | 903 | 3.66% |
 | Protected by Orca | 2,182 | 8.83% |
-| Not translated yet | 621 | 2.51% |
+| Missing | 0 | 0% |
 
 Strings kept in English are product names, glossary terms, URLs and examples, search keywords, commands and strings with nothing to translate. Each one has a reason in [`tools/keep-english.json`](tools/keep-english.json). Protected strings are trust prompts, security surfaces, destructive confirmations and native message boxes, which Orca does not let a language pack replace.
 
-Orca offers a language only when it covers at least 80% of the catalog its main process bundles, which holds the menus, native dialogs and the Bot templates. This pack covers 98% of it, and 93% of everything a pack may translate. Strings not translated yet, and strings added in a later Orca release, appear in English until the pack catches up.
+Orca offers a language only when it covers at least 80% of the catalog its main process bundles, which holds the menus, native dialogs and the Bot templates. This pack covers 98% of it, and 95% of everything a pack may translate. Strings added in a later Orca release appear in English until the pack catches up.
 
 ## Install
 
 Requires Orca 1.4.272 or newer.
 
-1. Download `orca-vietnamese-1.6.0.zip` from the [latest release](https://github.com/Miinwan/orca-vietnamese/releases/latest) and unzip it, or clone the repository:
+1. Download `orca-vietnamese-1.6.1.zip` from the [latest release](https://github.com/Miinwan/orca-vietnamese/releases/latest) and unzip it, or clone the repository:
 
    ```sh
    git clone https://github.com/Miinwan/orca-vietnamese.git

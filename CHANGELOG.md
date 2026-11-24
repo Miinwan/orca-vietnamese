@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.1] - 2026-11-24
+
+### Added
+
+- Translations for the rest of the strings added in Orca 1.4.272, including Bot settings, items and paired servers, the worker dock, native chat questions and queued messages, Antigravity sign-in choices, the app rail, memory and disk notices, release channels and chat deletion.
+
+### Changed
+
+- Translations for the 130 strings whose English changed in Orca 1.4.272. Interrupted chats that resume after a restart are now called agents.
+- Coverage is 21,615 of 24,700 strings, with 903 kept in English on purpose, 2,182 protected by Orca and none missing.
+
+### Fixed
+
+- Clearer wording in several Bot templates and messages: leaked secrets, alerts that fire, the sign-in address to paste, and the Replies setting of a group.
+
 ## [1.6.0] - 2026-11-24
 
 ### Added
@@ -95,7 +110,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release of the language pack, built against Orca 1.4.230.
 
-[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.6.0...HEAD
+[Unreleased]: https://github.com/Miinwan/orca-vietnamese/compare/v1.6.1...HEAD
+[1.6.1]: https://github.com/Miinwan/orca-vietnamese/compare/v1.6.0...v1.6.1
 [1.6.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/Miinwan/orca-vietnamese/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Miinwan/orca-vietnamese/compare/v1.4.0...v1.5.0
