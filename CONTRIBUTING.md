@@ -26,8 +26,9 @@ The build needs Node.js 22 or newer and Python 3.11 or newer. It has no dependen
 
 1. Copy the new English catalog into `sources/` and point `tools/build-pack.mjs` at it.
 2. Update `tools/protected-keys.mjs` and `tools/protected-copy-keys.json` if Orca changed its protected lists.
-3. Add the new strings as a file in `tools/review/`.
-4. Raise `engines.orca` and `version` in `orca-plugin.json`, then update `CHANGELOG.md`.
+3. Run `node tools/main-catalog-keys.mjs` against the new Orca install. `check-pack.mjs` reports coverage of that catalog and fails under the 80% Orca needs to offer the pack.
+4. Add the new strings as a file in `tools/review/`.
+5. Raise `engines.orca` and `version` in `orca-plugin.json`, then update `CHANGELOG.md`.
 
 ## Pull requests
 

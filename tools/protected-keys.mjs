@@ -1,4 +1,4 @@
-// Protected keys in Orca 1.4.266: a language pack may not replace these strings.
+// Protected keys in Orca 1.4.272: a language pack may not replace these strings.
 // Mirrors shared/plugins/artifacts/plugin-language-pack-artifact.js,
 // shared/plugins/languages/plugin-protected-copy.js and
 // shared/plugins/languages/plugin-translatable-chrome.js in the Orca install.

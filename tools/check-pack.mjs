@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { isProtectedKey } from './protected-keys.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.266.json')))
+const en = JSON.parse(fs.readFileSync(path.join(root, 'sources/en-1.4.272.json')))
 const catalogPath = path.join(root, 'locales/vi.json')
 const raw = fs.readFileSync(catalogPath)
 if (raw.byteLength > 5 * 1024 * 1024) throw new Error('Catalog is larger than 5 MB')
@@ -25,7 +25,7 @@ if (displayName !== undefined &&
 let entries = 0
 let translated = 0
 const placeholder = /\{\{\s*[\w.]+\s*\}\}|\{[a-zA-Z][\w.]*\}/g
-// String rules from shared/plugins/languages/plugin-translation-string-policy.js in Orca 1.4.266 (unchanged since 1.4.256)
+// String rules from shared/plugins/languages/plugin-translation-string-policy.js in Orca 1.4.272 (unchanged since 1.4.256)
 const forbidden = /[\x00-\x09\x0b-\x1f\x7f-\x9f\u2028\u2029\ufeff]|\p{Bidi_Control}/u
 const lengthLimit = english => Math.min(8192, Math.max(64, 4 * english.length))
 function walk(current, source, prefix = '', depth = 0) {
@@ -57,6 +57,33 @@ function walk(current, source, prefix = '', depth = 0) {
   }
 }
 walk(vi, en)
-// Orca 1.4.266 allows at most 50,000 entries, nested nodes included
+// Orca 1.4.272 allows at most 50,000 entries, nested nodes included
 if (entries > 50000) throw new Error(`More than 50,000 entries: ${entries}`)
-console.log(JSON.stringify({ translated, catalogEntries: entries, maxEntries: 50000, displayName: displayName ?? null }, null, 2))
+
+// Coverage the way Orca counts it: whole percent of the non-empty, unprotected English strings
+function flatten(o, prefix = '', out = {}) {
+  for (const [key, value] of Object.entries(o)) {
+    const name = prefix ? `${prefix}.${key}` : key
+    if (value && typeof value === 'object') flatten(value, name, out)
+    else out[name] = value
+  }
+  return out
+}
+const flatEn = flatten(en)
+const flatVi = flatten(vi)
+function coverage(keys) {
+  const strings = keys.filter(key => typeof flatEn[key] === 'string' && flatEn[key].length > 0 && !isProtectedKey(key))
+  const done = strings.filter(key => typeof flatVi[key] === 'string').length
+  return { strings: strings.length, translated: done, coverage: Math.floor(done / strings.length * 100) }
+}
+// Orca offers the pack only at 80% of the catalog its main process bundles (see tools/main-catalog-keys.mjs)
+const mainCatalog = JSON.parse(fs.readFileSync(path.join(root, 'tools/main-catalog-keys.json'), 'utf8'))
+const unknown = mainCatalog.keys.filter(key => typeof flatEn[key] !== 'string')
+if (unknown.length) throw new Error(`Main catalog keys missing from the English source: ${unknown.slice(0, 5).join(', ')}`)
+const main = coverage(mainCatalog.keys)
+if (main.coverage < 80) throw new Error(`Main catalog coverage is ${main.coverage}%, Orca needs 80% to offer the pack`)
+console.log(JSON.stringify({
+  translated, catalogEntries: entries, maxEntries: 50000, displayName: displayName ?? null,
+  mainCatalog: { orca: mainCatalog.orca, ...main },
+  fullCatalog: coverage(Object.keys(flatEn))
+}, null, 2))
