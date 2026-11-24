@@ -48,9 +48,17 @@
    "group": "proper-name",
    "en": "Antigravity"
   },
+  "agentCliUpdate.auggieProduct": {
+   "group": "proper-name",
+   "en": "Auggie"
+  },
   "agentCliUpdate.claudeProduct": {
    "group": "proper-name",
    "en": "Claude Code"
+  },
+  "agentCliUpdate.codebuddyProduct": {
+   "group": "proper-name",
+   "en": "CodeBuddy Code"
   },
   "agentCliUpdate.codexProduct": {
    "group": "proper-name",
@@ -68,6 +76,14 @@
    "group": "proper-name",
    "en": "Cursor CLI"
   },
+  "agentCliUpdate.devinProduct": {
+   "group": "proper-name",
+   "en": "Devin CLI"
+  },
+  "agentCliUpdate.gooseProduct": {
+   "group": "proper-name",
+   "en": "Goose CLI"
+  },
   "agentCliUpdate.grokProduct": {
    "group": "proper-name",
    "en": "Grok Build"
@@ -76,9 +92,17 @@
    "group": "proper-name",
    "en": "Hermes Agent"
   },
+  "agentCliUpdate.kiloProduct": {
+   "group": "proper-name",
+   "en": "Kilo CLI"
+  },
   "agentCliUpdate.kimiProduct": {
    "group": "proper-name",
    "en": "Kimi Code"
+  },
+  "agentCliUpdate.mimoCodeProduct": {
+   "group": "proper-name",
+   "en": "MiMo Code"
   },
   "agentCliUpdate.ompProduct": {
    "group": "proper-name",
@@ -91,6 +115,10 @@
   "agentCliUpdate.opencodeProduct": {
    "group": "proper-name",
    "en": "OpenCode"
+  },
+  "agentCliUpdate.qwenCodeProduct": {
+   "group": "proper-name",
+   "en": "Qwen Code"
   },
   "agentCliUpdate.versions": {
    "group": "format-only",
@@ -303,6 +331,10 @@
   "auto.components.automations.usage.tokensAndCost_one": {
    "group": "tech-term",
    "en": "{{tokens}} token · {{cost}}"
+  },
+  "auto.components.automations.usage.tokens_one": {
+   "group": "tech-term",
+   "en": "{{tokens}} token"
   },
   "auto.components.browser-pane.markup.widthOption": {
    "group": "format-only",
@@ -1068,6 +1100,18 @@
    "group": "tech-term",
    "en": "Agent"
   },
+  "auto.components.settings.ReleaseChannelSection.adhocLabel": {
+   "group": "proper-name",
+   "en": "Ad hoc"
+  },
+  "auto.components.settings.ReleaseChannelSection.rcLabel": {
+   "group": "proper-name",
+   "en": "RC"
+  },
+  "auto.components.settings.ReleaseChannelSection.stableLabel": {
+   "group": "proper-name",
+   "en": "Stable"
+  },
   "auto.components.settings.ReleaseChannelSection.willSwitch": {
    "group": "format-only",
    "en": "{{value0}} → {{value1}}"
@@ -1611,6 +1655,10 @@
   "auto.components.settings.experimental.search.agentHibernation.terminal": {
    "group": "search-keyword",
    "en": "terminal"
+  },
+  "auto.components.settings.experimental.search.appRail.rail": {
+   "group": "search-keyword",
+   "en": "rail"
   },
   "auto.components.settings.experimental.search.newWorktreeCardStyle.metadata": {
    "group": "search-keyword",
@@ -3116,9 +3164,17 @@
    "group": "tech-term",
    "en": "{{count}} workflow"
   },
+  "components.native-chat.backgroundTasks.workerBadge": {
+   "group": "tech-term",
+   "en": "Worker"
+  },
   "components.native-chat.composer.agentPillLabel": {
    "group": "tech-term",
    "en": "Agent: {{name}}"
+  },
+  "components.native-chat.composer.botCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} bot"
   },
   "components.native-chat.composer.modelAndEffortValue": {
    "group": "format-only",
@@ -3179,6 +3235,26 @@
   "components.native-chat.usageLimitActions.srSummary": {
    "group": "format-only",
    "en": "{{sentence}} {{status}}"
+  },
+  "components.native-chat.workerDock.agent": {
+   "group": "tech-term",
+   "en": "Agent"
+  },
+  "components.native-chat.workerDock.worker": {
+   "group": "tech-term",
+   "en": "Worker"
+  },
+  "components.native-chat.workerDock.workerCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} worker"
+  },
+  "components.native-chat.workerDock.workflow": {
+   "group": "tech-term",
+   "en": "Workflow"
+  },
+  "components.native-chat.workerDock.workflowCount_one": {
+   "group": "tech-term",
+   "en": "{{count}} workflow"
   },
   "components.onboarding.agentSurface.terminal.label": {
    "group": "tech-term",

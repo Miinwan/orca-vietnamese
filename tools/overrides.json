@@ -436,7 +436,7 @@
  "bots.import.bringOver": "Chuyển sang",
  "components.settings.workspaceCleanup.keep.unsavedEditorChanges": "Thay đổi chưa lưu",
  "components.settings.workspaceCleanup.keep.rulesOff": "Không bật quy tắc nào",
- "auto.components.NativeChatResumeToast.untitled": "Chat chưa đặt tên",
+ "auto.components.NativeChatResumeToast.untitled": "Agent chưa đặt tên",
  "auto.components.automations.runIdentity.newerRun": "Lượt mới hơn",
  "auto.components.automations.runIdentity.olderRun": "Lượt cũ hơn",
  "auto.components.automations.runNotFound.crumbRun": "Không thấy lượt chạy",
